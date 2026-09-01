@@ -157,19 +157,19 @@
                             <form class="mt-4 space-y-5">
                                 <div class="grid grid-cols-1 md:grid-cols-1 gap-3">
                                     <div class="space-y-1.5">
-                                        
+
                                         <input type="text" class="flex w-full rounded-md border px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm h-12 bg-background border-border focus-visible:ring-primary" id="name" name="name" required="" placeholder="Full name" value="">
                                     </div>
                                     <div class="space-y-1.5">
-                                        
+
                                         <input type="email" class="flex w-full rounded-md border px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm h-12 bg-background border-border focus-visible:ring-primary" id="email" name="email" required="" placeholder="Email" value="">
                                     </div>
                                     <div class="space-y-1.5">
-                                        
+
                                         <input type="tel" class="flex w-full rounded-md border px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm h-12 bg-background border-border focus-visible:ring-primary" id="phone" name="phone" required="" placeholder="Phone" value="">
                                     </div>
                                     <div class="space-y-1.5">
-                                        
+
                                         <textarea class="flex min-h-[60px] w-full rounded-md border px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background border-border focus-visible:ring-primary resize-none" id="message" name="message" required="" rows="6" placeholder="Message"></textarea>
                                     </div>
                                 </div>
@@ -219,9 +219,14 @@
                                 <div>
                                     <p class="font-medium text-foreground">Phone</p>
                                     <a href="tel:+(91)-(11)-46073938" class="text-muted-foreground hover:text-primary transition-colors">
-                                        +(91)-(11)-46073938 </a>,
+                                        +(91)-(11)-46073938 ,&nbsp;
+                                    </a>
                                     <a href="tel:011-35622522" class="text-muted-foreground hover:text-primary transition-colors">
-                                        011-35622522 </a>
+                                        011-35622522 ,&nbsp;
+                                    </a>
+                                    <a href="tel:+918860180652" class="text-muted-foreground hover:text-primary transition-colors">
+                                        +918860180652
+                                    </a>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
