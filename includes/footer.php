@@ -558,13 +558,15 @@
             ],
 
             products: [
-                // Future product pages
-                // "erp-solution.php",
-                // "vscrm.php"
+                "erp-solution.php"
             ],
 
             careers: [
                 "career.php"
+            ],
+
+            our_clients: [
+                "our-clients.php"
             ]
 
         };
@@ -694,7 +696,14 @@
 
 
         // =========================
-        // NORMAL NAV LINKS
+        else if (pageGroups.our_clients.includes(currentPage)) {
+
+            const our_clients = nav.querySelector(
+                '.nav-link[href="our-clients.php"]'
+            );
+
+            makeActive(our_clients);
+        }
         // =========================
 
         navLinks.forEach(function(link) {
