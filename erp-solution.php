@@ -123,17 +123,24 @@
                                 <span>Easy to manage and handling at any user level. </span>
                             </li>
                         </ul>
-                        
+
                     </div>
                 </div>
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
                     <div class="">
-                      
+
                         <img class="w-100" src="assets/images/agile-project-management-development-methodology-infographic-agile-software-development-lifecycle-process-sprints-illustration-agile-development-diagram-vector.jpg" alt="">
 
 
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-5">
+            <div>
+                <img src="assets/images/how-education-gcc-functions-are-evolving-from-execution-to-strategic-ownership.png" alt="">
             </div>
         </div>
     </section>

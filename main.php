@@ -4,26 +4,10 @@
   <div class="relative overflow-hidden isolate bg-secondary text-secondary-foreground pt-12 pb-12 ">
     <div aria-hidden="true" class="pointer-events-none absolute inset-0 grid-pattern-dark radial-fade-top opacity-80">
     </div>
-    <div aria-hidden="true"
-      class="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[1100px] h-[700px] rounded-full blur-[120px] opacity-60"
-      style="
-            background: radial-gradient(
-              closest-side,
-              rgba(255, 171, 26, 0.55),
-              rgba(230, 107, 0, 0.18) 60%,
-              transparent 80%
-            );
-          "></div>
-    <div aria-hidden="true"
-      class="pointer-events-none absolute -bottom-32 -right-32 w-[520px] h-[520px] rounded-full blur-[120px] opacity-30"
-      style="
-            background: radial-gradient(
-              closest-side,
-              rgba(255, 171, 26, 0.5),
-              transparent 70%
-            );
-          "></div>
-
+    <div aria-hidden="true" class="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[1100px] h-[700px] rounded-full blur-[120px] opacity-60" style=" background: radial-gradient( closest-side, rgba(255, 171, 26, 0.55), rgba(230, 107, 0, 0.18) 60%, transparent 80%);">
+    </div>
+    <div aria-hidden="true" class="pointer-events-none absolute -bottom-32 -right-32 w-[520px] h-[520px] rounded-full blur-[120px] opacity-30" style=" background: radial-gradient(closest-side,  rgba(255, 171, 26, 0.5), transparent 70%); ">
+    </div>
     <div class="relative z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-[1.15fr,1fr] gap-12 lg:gap-16 items-center">
@@ -48,17 +32,18 @@
               and achieve sustainable growth.
             </p>
             <div class="mt-9 flex flex-col sm:flex-row gap-3">
-              <a href="#contact"><button
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow rounded-md h-12 px-6 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 ring-glow active:scale-[0.98]">
-                  Get Started
+              <a href="#contact">
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow rounded-md h-12 px-6 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 ring-glow active:scale-[0.98]"> Get Started
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-arrow-right ml-2 w-4 h-4">
                     <path d="M5 12h14"></path>
                     <path d="m12 5 7 7-7 7"></path>
-                  </svg></button></a><a href="tel:+15551234567">
-                <button
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border shadow-sm rounded-md h-12 px-6 text-base font-semibold bg-white/5 text-white border-white/15 hover:bg-white/10 hover:text-white">
+                  </svg>
+                </button>
+              </a>
+              <a href="tel:+15551234567">
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border shadow-sm rounded-md h-12 px-6 text-base font-semibold bg-white/5 text-white border-white/15 hover:bg-white/10 hover:text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-phone mr-2 w-4 h-4">

@@ -558,7 +558,11 @@
             ],
 
             products: [
-                "erp-solution.php"
+                "erp-solution.php",
+                "crm-software.php",
+                "inventory-system-pos.php",
+                "lead-management.php",
+                "ehrms-solution.php"
             ],
 
             careers: [
