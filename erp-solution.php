@@ -18,53 +18,37 @@
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div>
-                <div class="space-y-4" style="opacity: 1; transform: none;">
-                    <h4 class="font-display font-semibold">ERP Solution</h4>
-                    <p>ValleSoft ERP (Enterprise Resources Planning ) includes specific modules for managing activities of distribution, manufacturing, services and retail and can be extended with specialized software solutions such as: CRM (Customer Relationship Management System), Business Intelligence, Database Sales, Finance,&nbsp;E-commerce, HRMS (Human Resources Management
-                        System), eLibrary, DSS( Donor Service Solution) ,Mobile Application (Android , ios) and Digital Marketing.
-                    </p>
-                    <div class="group relative h-full" style="opacity: 1; transform: none;">
-                        <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                <div class="space-y-5" style="opacity: 1; transform: none;">
+                    <div class="space-y-3">
+                        <h4 class="font-display font-semibold">ERP Solution</h4>
+                        <p>ValleSoft ERP (Enterprise Resources Planning ) includes specific modules for managing activities of distribution, manufacturing, services and retail and can be extended with specialized software solutions such as: CRM (Customer Relationship Management System), Business Intelligence, Database Sales, Finance,&nbsp;E-commerce, HRMS (Human Resources Management
+                            System), eLibrary, DSS( Donor Service Solution) ,Mobile Application (Android , ios) and Digital Marketing.
+                        </p>
+                        <ul class="list-disc list-outside ml-4">
+                            <li class=" ">
 
-                            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>It is a tailor made product that gives an automated solution to small/large scale industry.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>This covers all the verticals and domains as per the Industry standards.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>This includes Material Management, Production Planning, Sales & Distribution and Management Information System reports to give better way to analyze the business.</span>
-                                </li>
+                                <p>It is a tailor made product that gives an automated solution to small/large scale industry.</p>
+                            </li>
+                            <li class=" ">
 
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>This product is simple to use and easy to learn and deliver a long term value to the industry. </span>
-                                </li>
+                                <p>This covers all the verticals and domains as per the Industry standards.</p>
+                            </li>
+                            <li class=" ">
 
+                                <p>This includes Material Management, Production Planning, Sales & Distribution and Management Information System reports to give better way to analyze the business.</p>
+                            </li>
 
-                            </ul>
+                            <li class=" ">
 
-                        </div>
+                                <p>This product is simple to use and easy to learn and deliver a long term value to the industry. </p>
+                            </li>
+                        </ul>
                     </div>
-                    <h4 class="font-display font-semibold">ERP Software Solutions</h4>
-                    <p>The Whole Enterprise software solutions will be designed in HTML 5 and developed in core PHP using AJAX, java-query. The database will be managed through MySQL/Oracle. Some of the web characteristics shall cover the following criteria’s:
-                    </p>
+                    <div class="space-y-3">
+                        <h4 class="font-display font-semibold">ERP Software Solutions</h4>
+                        <p>The Whole Enterprise software solutions will be designed in HTML 5 and developed in core PHP using AJAX, java-query. The database will be managed through MySQL/Oracle. Some of the web characteristics shall cover the following criteria’s:
+                        </p>
+                    </div>
                 </div>
 
             </div>

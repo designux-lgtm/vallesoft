@@ -115,86 +115,42 @@
                     </div>
                     <div class="space-y-3">
                         <h4 class="font-display font-semibold">Classification of our support:</h4>
-                        <div class="group relative h-full" style="opacity: 1; transform: none;">
-                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
-
-                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Offshore and onsite maintenance</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Bug fixing and troubleshooting</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Bug tracing and reporting</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Fine tune the product functionality </span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span> Research, design, and implementation of new features</span>
-                                    </li>
+                        <ul class="list-disc list-outside ml-4">
+                            <li class=" ">
+                                <p>Offshore and onsite maintenance</p>
+                            </li>
+                            <li class="">
+                                <p>Bug fixing and troubleshooting</p>
+                            </li>
+                            <li class="">
+                                <p>Bug tracing and reporting</p>
+                            </li>
+                            <li class="">
+                                <p>Fine tune the product functionality </p>
+                            </li>
+                            <li class="">
+                                <p> Research, design, and implementation of new features</p>
+                            </li>
 
 
-                                </ul>
-
-                            </div>
-                        </div>
+                        </ul>
                     </div>
                     <div class="space-y-3">
                         <h4 class="font-display font-semibold">Considerations:</h4>
-                        <div class="group relative h-full" style="opacity: 1; transform: none;">
-                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
-
-                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>The performance of the software must be maintained (perfective maintenance)</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>The errors in specifications, design, and implementation must be corrected</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>The final product must also evolve to existence (evolution maintenance)</span>
-                                    </li>
+                        <ul class="list-disc list-outside ml-4">
+                            <li class="">
+                                <p>The performance of the software must be maintained (perfective maintenance)</p>
+                            </li>
+                            <li class="">
+                                <p>The errors in specifications, design, and implementation must be corrected</p>
+                            </li>
+                            <li class="">
+                                <p>The final product must also evolve to existence (evolution maintenance)</p>
+                            </li>
 
 
 
-                                </ul>
-
-                            </div>
-                        </div>
+                        </ul>
                     </div>
                 </div>
 

@@ -562,7 +562,9 @@
                 "crm-software.php",
                 "inventory-system-pos.php",
                 "lead-management.php",
-                "ehrms-solution.php"
+                "ehrms-solution.php",
+                "donor-management-software.php",
+                "elearning-management.php"
             ],
 
             careers: [

@@ -18,124 +18,113 @@
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div>
-                <div class="space-y-4" style="opacity: 1; transform: none;">
-                    <h4 class="font-display font-semibold">CRM - Customer Relationship Management</h4>
-                    <p>CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
-                    </p>
-                    <div class="group relative h-full" style="opacity: 1; transform: none;">
-                        <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
-
-                            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Through our CRM, Customer Relationship Management Solution (VSCRM) we strive to deliver significant advantages and value to our client and partners through innovative service and flexible solution.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>We provide the complete suite of solution to design/develop company policies and improve effectiveness by organizational restructuring</span>
-                                </li>
+                <div class="space-y-5" style="opacity: 1; transform: none;">
+                    <div class="space-y-3">
+                        <h4 class="font-display font-semibold">CRM - Customer Relationship Management</h4>
+                        <p>CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
+                        </p>
 
 
-
-                            </ul>
-
-                        </div>
+                        <ul class="list-disc list-outside ml-4">
+                            <li class="">
+                                <p>Through our CRM, Customer Relationship Management Solution (VSCRM) we strive to deliver significant advantages and value to our client and partners through innovative service and flexible solution.</p>
+                            </li>
+                            <li class="">
+                                <p>We provide the complete suite of solution to design/develop company policies and improve effectiveness by organizational restructuring</p>
+                            </li>
+                        </ul>
                     </div>
-                    <h4 class="font-display font-semibold">We help our client to: </h4>
-                    <div class="group relative h-full" style="opacity: 1; transform: none;">
-                        <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
-                            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span> Built around thousands of predefined business processes that reflect best practices.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span> Map business processes to software processes.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span> Knowledge is what help us bring technology innovation closer to our clients needs.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span> Competency Requirement. </span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Suite of integrated software modules and a common central database.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Sales/marketing: order processing, billing, sales planning, and so on.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Knowing the customer.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>In large businesses, too many customers and too many ways customers interact with firm CRM, Customer relationship management (VSCRM) systems.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Capture and integrate customer data from all over the organization.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Consolidate and analyze customer data.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Distribute customer information to various systems and customer touch points across enterprise.</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Provide single enterprise view of customers.</span>
-                                </li>
-                            </ul>
+                    <div class="space-y-3">
+                        <h4 class="font-display font-semibold">We help our client to: </h4>
+                        <div class="group relative h-full" style="opacity: 1; transform: none;">
+                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span> Built around thousands of predefined business processes that reflect best practices.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span> Map business processes to software processes.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span> Knowledge is what help us bring technology innovation closer to our clients needs.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span> Competency Requirement. </span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Suite of integrated software modules and a common central database.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Sales/marketing: order processing, billing, sales planning, and so on.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Knowing the customer.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>In large businesses, too many customers and too many ways customers interact with firm CRM, Customer relationship management (VSCRM) systems.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Capture and integrate customer data from all over the organization.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Consolidate and analyze customer data.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Distribute customer information to various systems and customer touch points across enterprise.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span>Provide single enterprise view of customers.</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -355,7 +344,7 @@
                 <div>
                     <div class="flex flex-col items-start text-left max-w-3xl  space-y-4" style="opacity: 1; transform: none;">
                         <h4 class="font-display font-semibold">Benefits of CRM Software</h4>
-                        <ul  class="list-disc list-outside ml-4">
+                        <ul class="list-disc list-outside ml-4">
                             <li>Organize Marketing efforts </li>
                             <li>Manage the sales pipeline</li>
                             <li>Calculate time spend on converting leads to closing deal.</li>

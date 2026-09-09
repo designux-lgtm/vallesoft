@@ -77,36 +77,18 @@
                     </div>
                     <div class="space-y-3">
                         <h4 class="font-display font-semibold">Customer Benefits</h4>
-                        <div class="group relative h-full" style="opacity: 1; transform: none;">
-                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                        <ul class="list-disc list-outside ml-4">
+                            <li class="">
+                                <p>Trace the Tread what's being said and where it is being said</p>
+                            </li>
+                            <li class="">
+                                <p>Prevent negative publicity, address to those particular negative views and reviews.</p>
+                            </li>
+                            <li class="">
+                                <p>Control rumors, counter the rumors and restrict its propagation on web media</p>
+                            </li>
 
-                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Trace the Tread what's being said and where it is being said</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Prevent negative publicity, address to those particular negative views and reviews.</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Control rumors, counter the rumors and restrict its propagation on web media</span>
-                                    </li>
-
-                                </ul>
-
-                            </div>
-                        </div>
+                        </ul>
                     </div>
                     <p><strong>Online Reputation Management, ORM- has got us where we want to be; working for brands who care, with people who are driven. We have young teams with big ideas and we would love to hear from you.</strong></p>
                 </div>

@@ -53,82 +53,57 @@
                             The value of data can be unleashed for business users by condensing it and intelligently presenting only what is relevant to the problem at hand. Answers to highly strategic questions such as:
 
                         </p>
+
+                        <ul class="list-disc list-outside ml-4">
+                            <li class="">
+
+                                <p>Do you want to know your sales per hour in peak season?</p>
+                            </li>
+                            <li class=" ">
+
+                                <p>Is your business beating the benchmark?</p>
+                            </li>
+                            <li class=" ">
+
+                                <p>Are you all set for expecting the unexpected turnover?</p>
+                            </li>
+
+                            <li class=" ">
+
+                                <p>How many children in schools in your region fall sick during winter every year?</p>
+                            </li>
+                            <li class="">
+
+                                <p>How many of your customers visit you between 7 pm and 8 pm; are they satisfied with your services?</p>
+                            </li>
+
+                        </ul>
+
+
+                        <p>
+                            Whatever questions stakeholders have about their organization, all of them can be answered using real-time facts. Having a clear insight of their own organization with real facts and figures can help them make better decisions by analyzing ‘their’ data. This is made possible through a Business Intelligence (BI) solution. Over the last few years, a growing dependence on BI and analytics has been observed across every industry to drive better and swift decision-making. This is because BI is all about getting the <strong>right information, to the right decision makers, at the right time.</strong> A BI mechanism will help to convert your raw data into ‘knowledge’, thus facilitating strategic, tactical, and operational planning. To survive and thrive in today’s increasingly competitive world, BI is a ‘must have’ for all organizations, hiking effectiveness and growth over competition.
+                            Although, ValleSoft are relatively small in size compared with other parts of computing, technologies are the sharp point of the information technology spear.
+                        </p>
                     </div>
-                    <div class="group relative h-full" style="opacity: 1; transform: none;">
-                        <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
 
-                            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Do you want to know your sales per hour in peak season?</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Is your business beating the benchmark?</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Are you all set for expecting the unexpected turnover?</span>
-                                </li>
 
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>How many children in schools in your region fall sick during winter every year?</span>
-                                </li>
-                                <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>How many of your customers visit you between 7 pm and 8 pm; are they satisfied with your services?</span>
-                                </li>
 
-                            </ul>
-
-                        </div>
-                    </div>
-                    <p>
-                        Whatever questions stakeholders have about their organization, all of them can be answered using real-time facts. Having a clear insight of their own organization with real facts and figures can help them make better decisions by analyzing ‘their’ data. This is made possible through a Business Intelligence (BI) solution. Over the last few years, a growing dependence on BI and analytics has been observed across every industry to drive better and swift decision-making. This is because BI is all about getting the <strong>right information, to the right decision makers, at the right time.</strong> A BI mechanism will help to convert your raw data into ‘knowledge’, thus facilitating strategic, tactical, and operational planning. To survive and thrive in today’s increasingly competitive world, BI is a ‘must have’ for all organizations, hiking effectiveness and growth over competition.
-                        Although, ValleSoft are relatively small in size compared with other parts of computing, technologies are the sharp point of the information technology spear.
-                    </p>
                     <div class="space-y-3">
                         <h4 class="font-display font-semibold">Some of our solution offerings include:</h4>
-                        <div class="group relative h-full" style="opacity: 1; transform: none;">
-                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
-
-                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>Data integration including all kinds of ETL operations and data scientist work</span>
-                                    </li>
-                                    <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <path d="m9 12 2 2 4-4"></path>
-                                        </svg>
-                                        <span>BI reporting and analytics</span>
-                                    </li>
 
 
-                                </ul>
+                        <ul class="list-disc list-outside ml-4">
+                            <li class="">
+                                <p>Data integration including all kinds of ETL operations and data scientist work</p>
+                            </li>
+                            <li class="">
+                                <p>BI reporting and analytics</p>
+                            </li>
 
-                            </div>
-                        </div>
+
+                        </ul>
+
+
                     </div>
                 </div>
 

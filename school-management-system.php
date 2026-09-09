@@ -28,47 +28,21 @@
                         
                     </div>
                     <div class="mb-5 row justify-between ">
-                        <div class="col-md-7 space-y-3">
+                        <div class="col-md-8 space-y-3">
                             <h4 class="font-display font-semibold">Why eSchool Solutions?</h4>
                             <ul class="list-disc list-outside ml-4">
                                 <li>The school/college management system give the freedom to depend on the complete automated system for the complete management of the school/college.</li>
                                 <li>This covers all the process of school/college that is from admission to result, library to student profile management.</li>
                                 <li>This system also tracks the due fees payment and tracks the progress of student.</li>
-
-
-
-
                                 <li>The system also integrated with SMS, so the latest news/events/information will be directly received to the subscriber.</li>
                             </ul>
 
                         </div>
-                        <div class="col-md-4">
-                            <img class="w-100" src="assets/images/Payroll-and-HR-Solutions.jpg" alt="">
+                        <div class="col-md-3">
+                            <img class="w-75" src="assets/images/RJenkins_AI101blog.jpg" alt="">
                         </div>
                     </div>
-                    <div class="row justify-between ">
-                        <div class="col-md-7">
-                            <img class="w-100" src="assets/images/oracle-hcm-cloud-core-capabilities.jpg" alt="">
-                        </div>
-                        <div class="col-md-4 space-y-3">
-                            <h4 class="font-display font-semibold"> Benefits  of our HRMS & Payroll Software Solution</h4>
-                            <ul class="list-disc list-outside ml-4">
-                                <li>All HR processes from candidate entry till employee exit are fully automated.</li>
-                                <li>Do HR and Payroll activities and employee self function from whenever in a few clicks.</li>
-                                <li>Multi branch and multi user login supported.</li>
 
-
-
-
-                                <li>Security and Rights Management.</li>
-                                <li>Configurable Automated workflow.</li>
-                                <li>Attendance record and Salary structure Management.</li>
-                                <li>Relationship and organization chart.</li>
-                            </ul>
-                           
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
