@@ -63,13 +63,13 @@
       style="border-color: #e5e7eb;">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex h-[68px] items-center justify-between gap-6">
-          <a class="inline-flex" aria-label="Volt &amp; Spark Electric â€” home" href="#">
-            <div class="flex items-center gap-2.5 group">
-              <div>
-                <img class="w-75" src="assets/images/logo-2.png" alt="" />
-              </div>
-            </div>
-          </a>
+
+          <div class="flex  gap-2.5 group">
+            <a href="main.php">
+              <img class="w-75" src="assets/images/logo-2.png" alt="" />
+            </a>
+          </div>
+
           <nav class="hidden md:flex items-center gap-1">
             <a class="nav-link relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-foreground"
               href="main.php">Home
@@ -173,7 +173,7 @@
               <ul class="dropdown-menu">
                 <li>
                   <a class="relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
-                    href="erp-solution.php" >
+                    href="erp-solution.php">
                     ERP Solution
                   </a>
                 </li>
@@ -225,7 +225,7 @@
 
             <a class="nav-link relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
               href="our-clients.php">Our Clients
-               <span class="active-line hidden absolute left-3.5 right-3.5 -bottom-0.5 h-[2px] rounded-full bg-primary"></span>
+              <span class="active-line hidden absolute left-3.5 right-3.5 -bottom-0.5 h-[2px] rounded-full bg-primary"></span>
             </a>
             <a class="nav-link relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
               href="career.php">Careers

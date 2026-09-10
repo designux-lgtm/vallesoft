@@ -269,8 +269,8 @@
         <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="lucide lucide-shield-check w-4 h-4 text-primary" <path
-            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+            class="lucide lucide-shield-check w-4 h-4 text-primary"
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
             </path>
             <path d="m9 12 2 2 4-4"></path>
           </svg>
@@ -338,19 +338,11 @@
       <div class="scroll-animation mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services"><span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  "></span>
+            href="software-development-service.php">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient( closest-side, rgba(255, 171, 26, 0.35), transparent 70% );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
                   <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
@@ -360,7 +352,6 @@
                                                     d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z">
                                                 </path>
                                             </svg> -->
-
                   <svg width="24" height="24" viewBox="0 0 23 23" fill="none" stroke="currentColor"
                     stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-house w-6 h-6 text-primary">
@@ -374,11 +365,8 @@
                   class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10">
                 </span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-arrow-up-right w-4 h-4">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                   <path d="M7 7h10v10"></path>
                   <path d="M7 17 17 7"></path>
                 </svg>
@@ -394,89 +382,26 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services"><span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  "></span>
+          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary 40" href="web-design-development-services.php">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient(closest-side,   rgba(255, 171, 26, 0.35), transparent 70%);">
+            </span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-building2 w-6 h-6 text-primary">
-                                                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
-                                                <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
-                                                <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
-                                                <path d="M10 6h4"></path>
-                                                <path d="M10 10h4"></path>
-                                                <path d="M10 14h4"></path>
-                                                <path d="M10 18h4"></path>
-                                            </svg> -->
-
-                  <svg fill="#ffa200" width="24" height="24" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 490" stroke="currentColor"
-                    xml:space="preserve" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-zap w-6 h-6 text-primary">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                  <svg fill="#ffa200" width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 490" stroke="currentColor" xml:space="preserve" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-6 h-6 text-primary">
                     <g>
                       <g>
-                        <path d="M245.221,348.125c-56.477,0-102.424-46.162-102.424-102.903s45.947-102.904,102.424-102.904
-			c56.476,0,102.424,46.163,102.424,102.904S301.698,348.125,245.221,348.125z M245.221,162.318
-			c-45.449,0-82.424,37.19-82.424,82.904c0,45.713,36.975,82.903,82.424,82.903c45.449,0,82.424-37.19,82.424-82.903
-			C327.645,199.508,290.67,162.318,245.221,162.318z" />
+                        <path d="M245.221,348.125c-56.477,0-102.424-46.162-102.424-102.903s45.947-102.904,102.424-102.904c56.476,0,102.424,46.163,102.424,102.904S301.698,348.125,245.221,348.125z M245.221,162.318c-45.449,0-82.424,37.19-82.424,82.904c0,45.713,36.975,82.903,82.424,82.903c45.449,0,82.424-37.19,82.424-82.903C327.645,199.508,290.67,162.318,245.221,162.318z" />
                       </g>
                       <g>
-                        <path d="M257.532,490h-0.001h-25.06c-24.58,0-44.579-20.078-44.58-44.758v-39.457c-5.296-1.908-10.519-4.091-15.625-6.532
-			l-27.732,27.875c-8.42,8.466-19.62,13.128-31.536,13.128c-11.915,0.001-23.117-4.66-31.539-13.125l-17.721-17.814
-			c-17.349-17.436-17.35-45.814-0.002-63.259l27.782-27.924c-2.442-5.154-4.627-10.43-6.534-15.782l-39.196-0.002
-			c-11.919,0-23.117-4.661-31.537-13.125c-8.407-8.448-13.038-19.682-13.038-31.628v-25.192c0-24.675,19.996-44.753,44.574-44.758
-			h39.199c1.908-5.354,4.092-10.629,6.532-15.781l-27.779-27.923c-8.407-8.449-13.039-19.683-13.039-31.629
-			c0-11.944,4.63-23.178,13.037-31.629l17.722-17.813c8.411-8.455,19.612-13.111,31.54-13.111c11.926,0,23.126,4.655,31.538,13.109
-			l27.733,27.876c5.104-2.439,10.327-4.623,15.624-6.53V44.757C187.892,20.078,207.889,0,232.469,0h25.06
-			c24.581,0,44.579,20.078,44.579,44.757v39.459c5.297,1.908,10.52,4.092,15.624,6.532l27.733-27.876
-			c8.414-8.466,19.615-13.13,31.535-13.13c11.918,0,23.12,4.663,31.542,13.131l17.718,17.806
-			c17.349,17.438,17.35,45.817,0.004,63.262l-27.785,27.929c2.429,5.135,4.607,10.407,6.518,15.778l39.216,0.003
-			c11.924,0,23.119,4.661,31.536,13.125c8.407,8.449,13.037,19.683,13.037,31.629l0.002,25.188c0,24.675-19.996,44.754-44.575,44.76
-			h-39.215c-1.911,5.37-4.089,10.643-6.518,15.779l27.783,27.928c8.407,8.448,13.038,19.681,13.038,31.626
-			c0,11.944-4.629,23.177-13.035,31.629l-17.723,17.814c-8.409,8.454-19.61,13.11-31.541,13.11
-			c-11.927,0-23.127-4.655-31.539-13.108l-27.733-27.877c-5.105,2.441-10.327,4.624-15.622,6.53l-0.003,39.462
-			c0.004,11.939-4.625,23.172-13.035,31.626C280.648,485.337,269.449,489.999,257.532,490z M170.307,377.165
-			c1.595,0,3.201,0.383,4.678,1.17c8.275,4.411,16.958,8.042,25.81,10.792c4.162,1.293,6.998,5.144,6.998,9.502v46.613
-			c0.001,13.706,11.071,24.856,24.679,24.856h25.059c6.582,0,12.772-2.579,17.431-7.263c4.672-4.697,7.245-10.943,7.243-17.588
-			l0.003-46.621c0.001-4.358,2.836-8.209,6.999-9.502c8.849-2.749,17.531-6.379,25.803-10.789c3.873-2.063,8.64-1.349,11.736,1.763
-			l32.826,32.995c4.647,4.671,10.838,7.244,17.43,7.244c6.594,0,12.785-2.573,17.432-7.244l17.722-17.814
-			c4.671-4.697,7.244-10.946,7.244-17.595c0-6.648-2.573-12.895-7.245-17.59l-32.825-32.996c-3.07-3.086-3.778-7.81-1.747-11.66
-			c4.353-8.251,7.961-16.986,10.726-25.966c1.285-4.174,5.143-7.021,9.51-7.021h46.393c13.606-0.003,24.677-11.155,24.677-24.859
-			l-0.002-25.186c0-6.65-2.573-12.899-7.246-17.596c-4.655-4.681-10.838-7.258-17.412-7.258l-46.411-0.004
-			c-4.367-0.001-8.223-2.849-9.509-7.021c-2.765-8.979-6.374-17.715-10.726-25.964c-2.032-3.851-1.324-8.575,1.747-11.661
-			l32.825-32.995c9.649-9.703,9.649-25.491-0.001-35.191l-17.719-17.806c-4.661-4.687-10.852-7.266-17.433-7.266
-			c-6.582,0-12.77,2.579-17.423,7.261l-32.831,32.999c-3.096,3.111-7.865,3.826-11.737,1.762
-			c-8.267-4.408-16.95-8.039-25.806-10.792c-4.162-1.293-6.998-5.144-6.998-9.502V44.757c0-13.705-11.07-24.855-24.678-24.855
-			h-25.06c-13.606,0-24.676,11.15-24.676,24.855v46.614c0,4.358-2.836,8.209-6.998,9.503c-8.856,2.751-17.539,6.382-25.808,10.79
-			c-3.873,2.063-8.64,1.349-11.735-1.763l-32.825-32.995c-4.647-4.671-10.837-7.244-17.429-7.244
-			c-6.592,0-12.783,2.573-17.432,7.246L77.845,94.72c-4.672,4.696-7.245,10.944-7.245,17.594c0.001,6.648,2.574,12.896,7.246,17.592
-			L110.67,162.9c3.071,3.087,3.778,7.811,1.746,11.662c-4.384,8.306-7.998,17.04-10.743,25.961c-1.284,4.175-5.142,7.024-9.51,7.024
-			H45.788c-13.605,0.003-24.675,11.153-24.675,24.856v25.192c0,6.649,2.573,12.896,7.245,17.592
-			c4.659,4.682,10.846,7.261,17.422,7.261l46.383,0.002c4.368,0,8.226,2.85,9.51,7.024c2.742,8.912,6.356,17.647,10.744,25.962
-			c2.032,3.851,1.324,8.575-1.747,11.662l-32.824,32.993c-9.649,9.702-9.65,25.489,0.001,35.188l17.72,17.814
-			c4.659,4.683,10.85,7.261,17.431,7.261c6.581,0,12.77-2.579,17.427-7.262l32.826-32.995
-			C165.165,378.173,167.72,377.165,170.307,377.165z" />
+                        <path d="M257.532,490h-0.001h-25.06c-24.58,0-44.579-20.078-44.58-44.758v-39.457c-5.296-1.908-10.519-4.091-15.625-6.532l-27.732,27.875c-8.42,8.466-19.62,13.128-31.536,13.128c-11.915,0.001-23.117-4.66-31.539-13.125l-17.721-17.814c-17.349-17.436-17.35-45.814-0.002-63.259l27.782-27.924c-2.442-5.154-4.627-10.43-6.534-15.782l-39.196-0.002c-11.919,0-23.117-4.661-31.537-13.125c-8.407-8.448-13.038-19.682-13.038-31.628v-25.192c0-24.675,19.996-44.753,44.574-44.758h39.199c1.908-5.354,4.092-10.629,6.532-15.781l-27.779-27.923c-8.407-8.449-13.039-19.683-13.039-31.629c0-11.944,4.63-23.178,13.037-31.629l17.722-17.813c8.411-8.455,19.612-13.111,31.54-13.111c11.926,0,23.126,4.655,31.538,13.109l27.733,27.876c5.104-2.439,10.327-4.623,15.624-6.53V44.757C187.892,20.078,207.889,0,232.469,0h25.06c24.581,0,44.579,20.078,44.579,44.757v39.459c5.297,1.908,10.52,4.092,15.624,6.532l27.733-27.876c8.414-8.466,19.615-13.13,31.535-13.13c11.918,0,23.12,4.663,31.542,13.131l17.718,17.806c17.349,17.438,17.35,45.817,0.004,63.262l-27.785,27.929c2.429,5.135,4.607,10.407,6.518,15.778l39.216,0.003c11.924,0,23.119,4.661,31.536,13.125c8.407,8.449,13.037,19.683,13.037,31.629l0.002,25.188c0,24.675-19.996,44.754-44.575,44.76h-39.215c-1.911,5.37-4.089,10.643-6.518,15.779l27.783,27.928c8.407,8.448,13.038,19.681,13.038,31.626c0,11.944-4.629,23.177-13.035,31.629l-17.723,17.814c-8.409,8.454-19.61,13.11-31.541,13.11c-11.927,0-23.127-4.655-31.539-13.108l-27.733-27.877c-5.105,2.441-10.327,4.624-15.622,6.53l-0.003,39.462c0.004,11.939-4.625,23.172-13.035,31.626C280.648,485.337,269.449,489.999,257.532,490z M170.307,377.165c1.595,0,3.201,0.383,4.678,1.17c8.275,4.411,16.958,8.042,25.81,10.792c4.162,1.293,6.998,5.144,6.998,9.502v46.613c0.001,13.706,11.071,24.856,24.679,24.856h25.059c6.582,0,12.772-2.579,17.431-7.263c4.672-4.697,7.245-10.943,7.243-17.588l0.003-46.621c0.001-4.358,2.836-8.209,6.999-9.502c8.849-2.749,17.531-6.379,25.803-10.789c3.873-2.063,8.64-1.349,11.736,1.763l32.826,32.995c4.647,4.671,10.838,7.244,17.43,7.244c6.594,0,12.785-2.573,17.432-7.244l17.722-17.814c4.671-4.697,7.244-10.946,7.244-17.595c0-6.648-2.573-12.895-7.245-17.59l-32.825-32.996c-3.07-3.086-3.778-7.81-1.747-11.66c4.353-8.251,7.961-16.986,10.726-25.966c1.285-4.174,5.143-7.021,9.51-7.021h46.393c13.606-0.003,24.677-11.155,24.677-24.859l-0.002-25.186c0-6.65-2.573-12.899-7.246-17.596c-4.655-4.681-10.838-7.258-17.412-7.258l-46.411-0.004c-4.367-0.001-8.223-2.849-9.509-7.021c-2.765-8.979-6.374-17.715-10.726-25.964c-2.032-3.851-1.324-8.575,1.747-11.661l32.825-32.995c9.649-9.703,9.649-25.491-0.001-35.191l-17.719-17.806c-4.661-4.687-10.852-7.266-17.433-7.266c-6.582,0-12.77,2.579-17.423,7.261l-32.831,32.999c-3.096,3.111-7.865,3.826-11.737,1.762c-8.267-4.408-16.95-8.039-25.806-10.792c-4.162-1.293-6.998-5.144-6.998-9.502V44.757c0-13.705-11.07-24.855-24.678-24.855h-25.06c-13.606,0-24.676,11.15-24.676,24.855v46.614c0,4.358-2.836,8.209-6.998,9.503c-8.856,2.751-17.539,6.382-25.808,10.79c-3.873,2.063-8.64,1.349-11.735-1.763l-32.825-32.995c-4.647-4.671-10.837-7.244-17.429-7.244c-6.592,0-12.783,2.573-17.432,7.246L77.845,94.72c-4.672,4.696-7.245,10.944-7.245,17.594c0.001,6.648,2.574,12.896,7.246,17.592L110.67,162.9c3.071,3.087,3.778,7.811,1.746,11.662c-4.384,8.306-7.998,17.04-10.743,25.961c-1.284,4.175-5.142,7.024-9.51,7.024H45.788c-13.605,0.003-24.675,11.153-24.675,24.856v25.192c0,6.649,2.573,12.896,7.245,17.592c4.659,4.682,10.846,7.261,17.422,7.261l46.383,0.002c4.368,0,8.226,2.85,9.51,7.024c2.742,8.912,6.356,17.647,10.744,25.962c2.032,3.851,1.324,8.575-1.747,11.662l-32.824,32.993c-9.649,9.702-9.65,25.489,0.001,35.188l17.72,17.814c4.659,4.683,10.85,7.261,17.431,7.261c6.581,0,12.77-2.579,17.427-7.262l32.826-32.995C165.165,378.173,167.72,377.165,170.307,377.165z" />
                       </g>
                     </g>
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-arrow-up-right w-4 h-4">
@@ -495,29 +420,12 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services"><span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  "></span>
+          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="mobile-app-development.php">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.35), transparent 70% );">
+            </span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-zap w-6 h-6 text-primary">
-                                                <path
-                                                    d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
-                                                </path>
-                                            </svg> -->
-
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
                   <svg fill="#ffa200" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 490" xml:space="preserve"
                     stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
@@ -525,53 +433,25 @@
                     <g>
                       <g>
                         <g>
-                          <path d="M310.166,397.593H75.951V61.671h234.151v25.13h31.472V54.811C341.595,24.677,316.853,0,286.74,0H99.355
-				C69.199,0,44.522,24.677,44.522,54.811v393.02c0,30.178,24.677,54.833,54.833,54.833H286.74
-				c30.113,0,54.855-24.655,54.855-54.833V397.01h-31.429C310.166,397.01,310.166,397.593,310.166,397.593z M193.015,475.226
-				c-13.892,0-25.108-11.238-25.108-25.108c0-13.913,11.217-25.13,25.108-25.13c13.913,0,25.152,11.238,25.152,25.13
-				C218.167,463.988,206.929,475.226,193.015,475.226z" />
+                          <path d="M310.166,397.593H75.951V61.671h234.151v25.13h31.472V54.811C341.595,24.677,316.853,0,286.74,0H99.355C69.199,0,44.522,24.677,44.522,54.811v393.02c0,30.178,24.677,54.833,54.833,54.833H286.74c30.113,0,54.855-24.655,54.855-54.833V397.01h-31.429C310.166,397.01,310.166,397.593,310.166,397.593z M193.015,475.226c-13.892,0-25.108-11.238-25.108-25.108c0-13.913,11.217-25.13,25.108-25.13c13.913,0,25.152,11.238,25.152,25.13C218.167,463.988,206.929,475.226,193.015,475.226z" />
                           <rect x="102.785" y="95.386" width="70.256" height="42.84" />
                           <rect x="102.785" y="205.073" width="70.256" height="42.84" />
                           <rect x="102.785" y="319.873" width="70.256" height="42.818" />
                           <path
-                            d="M422.399,223.905c-2.481-12.986-7.507-25.001-14.625-35.506l25.195-25.216l-25.734-25.648l-25.152,25.173
-				c-10.462-7.161-22.541-12.123-35.484-14.625v-35.7h-36.411v35.7c-12.964,2.502-24.936,7.485-35.505,14.625l-25.108-25.173
-				l-25.734,25.669l25.152,25.216c-7.097,10.505-12.101,22.52-14.582,35.484h-35.657v36.39h35.656
-				c2.481,12.921,7.507,24.936,14.603,35.484l-25.173,25.173l25.734,25.626l25.173-25.152c10.527,7.161,22.541,12.144,35.505,14.668
-				v35.635h36.411v-35.656c12.942-2.481,24.936-7.507,35.484-14.625l25.152,25.152l25.734-25.648l-25.195-25.173
-				c7.118-10.505,12.123-22.541,14.625-35.505h35.678l0,0v-36.368H422.399z M328.437,281.693c-21.894,0-39.669-17.688-39.669-39.604
-				c0-21.894,17.774-39.69,39.669-39.69c21.916,0,39.604,17.774,39.604,39.69C368.041,264.026,350.309,281.693,328.437,281.693z" />
+                            d="M422.399,223.905c-2.481-12.986-7.507-25.001-14.625-35.506l25.195-25.216l-25.734-25.648l-25.152,25.173c-10.462-7.161-22.541-12.123-35.484-14.625v-35.7h-36.411v35.7c-12.964,2.502-24.936,7.485-35.505,14.625l-25.108-25.173l-25.734,25.669l25.152,25.216c-7.097,10.505-12.101,22.52-14.582,35.484h-35.657v36.39h35.656c2.481,12.921,7.507,24.936,14.603,35.484l-25.173,25.173l25.734,25.626l25.173-25.152c10.527,7.161,22.541,12.144,35.505,14.668v35.635h36.411v-35.656c12.942-2.481,24.936-7.507,35.484-14.625l25.152,25.152l25.734-25.648l-25.195-25.173c7.118-10.505,12.123-22.541,14.625-35.505h35.678l0,0v-36.368H422.399z M328.437,281.693c-21.894,0-39.669-17.688-39.669-39.604c0-21.894,17.774-39.69,39.669-39.69c21.916,0,39.604,17.774,39.604,39.69C368.041,264.026,350.309,281.693,328.437,281.693z" />
                         </g>
                       </g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
                     </g>
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-arrow-up-right w-4 h-4">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                   <path d="M7 7h10v10"></path>
                   <path d="M7 17 17 7"></path>
-                </svg></span>
+                </svg>
+              </span>
             </div>
             <h3 class="font-display font-semibold text-xl text-foreground mb-2.5">
               Mobile App Development repairs
@@ -584,35 +464,12 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services"><span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  "></span>
+          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="eCommerce-solution.php">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="  background: radial-gradient(    closest-side,    rgba(255, 171, 26, 0.35),    transparent 70%  );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-shield w-6 h-6 text-primary">
-                                                <path
-                                                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
-                                                </path>
-                                            </svg> -->
-
-                  <svg fill="#ffa200" width="25" height="25" viewBox="0 0 30 30" style="
-                          fill-rule: evenodd;
-                          clip-rule: evenodd;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 2;
-                        " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                  <svg fill="#ffa200" width="25" height="25" viewBox="0 0 30 30" style=" fill-rule: evenodd; clip-rule: evenodd;stroke-linejoin: round; stroke-miterlimit: 2;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                     xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g transform="matrix(1,0,0,1,-192,-48)">
                       <g transform="matrix(0.882353,0,0,1,25.2941,0)">
@@ -632,17 +489,14 @@
                     </g>
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-arrow-up-right w-4 h-4">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                   <path d="M7 7h10v10"></path>
                   <path d="M7 17 17 7"></path>
-                </svg></span>
+                </svg>
+              </span>
             </div>
             <h3 class="font-display font-semibold text-xl text-foreground mb-2.5">
               E-Commerce Solution
@@ -655,20 +509,11 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services"><span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  "></span>
+          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="digital-marketing.php">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient(closest-side,    rgba(255, 171, 26, 0.35),    transparent 70%  );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
                   <svg fill="#ffa200" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
                     text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
                     clip-rule="evenodd" viewBox="0 0 450 450" width="50" height="50" fill="none" stroke="currentColor"
@@ -678,17 +523,16 @@
                       d="M298.64 56.1c-4.02-4.02-10-4.15-14.02-.06l-18.99 18.93c-2.63 2.62-6.71 2.91-9.67.88-9.7-6.23-20.36-10.84-31.29-14.44a7.64 7.64 0 0 1-5.25-7.25V25.13c0-5.67-4.19-9.86-9.86-9.86h-36.43c-3.93 0-7.59 2.41-9.11 6.05l-.11.25c-.39 1.05-.59 2.24-.59 3.56v26.58c0 3.76-2.71 6.88-6.29 7.52-11.11 2.64-21.61 6.62-31.68 12.12a7.634 7.634 0 0 1-8.98-1.25L95.23 49.26c-3.91-4.11-9.76-3.69-13.69.17L56.1 74.97c-4.04 4.04-4.08 10.06-.06 14.01l18.93 19c2.62 2.63 2.91 6.71.88 9.67-4.61 7.16-8.41 15.07-11.49 23.01-.98 2.5-1.96 5.27-2.95 8.28a7.632 7.632 0 0 1-7.25 5.24l-29.02.01c-5.66 0-9.87 4.2-9.87 9.86v36.43c0 5.48 4.38 9.8 9.87 9.8h26.57c3.76 0 6.89 2.72 7.52 6.3 2.64 11.12 6.88 22.03 12.18 32.16 1.58 3.02.92 6.63-1.37 8.91l-20.78 20.73c-4.12 3.92-3.76 9.68.18 13.69l25.35 25.65c4.04 3.74 10.33 3.83 14.34.07l18.79-19.09c2.63-2.68 6.76-3 9.75-.93 2.23 1.44 4.61 2.83 7.12 4.18 1.03.56 2.05 1.1 3.07 1.61-.47 5.34-.35 10.99.44 17.04l-2.05-.92c-3.08-1.41-5.99-2.85-8.68-4.3l-3.04-1.69-14.87 15.09c-9.86 9.34-25.26 9.41-35.28.06l-25.8-26.09c-9.81-9.99-10.26-25.5.18-35.4l16.64-16.6-1.67-3.56c-2.58-5.71-4.91-11.71-6.76-17.7l-1.16-3.94H25.14C11.28 225.55 0 214.24 0 200.48v-36.43c0-3.43.61-6.64 1.83-9.64 2.45-6.01 7.65-11.22 13.67-13.67 3-1.22 6.21-1.83 9.64-1.83h23.6l1.42-3.74c2.8-7.23 6.01-13.93 9.79-20.69L45.34 99.83c-4.87-4.8-7.54-11-7.54-17.84 0-6.88 2.47-12.8 7.5-17.82l25.56-25.59c10.02-9.86 25.54-10.16 35.36.13l16.89 16.65 3.33-1.59c7.21-3.33 13.99-5.7 21.61-7.96V25.13C148.05 11.3 159.3 0 173.13 0h36.43c14.14 0 25.13 11.16 25.13 25.13v23.61c7.36 2.79 14.41 5.74 21.35 9.49l3.08 1.72 14.66-14.61c9.87-10.02 25.59-10.11 35.66-.04l25.59 25.56c1.7 1.73 3.12 3.59 4.26 5.58-5.18-2.69-10.27-4.88-15.25-6.45-4.6-1.45-9.42-2.5-14.41-2.94L298.64 56.1zM170.48 310.32c-1.23 5.24-.9 10.97.52 16.7 4.41 17.92 22.02 42.18 42.72 44 12.04 1.04 29.43-11.43 40.67-18.57 1.43-.87 3.08-1.18 4.64-1.04 4.83.45 6.18 4.53 8.19 8.12 4.14 7.46 8.26 14.95 12.63 22.31 5.4 9.09 14.39 22.34 21.56 30.9 2.21 2.65 7.84 9.59 12.29 8.53 4.61-1.07 11.47-12.86 13.48-17.24.82-1.78 1.42-3.61 1.64-5.52-.87-.24-2-.38-3.12-.51l-.09-.02c-18.58-2.21-17.25-11.47-19.72-24.18-.4-1.84-.84-1.4-2.98-2.43-3.16-1.44-5.37-3.13-7.45-5.93-3.71-4.99-5.04-11.8-5.38-17.87-.94-16.87 3.01-16.23 15.95-21.4C324.02 319 339.7 315 353.6 312.79c13.9-2.21 25.99-2.65 36.85-2.77-22.47-14.88-45.56-38.69-65-65.24-19.92-27.2-36.07-57.35-43.88-83.78-5.22 15.24-12.68 33.73-25.3 53.87-14.36 22.91-81.95 78.97-85.79 95.44v.01zm193.79-205.98c-7.05 9.61-21.59-1.07-14.56-10.66 10.77-13.7 20.85-28.81 31.36-42.83 7.22-9.73 21.37 1.4 14.51 10.71l-31.31 42.78zm95.47 148.55-.06.02c-11.31 3.32-16.4-13.87-5.09-17.27 15.28-4.05 30.84-9.76 46.08-13.52 11.32-3.05 16.2 13.95 4.94 17.35l-45.87 13.42zm-12.59-44.63c-11 4.24-17.55-12.27-6.71-16.7 12.04-5.02 29.54-12.9 41.5-16.58 11.04-4.27 17.55 12.35 6.62 16.72-13.83 5.42-27.57 11.23-41.41 16.56zm-18.96-39.23c-9.82 6.46-19.76-8.22-10.12-14.94 13.33-8.89 26.83-17.84 40.29-26.52 9.9-6.42 19.7 8.62 9.8 15.14l-39.97 26.32zm-30.48-34.7c-8.55 8.09-20.93-4.8-12.44-13.03l35.57-34.41c8.55-8.09 20.92 4.81 12.43 13.03l-35.56 34.41zm-78.66 74.42c7.59-3.01 15.08-4.35 22.45-3.54 21.39 2.67 36.58 19.07 33.93 39.78-.67 8.02-3.5 16.82-8.56 26.46 4.22 4.06 8.7 8.13 13.5 12.29 6.89 5.96 13.87 11.26 20.86 15.61 6.33 3.96 12.7 7.2 18.99 9.52 8.29-1.66 7.35-12.94 6.56-19.61-1.39-11.13-6.18-24.52-13.24-38.8-7.76-15.69-18.21-32.37-29.92-48.26-11.48-15.63-24.15-30.46-36.64-42.86-8.12-8.08-16.18-15.1-23.72-20.62-6.45-4.69-17.99-12.21-26.22-12.48-4.08-.15-4.76 1.55-5.04 5.48-.51 5.87.47 13.28 2.72 21.71 2.69 10.1 7.22 21.64 13.16 33.78 2.36 4.83 11.17 21.99 11.17 21.54zm63.6 116.47c-20.35.69-45.23 3.57-77.85 17.62-.04 1.55-.01 3.18.11 4.8.19 2.43.98 8.61 3.51 9.89 3.94 1.84 7.54 3.3 9.92 7.2l.03.06c3.54 5.71 1.2 17.41 9.03 18.42h.02c12.23 1.4 16.56 7.17 16.53 14.66-.01 9.29-11.35 29.42-20.36 35.67-2.48 1.71-4.98 2.76-7.47 3.21-11.38 2.08-21.13-7.82-27.62-15.88-7.74-9.57-15.28-20.47-21.46-30.9-3.73-6.28-7.62-13.27-11.56-20.38l-.1.06c-2.94 1.84-5.76 3.8-8.67 5.65-10.47 6.78-20.34 12.35-34.71 10.91-27.62-2.8-50.94-32.56-56.12-58.16-1.46-7.21-1.6-14.48.02-21.33 8.49-35.93 87.76-74.3 116.13-164.66l.04-.13c3.57-11.43 6.85-28.47 20.86-30.25 9.41-1.25 19.47 3.03 27.48 7.59l.14.09c11.26 6.44 23.86 16.68 36.53 29.21 13.17 13.02 26.47 28.57 38.49 44.94 12.36 16.8 23.43 34.49 31.63 51.24 7.58 15.47 12.76 30.21 14.34 42.78.66 5.33.72 10.35.06 14.92-2.05 14.58-8.88 20.23-24.22 22-9.95 1.12-24.19.43-34.73.77zM217.59 113.98l.05.02c10.74 4.58 20.58 11.46 28.31 20.24-2.2 5.34-4.61 10.48-7.18 15.43-6.96-9.86-16.1-16.9-27.15-21.67-8.93-3.82-18.92-5.4-28.74-4.82-13.68.81-26.56 5.89-37.11 14.64-4.48 3.72-8.44 8.09-11.83 13.16-2.23 3.34-4.22 7.01-5.94 11.01-8.43 19.87-5.97 42.85 5.94 60.64 2.26 3.37 4.82 6.5 7.67 9.37 2.87 2.85 6 5.41 9.37 7.67 2.87 1.92 5.99 3.65 9.34 5.19-3.75 3.93-7.31 7.83-10.61 11.76a82.006 82.006 0 0 1-7.2-4.31c-4.2-2.81-8.09-5.99-11.66-9.52l-.03-.03a79.171 79.171 0 0 1-9.52-11.66c-14.82-22.16-17.78-50.29-7.32-75.08l.02-.05c5.02-11.78 12.36-21.71 21.69-29.56 13.73-11.55 30.83-18.07 48.78-18.59 11.28-.32 22.62 1.73 33.12 6.16z" />
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-arrow-up-right w-4 h-4">
                   <path d="M7 7h10v10"></path>
                   <path d="M7 17 17 7"></path>
-                </svg></span>
+                </svg>
+              </span>
             </div>
             <h3 class="font-display font-semibold text-xl text-foreground mb-2.5">
               Digital Marketing
@@ -700,37 +544,27 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services"><span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  "></span>
+          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient(closest-side,    rgba(255, 171, 26, 0.35), transparent 70% );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
                   <svg fill="#ffa200" width="50" height="50" class="lucide lucide-settings w-6 h-6 text-primary"
                     data-name="Layer 1" viewBox="0 0 101.28 122.88">
                     <path class="cls-1"
                       d="M33.12,71.64a17.45,17.45,0,0,1,.73-5H67.42a17.52,17.52,0,1,1-34.3,5ZM43.25,38.58c-1.72-1.53-3.08-2.64-3.37-5.82h-.19a2.45,2.45,0,0,1-1.22-.32,3.28,3.28,0,0,1-1.34-1.63c-.62-1.43-1.11-5.17.45-6.25l-.29-.19,0-.42c-.06-.75-.07-1.66-.09-2.62,0-3.52-.13-7.79-3-8.65L33,12.31l.8-1a46.66,46.66,0,0,1,7.1-7.2,18.18,18.18,0,0,1,8.22-4,9.9,9.9,0,0,1,8,2.24,15,15,0,0,1,2.14,2.15,9.07,9.07,0,0,1,6.4,3.74,13,13,0,0,1,2.08,4.21,14.42,14.42,0,0,1,.56,4.76A11.46,11.46,0,0,1,65,25a2.42,2.42,0,0,1,1,.26c1.18.63,1.22,2,.91,3.16-.31,1-.7,2.08-1.07,3-.45,1.27-1.1,1.51-2.36,1.37-.07,3.13-1.51,4-3.46,5.83.08,4.71-16.86,4.16-16.76,0Zm-.88,3.88L47.42,55.7,50,48.48l-1.24-1.35c-.94-1.37-.62-2.92,1.12-3.2a12.85,12.85,0,0,1,1.87,0,9.41,9.41,0,0,1,2.06.08c1.61.35,1.78,1.91,1,3.15l-1.25,1.35L56,55.7l4.56-13.24c3.29,3,13,3.56,16.65,5.58,5,2.81,4.88,8.24,6,13.27H19.74c1.09-5,1-10.5,6-13.27,4.46-2.48,13-2.29,16.65-5.58ZM11.51,39c-.86-1.36-2.45-3.2-2.45-4.79a2.57,2.57,0,0,1,1.72-2.33c-.08-1.34-.14-2.7-.14-4.05,0-.8,0-1.61,0-2.4A8.37,8.37,0,0,1,11,24a8.49,8.49,0,0,1,3.81-4.83,10.28,10.28,0,0,1,2.06-1c1.31-.48.68-2.68,2.11-2.71,3.35-.09,8.86,3,11,5.31a8.52,8.52,0,0,1,2.2,5.51L32,32.15a1.92,1.92,0,0,1,1.41,1.2c.46,1.86-1.46,4.16-2.36,5.64-.37.61-1.21,1.84-2,3a23.09,23.09,0,0,0-5.28,1.87L23.5,44c-6,3.32-6.89,8.48-7.78,13.71-.13.77-.26,1.54-.45,2.41a4.68,4.68,0,0,0-.15,1.19H0c0-13.38,10.22-9.13,15.1-15.85.24-.35.35-.54.35-.7S11.83,39.55,11.51,39Zm78.26,0c.85-1.36,2.45-3.2,2.45-4.79a2.57,2.57,0,0,0-1.72-2.33c.08-1.34.13-2.7.13-4.05,0-.8,0-1.61,0-2.4A9.39,9.39,0,0,0,90.32,24a8.57,8.57,0,0,0-3.81-4.83,10.63,10.63,0,0,0-2.07-1c-1.31-.48-.67-2.68-2.11-2.71-3.35-.09-8.86,3-11,5.31a8.45,8.45,0,0,0-2.19,5.51l.13,5.87a1.94,1.94,0,0,0-1.41,1.2c-.45,1.86,1.47,4.16,2.36,5.64.33.54,1,1.58,1.76,2.62A29.87,29.87,0,0,1,79.48,44h0c6,3.35,6.85,8.43,7.74,13.66.14.84.28,1.69.49,2.65a4.75,4.75,0,0,1,.11,1h13.44c0-13.38-10.22-9.13-15.11-15.85-.24-.35-.35-.54-.35-.7s3.63-5.21,4-5.72ZM101.22,72.3V76A6.26,6.26,0,0,1,95,82.21h-6.4a38.82,38.82,0,0,1-3.84,10.17L89,96.64a6.28,6.28,0,0,1,0,8.83l-5.19,5.19a6.26,6.26,0,0,1-8.83,0l-3.89-3.89a39.06,39.06,0,0,1-10.54,4.57v5.3a6.26,6.26,0,0,1-6.24,6.24H47a6.26,6.26,0,0,1-6.24-6.24v-5.23a38.6,38.6,0,0,1-10.65-4.53l-3.79,3.78a6.25,6.25,0,0,1-8.82,0l-5.2-5.19a6.28,6.28,0,0,1,0-8.83l4.09-4.08a39,39,0,0,1-3.95-10.35H6.3A6.26,6.26,0,0,1,.06,76V68.63a6.22,6.22,0,0,1,.34-2H25.77a25.53,25.53,0,0,0-.38,4.4c0,.44,0,.87,0,1.3s0,.87,0,1.3a25.11,25.11,0,0,0,50.22,0c0-.43,0-.87,0-1.3s0-.86,0-1.3a25.53,25.53,0,0,0-.38-4.4h25.64a6,6,0,0,1,.35,2V72.3Z" />
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-arrow-up-right w-4 h-4">
                   <path d="M7 7h10v10"></path>
                   <path d="M7 17 17 7"></path>
-                </svg></span>
+                </svg>
+              </span>
             </div>
             <h3 class="font-display font-semibold text-xl text-foreground mb-2.5">
               School Management System
