@@ -17,7 +17,7 @@
                 <a class="inline-flex" aria-label="Volt &amp; Spark Electric â€” home" href="#">
                     <div class="flex items-center gap-2.5 group">
                         <div
-                            class="relative rounded-xl bg-gradient-to-br from-primary to-amber-500 flex items-center justify-center shadow-[0_10px_30px_-8px_hsl(38_100%_50%/0.6)] transition-all duration-300 group-hover:scale-105 group-hover:rotate-3">
+                            class="">
                             <img src="assets/images/logo-2.png" alt="" />
                         </div>
                     </div>
@@ -573,6 +573,9 @@
 
             our_clients: [
                 "our-clients.php"
+            ],
+            certificate: [
+                "certification.php"
             ]
 
         };
@@ -700,7 +703,14 @@
             makeActive(careers);
         }
 
+        else if (pageGroups.certificate.includes(currentPage)) {
 
+            const certificate = nav.querySelector(
+                '.nav-link[href="certification.php"]'
+            );
+
+            makeActive(certificate);
+        }
         // =========================
         else if (pageGroups.our_clients.includes(currentPage)) {
 

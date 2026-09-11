@@ -166,7 +166,7 @@
   </div>
   <section class="border-y border-border bg-background py-5 mb-5">
     <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
-      <div class="flex w-max gap-12 animate-marquee">
+      <div class="flex w-max gap-12 animate-marquee" >
         <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -224,7 +224,8 @@
               d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
             </path>
             <path d="m9 12 2 2 4-4"></path>
-          </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">Certified & Trusted</span>
+          </svg>
+          <span class="text-sm font-medium uppercase tracking-[0.16em]">Certified & Trusted</span>
         </div>
         <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -267,9 +268,7 @@
           <span class="text-sm font-medium uppercase tracking-[0.16em]">4.9 Google rating</span>
         </div>
         <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="lucide lucide-shield-check w-4 h-4 text-primary"
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-primary">
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
             </path>
             <path d="m9 12 2 2 4-4"></path>
@@ -277,9 +276,8 @@
           <span class="text-sm font-medium uppercase tracking-[0.16em]">Certified & Trusted</span>
         </div>
         <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="lucide lucide-clock w-4 h-4 text-primary" <circle cx="12" cy="12" r="10"></circle>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4 text-primary">
+            <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
           <span class="text-sm font-medium uppercase tracking-[0.16em]">24/7 Technical Support</span>
@@ -646,7 +644,7 @@
       <div class="scroll-animation mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services">
+            href="erp-solution.php">
             <img
               src="https://img.magnific.com/free-photo/multi-ethnic-business-team-sitting-table-office-center-speaking-about-project-meeting-broadroom_482257-5077.jpg?t=st=1785149074~exp=1785152674~hmac=bb50beb155f8ffd6a1884a2cd5df0d72d05a87446b7edaa2d820d77a907e34d6&w=1060"
               alt="Office"
@@ -731,7 +729,7 @@
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services">
+            href="crm-software.php">
             <img
               src="https://res.cloudinary.com/realcube/image/upload/v1671613827/assets/img/Blogs/crm-benefits-for-property-management-solutions.jpg"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -793,7 +791,7 @@
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services">
+            href="lead-management.php">
             <img src="https://t3.ftcdn.net/jpg/20/21/76/58/360_F_2021765861_C0wl0hoPOzqCSlZbHbaPfi1tKhRPjeZ4.jpg"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               style="filter: brightness(50%)" />
@@ -853,7 +851,7 @@
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services">
+            href="">
             <img src="https://www.logicerp.com/blog/wp-content/uploads/2026/02/Blog-Banner-2026-02-20T123717.463.jpg"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               style="filter: brightness(50%)" />

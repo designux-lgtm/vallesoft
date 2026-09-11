@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#0B1220" />
   <meta name="description"
     content="Licensed electrical contractors providing residential, commercial and emergency electrical services." />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <title>Volt &amp; Spark Electric</title>
@@ -163,8 +163,7 @@
               </ul>
             </div>
             <div class="dropdown">
-              <a
-                class="nav-link btn btn-default dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
+              <a class="nav-link btn btn-default dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
                 type="button">
                 Products
                 <span class="caret"></span>
@@ -231,8 +230,9 @@
               href="career.php">Careers
               <span class="active-line hidden absolute left-3.5 right-3.5 -bottom-0.5 h-[2px] rounded-full bg-primary"></span>
             </a>
-            <a class="relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
-              href="#contact">Certification
+            <a class="nav-link relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
+              href="certification.php">Certification
+              <span class="active-line hidden absolute left-3.5 right-3.5 -bottom-0.5 h-[2px] rounded-full bg-primary"></span>
             </a>
             <!-- <a class="relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
                 href="#contact">Contact
