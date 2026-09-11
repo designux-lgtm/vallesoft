@@ -4,19 +4,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0B1220" />
-  <meta name="description"
-    content="Licensed electrical contractors providing residential, commercial and emergency electrical services." />
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
   <title>Volt &amp; Spark Electric</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link rel="stylesheet" href="assets/css/custom.css">
-
-
-
 </head>
 
 <body>
@@ -58,9 +49,7 @@
           011-46073938</a>
       </div>
     </div>
-    <div
-      class="w-full border-b transition-all duration-300 bg-background/60 backdrop-blur border-transparent border-border  shadow-[0_8px_30px_-12px_hsl(222_47%_11%/0.15)]"
-      style="border-color: #e5e7eb;">
+    <div class="w-full border-b transition-all duration-300 bg-background/60 backdrop-blur border-transparent border-border  shadow-[0_8px_30px_-12px_hsl(222_47%_11%/0.15)]" style="border-color: #e5e7eb;">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex h-[68px] items-center justify-between gap-6">
 

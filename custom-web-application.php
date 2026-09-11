@@ -42,26 +42,26 @@
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Custom Web Applications</h4>
-                        <p>
+                        <h4 class="scroll-animation font-display font-semibold">Custom Web Applications</h4>
+                        <p class="scroll-animation">
                             If off-the-shelf solutions on the market do not completely match the processes and ultimate goals of your firm and you would like made-to-order product, VALLESOFT Software developers will help you build a solution to align completely with your business aspirations, corporate procedures and internal communication processes!
                         </p>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Software Product Development</h4>
-                        <p>
+                        <h4 class="scroll-animation font-display font-semibold">Software Product Development</h4>
+                        <p class="scroll-animation">
                             Creating a software product requires not only tech talent, but also business finesse and domain expertise to evaluate the market and user expectations, assess the competition and possible risks. If you are planning to launch your own software product, but feel the need to extend your in-house team.
                         </p>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Enterprise Application Integration</h4>
-                        <p>
+                        <h4 class="scroll-animation font-display font-semibold">Enterprise Application Integration</h4>
+                        <p class="scroll-animation">
                             Complex enterprise systems communicate with various sources of dispersed corporate data that requires to be integrated into a common data hub for maximum efficiency and immediacy of further processing. VALLESOFT Software developer expertise includes enterprise application integration solutions to make your data management.
                         </p>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Mobile Apps Development & Services</h4>
-                        <p>
+                        <h4 class="scroll-animation font-display font-semibold">Mobile Apps Development & Services</h4>
+                        <p class="scroll-animation">
                             At ValleSoft, diversification & adaptability with newer technologies remains the prime focus of company and one of such areas include mobile application development services that we started making Android, Windows and iOS apps. We have always provided best in class service in mobile app development services.
                         </p>
                     </div>

@@ -17,30 +17,31 @@
         </div>
         <section class="mb-5">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div>
-                    <div class="space-y-4" style="opacity: 1; transform: none;">
-                        <h4 class="font-display font-semibold">
+                <div class="">
+                    <div class=" space-y-4" style="opacity: 1; transform: none;">
+                        <h4 class="scroll-animation font-display font-semibold">
                             Software Development Service</h4>
-                        <p >ValleSoft Solutions is an
+                        <p class="scroll-animation">ValleSoft Solutions is an
                             offshore software development company that understands businesses and aims to deliver value
                             to customers through its software solutions and services. Our competencies lie in offshore
                             software development, maintenance and offshore project management services. We engage in
                             efficient custom software development, maintaining high-quality software development
                             standards and constantly seeking to fulfill our customer's software outsourcing
-                            requirements.</p>
-                        <p >
+                            requirements.
+                        </p>
+                        <p class="scroll-animation">
                             We are a software development company with a technology and process oriented approach as the
                             foundation of all our service offerings. Our goal is that our offshore software development
                             experience should help you achieve success. Our strength lies in our ability to solve
                             complicated, non-traditional problems within a limited timescale - simultaneously adhering
                             to the highest quality standards.
                         </p>
-                        <p >
+                        <p class="scroll-animation">
                             We have all the necessary resources and expertise in place - to help you design, develop,
                             deploy, and maintain robust and portable applications throughout the software development
                             lifecycle.
                         </p>
-                        <p>
+                        <p class="scroll-animation">
                             Whether it is building a specialized application that collects, analyzes and integrates data
                             from a variety of data sources; whether its building a unique database application or
                             tailoring an existing commercial software product to meet new requirements - our offshore

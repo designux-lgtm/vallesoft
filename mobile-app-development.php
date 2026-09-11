@@ -37,30 +37,30 @@
                 </div> -->
         </div>
     </div>
-    <section class="mb-5">
+    <section class="mb-5 ">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
                     <div class="space-y-2">
-                        <h4 class="font-display font-semibold">
+                        <h4 class="scroll-animation font-display font-semibold">
                             Mobile App Development Services
                         </h4>
-                        <p class="">
+                        <p class="scroll-animation">
                             <strong>Implementing mobile apps as strategy for business transformation and endowing users with cross platform solutions that drive usability and help real-time decisions.
                             </strong>
                         </p>
                     </div>
-                    <p>
+                    <p class="scroll-animation">
                         ValleSoft is one of the most reputed Mobile Application Development Company with expertise in developing android apps, custom mobile apps and iphone apps etc. We understand the business needs and provide ideal solutions for a wide range of mobile application software. Our passionate application developers propose to deploy mobile applications into different platforms.
                     </p>
-                    <p>
+                    <p class="scroll-animation">
                         Our skilled and expert android developers are able to develop high tech applications on various platforms such as Android, Mobile, iphone, Smartphone, gaming apps, music apps etc.
                     </p>
-                    <p>
+                    <p class="scroll-animation">
                         At ValleSoft, we’re proud to offer wide assortments of android and iphone apps development services to various b2b clients from all across the globe. As we fully understand the needs and unique challenges in enabling enterprise mobility. With extensive specialization in enterprise architecture, mobility frameworks, mobile security, user experience design, handheld platforms, enterprise mobility deployment, and specialized quality assurance, the group brings focused expertise and full life-cycle services for complete enterprise mobility enablement.
 
                     </p>
-                    <p>
+                    <p class="scroll-animation">
                         <strong>Our Development Team :- </strong> We have a team of expert and qualified mobile application developers who’ve specialization on various platforms such as android, iphone apps, mobile apps, health mobile apps, shopping mobile apps, Ecommerce mobile apps, Gaming mobile application development, mobile apps for payment gateway, mobile apps for job portals and much more. Our dedicated teams of developers are capable with the necessary skills, initiative and creativity to not only develop android or mobile apps, but also help clients building reliable, durable and fully functional to their brand and targeted audience. Such type of dedication and specialization in our developers enable us to achieve 100% client’s satisfaction.
                     </p>
                 </div>
@@ -72,8 +72,9 @@
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
-                <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                <div class=" group relative h-full" style="opacity: 1; transform: none;">
+                    <div class="scroll-animation scroll-left relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+
                         <span aria-hidden="true" class="pointer-events-none absolute -top-32 -right-24 w-72 h-72 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.32), transparent 70%);"></span>
                         <div class="relative flex items-start gap-4 mb-6 items-center">
                             <div class="relative shrink-0">
@@ -175,14 +176,14 @@
 
                     </div>
                 </div>
-                <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                <div class="scrolll-animtion scroll-left group relative h-full" style="opacity: 1; transform: none;">
+                    <div class="scroll-animation scroll-right relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <span aria-hidden="true" class="pointer-events-none absolute -top-32 -right-24 w-72 h-72 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.32), transparent 70%);">
                         </span>
                         <div class="relative flex items-start gap-4 mb-6 items-center">
                             <div class="relative shrink-0">
                                 <div class="w-12  h-12 rounded-3 bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center">
-                                    
+
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffa200" class="bi bi-star" viewBox="0 0 16 16">
                                         <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
                                     </svg>

@@ -14,7 +14,7 @@
                 </div> -->
         </div>
     </div>
-    <section class="mb-5">
+    <section class="mb-5 ">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div>
 
@@ -23,9 +23,9 @@
 
 
                 <div class="space-y-4">
-                    <h4 class="font-display font-semibold">
+                    <h4 class="scroll-animation font-display font-semibold">
                         Our Strategy</h4>
-                    <p class="">VALLESOFT is a
+                    <p class="scroll-animation">VALLESOFT is a
                         Global IT consulting company -established in the year 2003 specialize in Web-to-Enterprise
                         Integration, Industry Specific Solutions and Strategic Outsourcing. We offer software
                         development, implementation, web optimization and maintenance services for e-business,
@@ -36,11 +36,11 @@
 
         </div>
     </section>
-    <section class="mb-5">
+    <section class="mb-5 ">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- FILTER BUTTONS -->
-            <div class="flex flex-wrap items-center gap-2  mb-4">
+            <div class="scroll-animation flex flex-wrap items-center gap-2  mb-4">
 
                 <button type="button"
                     class="filter-btn px-4 py-2 rounded-full text-sm font-medium border transition-all bg-primary text-primary-foreground border-primary ring-glow"
@@ -64,10 +64,10 @@
 
 
             <!-- ITEMS -->
-            <div class="">
+            <div class="scroll-animation">
 
                 <!-- OUR VALUES -->
-                <div class="space-y-2 project-item " data-category="all">
+                <div class="scroll-animation space-y-2 project-item " data-category="all">
 
                     <h4 class="font-display text-xl font-semibold">
                         Our Values
@@ -82,7 +82,7 @@
 
 
                 <!-- MISSION -->
-                <div class="space-y-2 project-item hidden" data-category="mission">
+                <div class="scroll-animation space-y-2 project-item hidden" data-category="mission">
 
                     <h4 class="font-display text-xl font-semibold">
                         Mission Statement
@@ -98,7 +98,7 @@
 
 
                 <!-- VISION -->
-                <div class="space-y-2 project-item hidden" data-category="vision">
+                <div class="scroll-animation space-y-2 project-item hidden" data-category="vision">
 
                     <h4 class="font-display text-xl font-semibold">
                         Vision Statement

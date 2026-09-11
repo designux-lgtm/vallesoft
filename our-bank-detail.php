@@ -14,12 +14,11 @@
                 </div> -->
         </div>
     </div>
-    <section class="mb-5">
+    <section class="mb-5 ">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div
-                        class="relative h-full rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                    <div class="scroll-animation scroll-left relative h-full rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <span aria-hidden="true"
                             class="pointer-events-none absolute -top-32 -right-24 w-72 h-72 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
                             style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.32), transparent 70%);">
@@ -84,9 +83,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div
-                        class="relative h-full  rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                <div class=" group relative h-full" style="opacity: 1; transform: none;">
+                    <div class="scroll-animation scroll-right relative h-full  rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <span aria-hidden="true"
                             class="pointer-events-none absolute -top-32 -right-24 w-72 h-72 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
                             style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.32), transparent 70%);">

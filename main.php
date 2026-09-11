@@ -1,4 +1,23 @@
 <?php include 'includes/header.php'; ?>
+<style>
+  .owl-demo-6 {
+    display: flex;
+    width: max-content;
+    gap: 48px;
+    cursor: grab;
+    user-select: none;
+    will-change: transform;
+  }
+
+  .owl-demo-6:active {
+    cursor: grabbing;
+  }
+
+  .owl-demo-6 img {
+    pointer-events: none;
+    display: block;
+  }
+</style>
 <div class="min-h-screen flex flex-col bg-background">
 
   <div class="relative overflow-hidden isolate bg-secondary text-secondary-foreground pt-12 pb-12 ">
@@ -166,7 +185,7 @@
   </div>
   <section class="border-y border-border bg-background py-5 mb-5">
     <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
-      <div class="flex w-max gap-12 animate-marquee" >
+      <div class="flex w-max gap-12 animate-marquee">
         <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -851,33 +870,17 @@
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="">
+            href="billing-software.php">
             <img src="https://www.logicerp.com/blog/wp-content/uploads/2026/02/Blog-Banner-2026-02-20T123717.463.jpg"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               style="filter: brightness(50%)" />
-            <div class="absolute inset-0 z-[1]" style="
-                    background: linear-gradient(
-                      to top,
-                      rgba(0, 0, 0, 0.95) 0%,
-                      rgba(0, 0, 0, 0.65) 45%,
-                      rgba(0, 0, 0, 0.2) 75%,
-                      rgba(0, 0, 0, 0) 100%
-                    );
-                  "></div>
-            <span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  ">
+            <div class="absolute inset-0 z-[1]" style=" background: linear-gradient( to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);">
+            </div>
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient( closest-side,  rgba(255, 171, 26, 0.35),  transparent 70%  );">
             </span>
             <div class="relative flex items-start justify-between mb-6 z-10">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
                   <svg width="30" height="30" fill="#ffa200" viewBox="0 0 32 32" style="stroke: #ffa200">
                     <path
                       d="M4.441 4.003A3.507 3.507 0 0 0 1 7.5a.5.5 0 0 0 .5.5H7v16.5c0 1.927 1.573 3.5 3.5 3.5h17c1.927 0 3.5-1.573 3.5-3.5a.5.5 0 0 0-.5-.5H25V7.5C25 5.573 23.427 4 21.5 4l-17 .003zM4.5 5c1.19 0 2.037.89 2.293 2H2.207C2.463 5.89 3.309 5 4.5 5Zm2.44 0H21.5C22.887 5 24 6.113 24 7.5V24H13.5a.5.5 0 0 0-.5.5c0 1.387-1.113 2.5-2.5 2.5A2.492 2.492 0 0 1 8 24.5v-17c0-.979-.409-1.864-1.06-2.5Zm4.777 1v.926a2.4 2.4 0 0 0-.682.181c-.203.09-.377.206-.521.346-.14.14-.25.305-.328.496-.074.191-.112.403-.112.633 0 .25.044.47.13.66.088.191.213.36.376.506.166.146.367.273.6.383.236.107.503.2.799.281.221.073.409.15.564.229.159.078.287.163.383.255.1.093.172.193.217.3a.901.901 0 0 1 .066.349c0 .152-.027.29-.082.414a.857.857 0 0 1-.244.31c-.104.085-.234.15-.389.198a1.844 1.844 0 0 1-.943.013c-.14-.036-.268-.1-.383-.193a.991.991 0 0 1-.277-.375 1.459 1.459 0 0 1-.106-.594H9.81c0 .318.05.59.15.817.1.224.232.412.398.56.17.15.366.262.584.34.219.079.443.131.676.156V14h.772v-.809c.277-.028.526-.083.748-.168.222-.084.41-.197.566-.337.155-.14.276-.306.361-.497.086-.193.127-.41.127-.652a1.63 1.63 0 0 0-.123-.652 1.425 1.425 0 0 0-.359-.498 2.307 2.307 0 0 0-.588-.375 5.415 5.415 0 0 0-.805-.295 4.68 4.68 0 0 1-.6-.23 1.821 1.821 0 0 1-.388-.258.82.82 0 0 1-.215-.295c-.04-.11-.062-.23-.062-.366 0-.146.022-.28.062-.4a.823.823 0 0 1 .522-.51c.13-.047.281-.07.459-.07.17 0 .322.031.455.096a.926.926 0 0 1 .334.27c.089.114.155.25.199.407.048.158.072.332.072.52h.971c0-.57-.143-1.02-.428-1.348-.28-.331-.68-.533-1.197-.603V6Zm4.74 3c-.667.034-.616 1.034.05 1h4.985c.676.01.676-1.01 0-1h-4.984a.5.5 0 0 0-.051 0zm0 3c-.667.034-.616 1.034.05 1h4.985c.676.01.676-1.01 0-1h-4.984a.5.5 0 0 0-.051 0zm-6 3c-.667.034-.616 1.034.05 1h10.985c.676.01.676-1.01 0-1H10.508a.5.5 0 0 0-.051 0zm0 3c-.667.034-.616 1.034.05 1h10.985c.676.01.676-1.01 0-1H10.508a.5.5 0 0 0-.051 0zm0 3c-.667.034-.616 1.034.05 1h10.985c.676.01.676-1.01 0-1H10.508a.5.5 0 0 0-.051 0zm3.441 4h15.895c-.256 1.11-1.102 2-2.293 2H12.932c.536-.522.85-1.227.966-2z">
@@ -888,8 +891,7 @@
                   class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10">
                 </span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-arrow-up-right w-4 h-4 text-light">
@@ -909,48 +911,29 @@
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
           <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services">
-            <img
-              src="https://www.versaclouderp.com/blog/wp-content/uploads/2025/02/Essentials-of-Inventory-Understanding-Inventory-Types-and-Best-Practices.png"
-              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              style="filter: brightness(50%)">
-            <div class="absolute inset-0 z-[1]"
-              style="background: linear-gradient( to top, rgba(0, 0, 0, 0.95) 0%,  rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);">
+            href="inventory-system-pos.php">
+            <img src="https://www.versaclouderp.com/blog/wp-content/uploads/2025/02/Essentials-of-Inventory-Understanding-Inventory-Types-and-Best-Practices.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)">
+            <div class="absolute inset-0 z-[1]" style="background: linear-gradient( to top, rgba(0, 0, 0, 0.95) 0%,  rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);">
             </div>
-            <span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  ">
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.35), transparent 70% );">
             </span>
             <div class="relative flex items-start justify-between mb-6 z-10">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                  <svg width="30" height="30" fill="#ffa200" viewBox="0 0 32 32" id="icon"
-                    xmlns="http://www.w3.org/2000/svg">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                  <svg width="30" height="30" fill="#ffa200" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg">
                     <title>inventory-management</title>
                     <rect x="19" y="24" width="4" height="4" />
                     <rect x="26" y="24" width="4" height="4" />
                     <rect x="19" y="17" width="4" height="4" />
                     <rect x="26" y="17" width="4" height="4" />
-                    <path
-                      d="M17,24H4V10H28v5h2V10a2.0023,2.0023,0,0,0-2-2H22V4a2.0023,2.0023,0,0,0-2-2H12a2.002,2.002,0,0,0-2,2V8H4a2.002,2.002,0,0,0-2,2V24a2.0023,2.0023,0,0,0,2,2H17ZM12,4h8V8H12Z" />
+                    <path d="M17,24H4V10H28v5h2V10a2.0023,2.0023,0,0,0-2-2H22V4a2.0023,2.0023,0,0,0-2-2H12a2.002,2.002,0,0,0-2,2V8H4a2.002,2.002,0,0,0-2,2V24a2.0023,2.0023,0,0,0,2,2H17ZM12,4h8V8H12Z" />
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10">
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10">
                 </span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-arrow-up-right w-4 h-4 text-light">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                   <path d="M7 7h10v10"></path>
                   <path d="M7 17 17 7"></path>
                 </svg>
@@ -967,34 +950,15 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
-            href="#services">
-            <img src="https://www.mewurk.com/static/media/blog99-inner1.2504a1574e70664844f1.webp"
-              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              style="filter: brightness(50%)" />
-            <div class="absolute inset-0 z-[1]" style="
-                    background: linear-gradient(
-                      to top,
-                      rgba(0, 0, 0, 0.95) 0%,
-                      rgba(0, 0, 0, 0.65) 45%,
-                      rgba(0, 0, 0, 0.2) 75%,
-                      rgba(0, 0, 0, 0) 100%
-                    );
-                  "></div>
-            <span aria-hidden="true"
-              class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl"
-              style="
-                    background: radial-gradient(
-                      closest-side,
-                      rgba(255, 171, 26, 0.35),
-                      transparent 70%
-                    );
-                  ">
+          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
+            <img src="https://www.mewurk.com/static/media/blog99-inner1.2504a1574e70664844f1.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
+            <div class="absolute inset-0 z-[1]" style=" background: linear-gradient( to top,  rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100% );">
+            </div>
+            <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient( closest-side, rgba(255, 171, 26, 0.35), transparent 70% );">
             </span>
             <div class="relative flex items-start justify-between mb-6 z-10">
               <div class="relative">
-                <div
-                  class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
+                <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
                   <svg width="30" height="30" fill="none" viewBox="0 0 64 64" style="stroke: #ffa200">
                     <defs>
                       <filter id="drop-shadow-4" x="-4685.2" y="-3396.8" width="5736.2" height="4544.9"
@@ -1021,12 +985,10 @@
                     <rect class="cls-2" x="28.3" y="57.6" width="7.3" height="1.8" />
                   </svg>
                 </div>
-                <span
-                  class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10">
+                <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10">
                 </span>
               </div>
-              <span
-                class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
+              <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-arrow-up-right w-4 h-4 text-light">
@@ -1049,9 +1011,9 @@
     </div>
   </section>
 
-  <section class="border-y border-border bg-background py-3 px-4 mb-5">
+  <section class="scroll-animation  border-y border-border bg-background py-3 px-4 mb-5">
     <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
-      <div class="owl-demo-6 flex w-max gap-12 animate-marquee">
+      <div class="owl-demo-6">
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px" src="assets/images/clogo-4.jpg" alt="" />
         </div>
@@ -1096,7 +1058,7 @@
           <img style="width: 150px" src="assets/images/action-aid-lg.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 200px" src="assets/images/dazen.jpg" alt="" />
+          <img style="width:150px" src="assets/images/dazen.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px" src="assets/images/lephone.jpg" alt="" />
@@ -1163,5 +1125,76 @@
 
 </div>
 
+<script>
+  const slider = document.querySelector('.owl-demo-6');
+
+  let pos = 0,
+    dragging = false,
+    startX = 0,
+    startPos = 0;
+  const speed = 1;
+
+  function move() {
+    if (!dragging) {
+      pos -= speed;
+
+      if (Math.abs(pos) >= slider.scrollWidth / 2)
+        pos = 0;
+
+      slider.style.transform = `translateX(${pos}px)`;
+    }
+
+    requestAnimationFrame(move);
+  }
+
+  function limitPosition() {
+    const max = -(slider.scrollWidth / 2);
+
+    if (pos > 0) pos = 0;
+    if (pos < max) pos = max;
+  }
+
+
+  // Mouse
+  slider.onmousedown = e => {
+    dragging = true;
+    startX = e.pageX;
+    startPos = pos;
+  };
+
+  document.onmousemove = e => {
+    if (dragging) {
+      pos = startPos + e.pageX - startX;
+
+      limitPosition();
+
+      slider.style.transform = `translateX(${pos}px)`;
+    }
+  };
+
+  document.onmouseup = () => dragging = false;
+
+
+  // Mobile
+  slider.ontouchstart = e => {
+    dragging = true;
+    startX = e.touches[0].pageX;
+    startPos = pos;
+  };
+
+  slider.ontouchmove = e => {
+    if (dragging) {
+      pos = startPos + e.touches[0].pageX - startX;
+
+      limitPosition();
+
+      slider.style.transform = `translateX(${pos}px)`;
+    }
+  };
+
+  slider.ontouchend = () => dragging = false;
+
+  move();
+</script>
 <?php include 'includes/contact_us.php'; ?>
 <?php include 'includes/footer.php'; ?>

@@ -15,13 +15,13 @@
                 </div> -->
         </div>
     </div>
-    <section class="mb-5">
+    <section class=" mb-5">
         <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-5 grid grid-cols-1 lg:grid-cols-[1.15fr,1fr] gap-12 lg:gap-16 ">
+            <div class=" mb-5 grid grid-cols-1 lg:grid-cols-[1.15fr,1fr] gap-12 lg:gap-16 ">
 
-                <div>
+                <div class="scroll-animation scroll-left">
                     <div class="space-y-4">
-                        <h4 class="font-display font-semibold">VALLESOFT is An ISO 9001:2015 & 27001:2013 certified
+                        <h4 class=" font-display font-semibold">VALLESOFT is An ISO 9001:2015 & 27001:2013 certified
                         </h4>
                         <p class=""> Global IT consulting company: established in the year 2003, we specialize in
                             Web-to-Enterprise Integration, Industry Specific Solutions, Mobile Applications and
@@ -31,24 +31,26 @@
                         </p>
                     </div>
                     <div class="mt-6 space-y-4 text-foreground/85 leading-relaxed">
-                        <h5 class="font-display font-semibold">
+                        <h5 class="scroll-animation font-display font-semibold">
                             We provide IT consulting to emerging businesses across the globe .
                         </h5>
-                        <p>Founded in 2011, Volt &amp; Spark Electric has been serving the Springfield community
+                        <p class="scroll-animation">Founded in 2011, Volt &amp; Spark Electric has been serving the Springfield community
                             with reliable, professional electrical services for over 15 years. What started as a
                             small team of dedicated electricians has grown into one of the most trusted electrical
-                            contractors in the region.</p>
-                        <p>Our mission is simple: provide safe, efficient and high-quality electrical solutions
+                            contractors in the region.
+                        </p>
+                        <p class="scroll-animation">Our mission is simple: provide safe, efficient and high-quality electrical solutions
                             while building lasting relationships with our clients. Every project — from a single
-                            outlet to a full commercial rewire — gets the same level of attention and expertise.</p>
-                        <p>Today our team continues to uphold the values that built our reputation: integrity,
+                            outlet to a full commercial rewire — gets the same level of attention and expertise.
+                        </p>
+                        <p class="scroll-animation">Today our team continues to uphold the values that built our reputation: integrity,
                             craftsmanship and customer satisfaction. We stay current with the latest electrical
-                            codes and technologies so every job meets the highest safety standards.</p>
+                            codes and technologies so every job meets the highest safety standards.
+                        </p>
                     </div>
                 </div>
-                <div class="relative" style="opacity: 1; transform: none;">
-                    <div
-                        class="relative aspect-[4/5] rounded-3xl overflow-hidden border border-border shadow-[0_30px_80px_-30px_hsl(222_47%_11%/0.3)]">
+                <div class=" relative" style="opacity: 1; transform: none;">
+                    <div class="scroll-animation scroll-right relative aspect-[4/5] rounded-3xl overflow-hidden border border-border shadow-[0_30px_80px_-30px_hsl(222_47%_11%/0.3)]">
                         <img src="assets/images/conference-room-interior-modern-office-with-white-walls-monitor.jpg"
                             alt="Volt &amp; Spark electrician on site"
                             class="absolute inset-0 w-full h-full object-cover">
@@ -57,12 +59,12 @@
                 </div>
             </div>
             <div class="mb-5 mt-6 space-y-4 text-foreground/85 leading-relaxed">
-                <h5 class="mb-4 font-display font-semibold text-center">
+                <h5 class="scroll-animation mb-4 font-display font-semibold text-center">
                     We are a team of high skilled professionals, excel in their, domain and believe<br>in team work
                     and
                     organization values
                 </h5>
-                <div class="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div class="scroll-animation  mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
                     <div class="text-center p-7 rounded-2xl border border-border bg-card card-hover hover:border-primary/40"
                         style="opacity: 1; transform: none;">
                         <div
@@ -110,10 +112,10 @@
 
             </div>
             <div class="mt-6 space-y-4 text-foreground/85 leading-relaxed">
-                <h5 class="mb-4 font-display font-semibold text-center">
+                <h5 class="scroll-animation mb-4 font-display font-semibold text-center">
                     We pride ourselves on Four things:
                 </h5>
-                <div class="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div class="scroll-animation mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
                     <div class="text-center p-7 rounded-2xl border border-border bg-card card-hover hover:border-primary/40"
                         style="opacity: 1; transform: none;">
                         <div
