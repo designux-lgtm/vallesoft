@@ -54,7 +54,7 @@
 
             <div class="row">
                 <!--== tab start ==-->
-                <div class="col-md-3">
+                <div class="col-md-3 scroll-animation scroll-left">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
@@ -74,7 +74,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 scroll-animation scroll-right">
                     <div class="tab-content">
                         <div id="and_dvp" class="container tab-pane active">
                             <h3>Android Developers</h3>

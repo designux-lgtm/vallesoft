@@ -22,38 +22,38 @@
                 <div class="space-y-5" style="opacity: 1; transform: none;">
 
                     <div class="row justify-between">
-                        <div class="col-md-7 space-y-3">
-                            <h4 class="font-display font-semibold">CRM /Donor Management System Software Solution</h4>
-                            <p>Donor Service Solution(DSS)/MIS is build on MySQL & User Interface is supported by HTML5.</p>
+                        <div class="col-md-7 space-y-3 scroll-animation scroll-left">
+                            <h4 class="font-display font-semibold scroll-animation">CRM /Donor Management System Software Solution</h4>
+                            <p class="scroll-animation">Donor Service Solution(DSS)/MIS is build on MySQL & User Interface is supported by HTML5.</p>
                             <ul class="list-disc list-outside ml-4">
-                                <li>Its main catch is that it works / functions offline / Online and data is synchronized by automated process for making its accessible all over the locations.
+                                <li class="scroll-animation">Its main catch is that it works / functions offline / Online and data is synchronized by automated process for making its accessible all over the locations.
                                 </li>
-                                <li>It is compatible with all the technologies to create interfaces such as donation, receipts for capturing & creating its own database.
+                                <li class="scroll-animation">It is compatible with all the technologies to create interfaces such as donation, receipts for capturing & creating its own database.
                                 </li>
-                                <li>Donor Management Software Solution is highly flexible and robust application and it is fully customizable as per the functionality / processes of particular center wise operation needs.
+                                <li class="scroll-animation">Donor Management Software Solution is highly flexible and robust application and it is fully customizable as per the functionality / processes of particular center wise operation needs.
                                 </li>
-                                <li>Constituent and supplier management – ability to track supplier and supplier revenue, volumes, campaigns and purpose preference.
+                                <li class="scroll-animation">Constituent and supplier management – ability to track supplier and supplier revenue, volumes, campaigns and purpose preference.
                                 </li>
 
 
-                                <li>Ability to manage teams, sales agents and team leads.
+                                <li class="scroll-animation">Ability to manage teams, sales agents and team leads.
                                 </li>
-                                <li>Ability to track various modes of transactions- Cheque, NEFT, Online, Wallets, Social media, ECS/NACH, E-NACH and UPI.
+                                <li class="scroll-animation">Ability to track various modes of transactions- Cheque, NEFT, Online, Wallets, Social media, ECS/NACH, E-NACH and UPI.
                                 </li>
-                                <li>It is platform independent and therefore can run on any Smart Phones, iPads etc.
+                                <li class="scroll-animation">It is platform independent and therefore can run on any Smart Phones, iPads etc.
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 scroll-animation scroll-right">
                             <img class="w-100" src="assets/images/pie-chart-f-0001.png" alt="">
                         </div>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold"> Module Basket of CRM /DMS Software Solution</h4>
+                        <h4 class="font-display font-semibold scroll-animation"> Module Basket of CRM /DMS Software Solution</h4>
 
                         
                     </div>
-                    <div class="space-y-3">
+                    <div class="space-y-3 scroll-animation">
                         <img class="w-100" src="assets/images/dss_solution_chart_2.png" alt="">
                     </div>
                 </div>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
-  <title>Volt &amp; Spark Electric</title>
+  <title>ValleSoft</title>
   <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 

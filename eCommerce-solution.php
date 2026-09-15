@@ -27,7 +27,7 @@
 
 
         <div class="relative z-10">
-            <img class="w-100" src="assets/images/ChatGPT Image Aug 14, 2026, 12_56_04 PM (1).png" alt="">
+            <img class="w-100" src="assets/images/E-commerce_solution.jpg" alt="">
             <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
                     style="position: absolute; z-index: 99999; bottom: 0px;">
                     <div style="opacity: 1; transform: none;">

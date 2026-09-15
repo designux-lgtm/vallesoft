@@ -22,41 +22,41 @@
                 <div class="space-y-5" style="opacity: 1; transform: none;">
 
                     <div class="row justify-between">
-                        <div class="col-md-7 space-y-5">
+                        <div class="col-md-7 space-y-5 scroll-animation scroll-left">
                             <div class="space-y-3">
-                                <h4 class="font-display font-semibold">Elearning Management System</h4>
-                                <p>The System is a broad term used to describe software tools designed to manage user learning interventions and provide access to online learning services for students, teacher, and administrator.
+                                <h4 class="font-display font-semibold scroll-animation">Elearning Management System</h4>
+                                <p class="scroll-animation">The System is a broad term used to describe software tools designed to manage user learning interventions and provide access to online learning services for students, teacher, and administrator.
                                 </p>
                                 <ul class="list-disc list-outside ml-4">
-                                    <li><strong>Modules covered under our School Management System :</strong> Dashboard, Utilities , Announcement Facility ,Notes Facility , Document Facility , Forum Facility , Multimedia Gallery , Learning Track Facility ,Links Facility , References Facility , News Facility , Assignment Facility , Assessment Facility , Portfolio Management Facility , Live Interaction ,Digital Library etc.
+                                    <li class="scroll-animation"><strong>Modules covered under our School Management System :</strong> Dashboard, Utilities , Announcement Facility ,Notes Facility , Document Facility , Forum Facility , Multimedia Gallery , Learning Track Facility ,Links Facility , References Facility , News Facility , Assignment Facility , Assessment Facility , Portfolio Management Facility , Live Interaction ,Digital Library etc.
                                     </li>
 
                                 </ul>
                             </div>
                             <div class="space-y-3">
-                                <h4 class="font-display font-semibold">List of our major clients who were using this Software :</h4>
+                                <h4 class="font-display font-semibold scroll-animation">List of our major clients who were using this Software :</h4>
                                 <ul class="list-disc list-outside ml-4">
-                                    <li><strong>VLCC INSTITUTE -</strong> Currently using in 10,000+ students for online exam and eLearning purpose
+                                    <li class="scroll-animation"><strong>VLCC INSTITUTE -</strong> Currently using in 10,000+ students for online exam and eLearning purpose
                                     </li>
-                                    <li><strong>SOS CHILDREN VILLAGES INDIA -</strong> Currently using in 20000+ students for online exam and eLearning purpose
+                                    <li class="scroll-animation"><strong>SOS CHILDREN VILLAGES INDIA -</strong> Currently using in 20000+ students for online exam and eLearning purpose
                                     </li>
-                                    <li><strong>BOOKWORM CENTRAL -</strong> Currently using in 15,000+ students for online exam and eLearning purpose
+                                    <li class="scroll-animation"><strong>BOOKWORM CENTRAL -</strong> Currently using in 15,000+ students for online exam and eLearning purpose
                                     </li>
                                     <li>The System is a broad term used to describe software tools designed to manage user learning interventions and provide access to online learning services for students, teacher, and administrator.
                                     </li>
-                                    <li>Learning management system that helps to manage online content and monitor distance learning processes allowing the user to create and support learning courses accessible from all over the world.
+                                    <li class="scroll-animation">Learning management system that helps to manage online content and monitor distance learning processes allowing the user to create and support learning courses accessible from all over the world.
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 scroll-animation scroll-right">
                             <img class="w-100" src="assets/images/Empowering-startups_v1-01-1024x1024.png" alt="">
                         </div>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">System Requirements Specification :</h4>
+                        <h4 class="font-display font-semibold scroll-animation">System Requirements Specification :</h4>
                         <div class="group relative h-full" style="opacity: 1; transform: none;">
-                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                            <div class="scroll-animation relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                                 <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
@@ -202,47 +202,47 @@
 
                             </div>
                         </div>
-                        <p class="fw-bold">The whole eLearning Management System will be designed in HTML 5 and developed PHP (Backend ) using AJAX , JSON API , java-query , Anglure JS , Open Source Technologies and tools. The database will be managed through MySQL/SQLite.</p>
+                        <p class="fw-bold scroll-animation">The whole eLearning Management System will be designed in HTML 5 and developed PHP (Backend ) using AJAX , JSON API , java-query , Anglure JS , Open Source Technologies and tools. The database will be managed through MySQL/SQLite.</p>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Some of the web characteristics shall cover the following criteria’s :</h4>
+                        <h4 class="font-display font-semibold scroll-animation">Some of the web characteristics shall cover the following criteria’s :</h4>
                         <ul class="list-disc list-outside ml-4">
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Responsive</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>HTML 5.0</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Content storage- Content will be stored on Cloud based Server.</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Compatible with latest gadgets like iPads, tablets, smart phones etc.</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Look & Feel with Structured navigational interface.</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Easy to manage and handling at any user level.</p>
                             </li>
                         </ul>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Mobile Application Technical Specification as</h4>
+                        <h4 class="font-display font-semibold scroll-animation">Mobile Application Technical Specification as</h4>
                         <ul class="list-disc list-outside ml-4">
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>SDK - Android Studio</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Language - Java XML</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>APIS - Restful API Using PHP</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Designed Pattern - MVVM</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Supported Device - Android Version > 5.0</p>
                             </li>
                         </ul>

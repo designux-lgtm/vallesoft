@@ -23,25 +23,25 @@
         <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="row  grid grid-cols-1 lg:grid-cols-[1.15fr,1fr] gap-12 lg:gap-16 ">
 
-                <div class="col-md-7">
+                <div class="col-md-7 scroll-animation scroll-left">
                     <div class="space-y-4">
-                        <h4 class="font-display font-semibold">Lead Management System(LMS)</h4>
-                        <p class="">Our Lead management Software fill the gap between marketing and sales. It's a customer acquisition process which identifies potential buyers (leads), educates them, engages with them, and when the leads are considered qualified, get passed from marketing to sales it used to track the lead.
+                        <h4 class="font-display font-semibold scroll-animation">Lead Management System(LMS)</h4>
+                        <p class="scroll-animation">Our Lead management Software fill the gap between marketing and sales. It's a customer acquisition process which identifies potential buyers (leads), educates them, engages with them, and when the leads are considered qualified, get passed from marketing to sales it used to track the lead.
 
                         </p>
                     </div>
                     <div class="mt-6 space-y-4 text-foreground/85 leading-relaxed">
                         <ul class="list-disc list-outside ml-4">
-                            <li>Leads :  Prospecting and qualifying leads</li>
-                            <li>Opportunities : Managing opportunities and keeping track of the stages of deal closure</li>
-                            <li>Communication tracking :Managing and tracking communications between salespeople and customers</li>
-                            <li>Product database : Maintaining a database of product information</li>
-                            <li>Sales processes : Using sales processes to guide sales representatives through the sales life-cycle using workflows, processes and dialog boxes.</li>
+                            <li class="scroll-animation">Leads :  Prospecting and qualifying leads</li>
+                            <li class="scroll-animation">Opportunities : Managing opportunities and keeping track of the stages of deal closure</li>
+                            <li class="scroll-animation">Communication tracking :Managing and tracking communications between salespeople and customers</li>
+                            <li class="scroll-animation">Product database : Maintaining a database of product information</li>
+                            <li class="scroll-animation">Sales processes : Using sales processes to guide sales representatives through the sales life-cycle using workflows, processes and dialog boxes.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="relative col-md-4" style="opacity: 1; transform: none;">
-                    <div class="">
+                <div class=" relative col-md-4" style="opacity: 1; transform: none;">
+                    <div class="scroll-animation scroll-right">
                         <img src="assets/images/lms-diagram002.png" alt="Volt &amp; Spark electrician on site" class="">
                     </div>
 

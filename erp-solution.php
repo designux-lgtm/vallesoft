@@ -5,7 +5,7 @@
 
 
         <div class="relative z-10">
-            <img class="w-100" src="assets/images/ChatGPT Image Aug 14, 2026, 12_56_04 PM (1).png" alt="">
+            <img class="w-100" src="assets/images/erp_solution.jpg" alt="">
             <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
                     style="position: absolute; z-index: 99999; bottom: 0px;">
                     <div style="opacity: 1; transform: none;">
@@ -20,33 +20,33 @@
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">ERP Solution</h4>
-                        <p>ValleSoft ERP (Enterprise Resources Planning ) includes specific modules for managing activities of distribution, manufacturing, services and retail and can be extended with specialized software solutions such as: CRM (Customer Relationship Management System), Business Intelligence, Database Sales, Finance,&nbsp;E-commerce, HRMS (Human Resources Management
+                        <h4 class="font-display font-semibold scroll-animation">ERP Solution</h4>
+                        <p class="scroll-animation">ValleSoft ERP (Enterprise Resources Planning ) includes specific modules for managing activities of distribution, manufacturing, services and retail and can be extended with specialized software solutions such as: CRM (Customer Relationship Management System), Business Intelligence, Database Sales, Finance,&nbsp;E-commerce, HRMS (Human Resources Management
                             System), eLibrary, DSS( Donor Service Solution) ,Mobile Application (Android , ios) and Digital Marketing.
                         </p>
-                        <ul class="list-disc list-outside ml-4">
-                            <li class=" ">
+                        <ul class="list-disc  ml-4">
+                            <li class="scroll-animation">
 
                                 <p>It is a tailor made product that gives an automated solution to small/large scale industry.</p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation">
 
                                 <p>This covers all the verticals and domains as per the Industry standards.</p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation">
 
                                 <p>This includes Material Management, Production Planning, Sales & Distribution and Management Information System reports to give better way to analyze the business.</p>
                             </li>
 
-                            <li class=" ">
+                            <li class="scroll-animation">
 
                                 <p>This product is simple to use and easy to learn and deliver a long term value to the industry. </p>
                             </li>
                         </ul>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">ERP Software Solutions</h4>
-                        <p>The Whole Enterprise software solutions will be designed in HTML 5 and developed in core PHP using AJAX, java-query. The database will be managed through MySQL/Oracle. Some of the web characteristics shall cover the following criteria’s:
+                        <h4 class="font-display font-semibold scroll-animation">ERP Software Solutions</h4>
+                        <p class="scroll-animation">The Whole Enterprise software solutions will be designed in HTML 5 and developed in core PHP using AJAX, java-query. The database will be managed through MySQL/Oracle. Some of the web characteristics shall cover the following criteria’s:
                         </p>
                     </div>
                 </div>
@@ -59,18 +59,18 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                    <div class="scroll-animation scroll-left relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <span aria-hidden="true" class="pointer-events-none absolute -top-32 -right-24 w-72 h-72 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.32), transparent 70%);"></span>
 
                         <ul class="grid grid-cols-1 gap-x-5 gap-y-3">
-                            <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                            <li class="flex items-start gap-2.5 text-sm text-foreground/85 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                     <circle cx="12" cy="12" r="10"></circle>
                                     <path d="m9 12 2 2 4-4"></path>
                                 </svg>
                                 <span>Responsive</span>
                             </li>
-                            <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                            <li class="flex items-start gap-2.5 text-sm text-foreground/85 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                     <circle cx="12" cy="12" r="10"></circle>
                                     <path d="m9 12 2 2 4-4"></path>
@@ -78,7 +78,7 @@
                                 <span>HTML 5.0</span>
                             </li>
 
-                            <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                            <li class="flex items-start gap-2.5 text-sm text-foreground/85 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                     <circle cx="12" cy="12" r="10"></circle>
                                     <path d="m9 12 2 2 4-4"></path>
@@ -99,7 +99,7 @@
                                 </svg>
                                 <span>Look & Feel with Structured navigational interface. </span>
                             </li>
-                            <li class="flex items-start gap-2.5 text-sm text-foreground/85">
+                            <li class="flex items-start gap-2.5 text-sm text-foreground/85 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                     <circle cx="12" cy="12" r="10"></circle>
                                     <path d="m9 12 2 2 4-4"></path>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="">
+                    <div class="scroll-animation scroll-right">
 
                         <img class="w-100" src="assets/images/agile-project-management-development-methodology-infographic-agile-software-development-lifecycle-process-sprints-illustration-agile-development-diagram-vector.jpg" alt="">
 
@@ -123,7 +123,7 @@
     </section>
     <section>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-5">
-            <div>
+            <div class="scroll-animation">
                 <img src="assets/images/how-education-gcc-functions-are-evolving-from-execution-to-strategic-ownership.png" alt="">
             </div>
         </div>

@@ -20,24 +20,24 @@
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">CRM - Customer Relationship Management</h4>
-                        <p>CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
+                        <h4 class="font-display font-semibold scroll-animation">CRM - Customer Relationship Management</h4>
+                        <p class="scroll-animation">CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
                         </p>
 
 
                         <ul class="list-disc list-outside ml-4">
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Through our CRM, Customer Relationship Management Solution (VSCRM) we strive to deliver significant advantages and value to our client and partners through innovative service and flexible solution.</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>We provide the complete suite of solution to design/develop company policies and improve effectiveness by organizational restructuring</p>
                             </li>
                         </ul>
                     </div>
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">We help our client to: </h4>
+                        <h4 class="font-display font-semibold scroll-animation">We help our client to: </h4>
                         <div class="group relative h-full" style="opacity: 1; transform: none;">
-                            <div class="relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                            <div class=" scroll-animation relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                                 <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
@@ -137,7 +137,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                    <div class="scroll-animation scroll-left relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <div class="relative flex items-start gap-5 mb-3">
                             <div>
                                 <h4 class="font-display font-semibold">Sales</h4>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                    <div class="scroll-animation relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <div class="relative flex items-start gap-5 mb-3">
                             <div>
                                 <h4 class="font-display font-semibold">Marketing</h4>
@@ -255,7 +255,7 @@
                     </div>
                 </div>
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
-                    <div class="relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
+                    <div class=" scroll-animation scroll-right relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <div class="relative flex items-start gap-5 mb-3">
                             <div>
                                 <h4 class="font-display font-semibold">Sales</h4>
@@ -318,19 +318,19 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-[1fr,1.1fr] gap-12 lg:gap-16">
                 <div class="relative" style="opacity: 1; transform: none;">
-                    <div class="">
+                    <div class="scroll-animation scroll-left">
                         <img src="assets/images/1_SBH_Y5t32ixv8C_F1MVYzA.png" alt="Volt &amp; Spark electrician on site" class="">
                     </div>
                 </div>
                 <div>
-                    <div class="flex flex-col items-start text-left max-w-3xl  space-y-4" style="opacity: 1; transform: none;">
-                        <h4 class="font-display font-semibold">Client Care Functionality</h4>
+                    <div class="scroll-animation scroll-right flex flex-col items-start text-left max-w-3xl  space-y-4" >
+                        <h4 class="font-display font-semibold scroll-animation">Client Care Functionality</h4>
                         <ul class="list-disc list-outside ml-4">
-                            <li>Case Recording: Recording Complaints, problems, questions or other queries (case records)</li>
-                            <li>Contract Management :Recording entitlement to service (Contracts)</li>
-                            <li>Services &amp; Resources Management :Defining services provided and resources needed for the services.</li>
-                            <li>Appointment Scheduling :Scheduling appointments</li>
-                            <li>Knowledge Base :Building a store of intelligence using the Knowledge Base</li>
+                            <li class="scroll-animation">Case Recording: Recording Complaints, problems, questions or other queries (case records)</li>
+                            <li class="scroll-animation">Contract Management :Recording entitlement to service (Contracts)</li>
+                            <li class="scroll-animation">Services &amp; Resources Management :Defining services provided and resources needed for the services.</li>
+                            <li class="scroll-animation">Appointment Scheduling :Scheduling appointments</li>
+                            <li class="scroll-animation">Knowledge Base :Building a store of intelligence using the Knowledge Base</li>
                         </ul>
                     </div>
                 </div>
@@ -341,33 +341,33 @@
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-[1fr,1.1fr] gap-12 lg:gap-16">
-                <div>
+                <div class="scroll-animation scroll-left">
                     <div class="flex flex-col items-start text-left max-w-3xl  space-y-4" style="opacity: 1; transform: none;">
-                        <h4 class="font-display font-semibold">Benefits of CRM Software</h4>
+                        <h4 class="font-display font-semibold scroll-animation">Benefits of CRM Software</h4>
                         <ul class="list-disc list-outside ml-4">
-                            <li>Organize Marketing efforts </li>
-                            <li>Manage the sales pipeline</li>
-                            <li>Calculate time spend on converting leads to closing deal.</li>
-                            <li>Streamline your sales process</li>
-                            <li>Automates customer service</li>
-                            <li>Track a customer’s interaction with business</li>
-                            <li>Share marketing and sales collateral </li>
-                            <li>Learn which products sell best and when.</li>
-                            <li>Priorities Leads and reduces redundant tasks.</li>
-                            <li>Multi branch and multi user login supported. </li>
-                            <li>Security and Rights Management. </li>
-                            <li>Configurable Automated workflow.</li>
-                            <li>Relationship and organization chart.</li>
-                            <li>SMS &amp; Email alerts</li>
-                            <li>Various alerts &amp; graphical analysis of various data are provided dashboard when users or admin logs into screen..</li>
-                            <li>Employee performance tracking.</li>
-                            <li>System also provides generation of various Reports and allows export &amp; import via excel / third party software.</li>
-                            <li>MIS effective decision making Reports</li>
+                            <li class="scroll-animation">Organize Marketing efforts </li>
+                            <li class="scroll-animation">Manage the sales pipeline</li>
+                            <li class="scroll-animation">Calculate time spend on converting leads to closing deal.</li>
+                            <li class="scroll-animation">Streamline your sales process</li>
+                            <li class="scroll-animation">Automates customer service</li>
+                            <li class="scroll-animation">Track a customer’s interaction with business</li>
+                            <li class="scroll-animation">Share marketing and sales collateral </li>
+                            <li class="scroll-animation">Learn which products sell best and when.</li>
+                            <li class="scroll-animation">Priorities Leads and reduces redundant tasks.</li>
+                            <li class="scroll-animation">Multi branch and multi user login supported. </li>
+                            <li class="scroll-animation">Security and Rights Management. </li>
+                            <li class="scroll-animation">Configurable Automated workflow.</li>
+                            <li class="scroll-animation">Relationship and organization chart.</li>
+                            <li class="scroll-animation">SMS &amp; Email alerts</li>
+                            <li class="scroll-animation">Various alerts &amp; graphical analysis of various data are provided dashboard when users or admin logs into screen..</li>
+                            <li class="scroll-animation">Employee performance tracking.</li>
+                            <li class="scroll-animation">System also provides generation of various Reports and allows export &amp; import via excel / third party software.</li>
+                            <li class="scroll-animation">MIS effective decision making Reports</li>
                         </ul>
                     </div>
                 </div>
                 <div class="relative" style="opacity: 1; transform: none;">
-                    <div class="">
+                    <div class="scroll-animation scroll-right">
                         <img src="assets/images/images.png" alt="Volt &amp; Spark electrician on site" class="">
                     </div>
                 </div>

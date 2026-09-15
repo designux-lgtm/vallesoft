@@ -58,7 +58,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-[220px] gap-5" style="transform: none; transform-origin: 50% 50% 0px;">
                 <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                    <div class="scroll-animation scroll-left relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" >
                         <img src="assets/images/certificate-1.jpg" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -80,8 +80,8 @@
                         </div>
                     </div>
                 </a>
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                    <div class="scroll-animation relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/certificate-2.jpg" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -103,8 +103,8 @@
                         </div>
                     </div>
                 </a>
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                    <div class="scroll-animation scroll-right relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/certificate-3.jpg" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -130,8 +130,8 @@
 
 
 
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                    <div class="scroll-animation scroll-left relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/certificate-6.jpg" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -153,8 +153,8 @@
                         </div>
                     </div>
                 </a>
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                    <div class="scroll-animation relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/certificate-4.jpg" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -176,8 +176,8 @@
                         </div>
                     </div>
                 </a>
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+                    <div class="scroll-animation scroll-right relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/certificate-5.jpg" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -203,8 +203,8 @@
 
 
 
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+                    <div class="scroll-animation scroll-left relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/ISO-IEC-27001-2013-VS-Design.png" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>
@@ -226,8 +226,8 @@
                         </div>
                     </div>
                 </a>
-                <a class="min-h-[220px]" style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
-                    <div class="relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary" style="opacity: 1; transform: none;">
+                <a class="min-h-[220px] " style="opacity: 1; transform: none; transform-origin: 50% 50% 0px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+                    <div class="scroll-animation relative h-full overflow-hidden rounded-2xl group cursor-pointer bg-secondary">
                         <img src="assets/images/ISO-9001-2015-VS-Design.png" alt="Multi-unit safety audit" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110">
                         <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent">
                         </div>

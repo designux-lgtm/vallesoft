@@ -19,7 +19,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div>
                     <div class="space-y-4" style="opacity: 1; transform: none;">
-                        <h4 class="font-display font-semibold">
+                        <h4 class="font-display font-semibold scroll-animation">
                             International</h4>
                     </div>
 

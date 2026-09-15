@@ -27,7 +27,7 @@
 
 
         <div class="relative z-10">
-            <img class="w-100" src="assets/images/ChatGPT Image Aug 14, 2026, 12_56_04 PM (1).png" alt="">
+            <img class="w-100" src="assets/images/business_intelligence.jpg" alt="">
             <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
                     style="position: absolute; z-index: 99999; bottom: 0px;">
                     <div style="opacity: 1; transform: none;">
@@ -42,37 +42,37 @@
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Business Intelligence</h4>
-                        <p>
+                        <h4 class="font-display font-semibold scroll-animation">Business Intelligence</h4>
+                        <p class="scroll-animation">
                             Data is valuable. Data is complex. Data is plentiful. Data is in flux. Data is fast growing. But to harness the power of data, one has to understand, capture, manage, and extract the meaning out of data, which, in turn, is the most challenging part.
                         </p>
-                        <p>
+                        <p class="scroll-animation">
                             A growing business organization wants to be well equipped to extract crucial facts from operational data and then act upon them quickly for a number of purposes—from preparing a presentation to making an important business decision.
                         </p>
-                        <p>
+                        <p class="scroll-animation">
                             The value of data can be unleashed for business users by condensing it and intelligently presenting only what is relevant to the problem at hand. Answers to highly strategic questions such as:
 
                         </p>
 
                         <ul class="list-disc list-outside ml-4">
-                            <li class="">
+                            <li class="scroll-animation">
 
                                 <p>Do you want to know your sales per hour in peak season?</p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>Is your business beating the benchmark?</p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation">
 
                                 <p>Are you all set for expecting the unexpected turnover?</p>
                             </li>
 
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>How many children in schools in your region fall sick during winter every year?</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
 
                                 <p>How many of your customers visit you between 7 pm and 8 pm; are they satisfied with your services?</p>
                             </li>
@@ -80,7 +80,7 @@
                         </ul>
 
 
-                        <p>
+                        <p class="scroll-animation">
                             Whatever questions stakeholders have about their organization, all of them can be answered using real-time facts. Having a clear insight of their own organization with real facts and figures can help them make better decisions by analyzing ‘their’ data. This is made possible through a Business Intelligence (BI) solution. Over the last few years, a growing dependence on BI and analytics has been observed across every industry to drive better and swift decision-making. This is because BI is all about getting the <strong>right information, to the right decision makers, at the right time.</strong> A BI mechanism will help to convert your raw data into ‘knowledge’, thus facilitating strategic, tactical, and operational planning. To survive and thrive in today’s increasingly competitive world, BI is a ‘must have’ for all organizations, hiking effectiveness and growth over competition.
                             Although, ValleSoft are relatively small in size compared with other parts of computing, technologies are the sharp point of the information technology spear.
                         </p>
@@ -89,14 +89,14 @@
 
 
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Some of our solution offerings include:</h4>
+                        <h4 class="font-display font-semibold scroll-animation">Some of our solution offerings include:</h4>
 
 
                         <ul class="list-disc list-outside ml-4">
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>Data integration including all kinds of ETL operations and data scientist work</p>
                             </li>
-                            <li class="">
+                            <li class="scroll-animation">
                                 <p>BI reporting and analytics</p>
                             </li>
 
