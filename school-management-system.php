@@ -7,7 +7,7 @@
 
 
         <div class="relative z-10">
-            <img class="w-100" src="assets/images/ChatGPT Image Aug 14, 2026, 12_56_04 PM (1).png" alt="">
+            <img class="w-100" src="assets/images/eschool_management.jpg" alt="">
             <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style="position:  absolute; z-index: 99999; bottom: 0px;">
                 <div style="opacity: 1; transform: none;">
                     <h1 class="font-display font-bold text-white text-4xl md:text-5xl lg:text-6xl leading-[1.05] mt-6 max-w-3xl mx-auto">About us

@@ -104,7 +104,7 @@
             <div class="row gap-4 justify-content-between">
 
                 <div class="col-12 col-sm-12 col-lg">
-                    <div class="side-map">
+                    <div class="side-map scroll-animation scroll-left">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3607266622757!2d77.27418051455717!3d28.528875295516745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1508b12fc5d%3A0xd3d8b37ce1bb3c38!2sValleSoft!5e0!3m2!1sen!2sin!4v1552886561428"
                             frameborder="0" allowfullscreen="" loading="lazy">
@@ -112,8 +112,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-lg">
-                    <div
-                        class="relative rounded-3xl bg-card border border-border p-7 shadow-[0_30px_80px_-30px_hsl(222_47%_11%/0.18)] overflow-hidden">
+                    <div class="scroll-animation scroll-right relative rounded-3xl bg-card border border-border p-7 shadow-[0_30px_80px_-30px_hsl(222_47%_11%/0.18)] overflow-hidden">
                         <span aria-hidden="true"
                             class="pointer-events-none absolute -top-32 -right-24 w-72 h-72 rounded-full opacity-50 blur-3xl"
                             style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.25), transparent 70%);">

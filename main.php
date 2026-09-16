@@ -292,7 +292,7 @@
       </div>
       <div class="scroll-animation mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
+          <a class="scroll-animation scroll-left relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
             href="software-development-service.php">
             <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient( closest-side, rgba(255, 171, 26, 0.35), transparent 70% );"></span>
             <div class="relative flex items-start justify-between mb-6">
@@ -337,7 +337,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary 40" href="web-design-development-services.php">
+          <a class="scroll-animation relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary 40" href="web-design-development-services.php">
             <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient(closest-side,   rgba(255, 171, 26, 0.35), transparent 70%);">
             </span>
             <div class="relative flex items-start justify-between mb-6">
@@ -375,7 +375,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="mobile-app-development.php">
+          <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="mobile-app-development.php">
             <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.35), transparent 70% );">
             </span>
             <div class="relative flex items-start justify-between mb-6">
@@ -419,7 +419,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="eCommerce-solution.php">
+          <a class="scroll-animation scroll-left relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="eCommerce-solution.php">
             <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="  background: radial-gradient(    closest-side,    rgba(255, 171, 26, 0.35),    transparent 70%  );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
@@ -463,8 +463,8 @@
             </p>
           </a>
         </div>
-        <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="digital-marketing.php">
+        <div class=" group relative h-full" style="opacity: 1; transform: none">
+          <a class="scroll-animation relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="digital-marketing.php">
             <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient(closest-side,    rgba(255, 171, 26, 0.35),    transparent 70%  );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
@@ -499,7 +499,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
+          <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
             <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style=" background: radial-gradient(closest-side,    rgba(255, 171, 26, 0.35), transparent 70% );"></span>
             <div class="relative flex items-start justify-between mb-6">
               <div class="relative">
@@ -600,7 +600,7 @@
       </div>
       <div class="scroll-animation mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
+          <a class="scroll-animation scroll-left relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
             href="erp-solution.php">
             <img
               src="https://img.magnific.com/free-photo/multi-ethnic-business-team-sitting-table-office-center-speaking-about-project-meeting-broadroom_482257-5077.jpg?t=st=1785149074~exp=1785152674~hmac=bb50beb155f8ffd6a1884a2cd5df0d72d05a87446b7edaa2d820d77a907e34d6&w=1060"
@@ -685,7 +685,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
+          <a class="scroll-animation relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
             href="crm-software.php">
             <img
               src="https://res.cloudinary.com/realcube/image/upload/v1671613827/assets/img/Blogs/crm-benefits-for-property-management-solutions.jpg"
@@ -747,7 +747,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
+          <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
             href="lead-management.php">
             <img src="https://t3.ftcdn.net/jpg/20/21/76/58/360_F_2021765861_C0wl0hoPOzqCSlZbHbaPfi1tKhRPjeZ4.jpg"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -807,7 +807,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
+          <a class="scroll-animation scroll-left relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
             href="billing-software.php">
             <img src="https://www.logicerp.com/blog/wp-content/uploads/2026/02/Blog-Banner-2026-02-20T123717.463.jpg"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -848,7 +848,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
+          <a class="scroll-animation  relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
             href="inventory-system-pos.php">
             <img src="https://www.versaclouderp.com/blog/wp-content/uploads/2025/02/Essentials-of-Inventory-Understanding-Inventory-Types-and-Best-Practices.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)">
             <div class="absolute inset-0 z-[1]" style="background: linear-gradient( to top, rgba(0, 0, 0, 0.95) 0%,  rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);">
@@ -888,7 +888,7 @@
           </a>
         </div>
         <div class="group relative h-full" style="opacity: 1; transform: none">
-          <a class="relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
+          <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
             <img src="https://www.mewurk.com/static/media/blog99-inner1.2504a1574e70664844f1.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
             <div class="absolute inset-0 z-[1]" style=" background: linear-gradient( to top,  rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100% );">
             </div>

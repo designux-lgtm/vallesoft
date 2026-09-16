@@ -7,7 +7,7 @@
 
 
         <div class="relative z-10">
-            <img class="w-100" src="assets/images/ChatGPT Image Aug 14, 2026, 12_56_04 PM (1).png" alt="">
+            <img class="w-100" src="assets/images/e-hrms__solution.jpg" alt="">
             <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style="position:  absolute; z-index: 99999; bottom: 0px;">
                 <div style="opacity: 1; transform: none;">
                     <h1 class="font-display font-bold text-white text-4xl md:text-5xl lg:text-6xl leading-[1.05] mt-6 max-w-3xl mx-auto">About us
@@ -77,7 +77,7 @@
                             <img class="w-100" src="assets/images/oracle-hcm-cloud-core-capabilities.jpg" alt="">
                         </div>
                         <div class="col-md-4 space-y-3 scroll-animation scroll-right">
-                            <h4 class="font-display font-semibold scroll-animation"> Benefits  of our HRMS & Payroll Software Solution</h4>
+                            <h4 class="font-display font-semibold "> Benefits  of our HRMS & Payroll Software Solution</h4>
                             <ul class="list-disc list-outside ml-4">
                                 <li class="scroll-animation">All HR processes from candidate entry till employee exit are fully automated.</li>
                                 <li class="scroll-animation">Do HR and Payroll activities and employee self function from whenever in a few clicks.</li>
