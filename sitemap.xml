@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://localhost/valle-soft/</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/about_us.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/strategy.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/our-clients.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/software-development-service.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/mobile-app-development.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/custom-web-application.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/eCommerce-solution.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/web-design-development-services.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/business-intelligence.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/digital-marketing.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/maintenance-support.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/erp-solution.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/career.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/valle-soft/contact-us.php</loc>
+    </url>
+
+</urlset>

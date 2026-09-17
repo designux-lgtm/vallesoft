@@ -79,7 +79,7 @@
           <div class="relative" style="opacity: 1; transform: none">
             <div
               class="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_80px_-40px_hsl(38_100%_55%/0.5)]">
-              <img src="assets/images/abb3815218d7e2729c4a8f0b3d70dfb4.jpg" alt="Licensed electrician at work"
+              <img src="assets/images/abb3815218d7e2729c4a8f0b3d70dfb4.jpg" alt=""
                 class="absolute inset-0 w-full h-full object-cover" />
               <div class="absolute inset-0 bg-gradient-to-t from-secondary/95 via-secondary/30 to-transparent"></div>
               <div class="absolute top-4 left-4 right-4 flex justify-between">
@@ -604,7 +604,7 @@
             href="erp-solution.php">
             <img
               src="https://img.magnific.com/free-photo/multi-ethnic-business-team-sitting-table-office-center-speaking-about-project-meeting-broadroom_482257-5077.jpg?t=st=1785149074~exp=1785152674~hmac=bb50beb155f8ffd6a1884a2cd5df0d72d05a87446b7edaa2d820d77a907e34d6&w=1060"
-              alt="Office"
+              alt=""
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               style="filter: brightness(50%)" />
             <div class="absolute inset-0 z-[1]" style="
@@ -1004,61 +1004,7 @@
       </div>
     </div>
   </section>
-  <!-- <section class="border-y border-border bg-background py-3 px-4 mb-5">
-    <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
-      <div class="owl-demo-6 flex w-max gap-12 animate-marquee">
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-4.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/brookfield.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-9.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo7i.png" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/plan-internatinal.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/action-aid-lg.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/dazen.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/lephone.jpg" alt="" />
-        </div>
 
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-4.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/brookfield.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-9.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo7i.png" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/plan-internatinal.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/action-aid-lg.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 200px" src="assets/images/dazen.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/lephone.jpg" alt="" />
-        </div>
-      </div>
-    </div>
-  </section> -->
 
 
 </div>

@@ -254,115 +254,856 @@
     </div>
 </footer>
 <script>
-    const mobileMenuButton = document.querySelector("#mobile-menu-toggle");
-    if (mobileMenuButton) {
-        const mobileBackdrop = document.createElement("div");
-        mobileBackdrop.id = "mobile-menu-backdrop";
-        mobileBackdrop.setAttribute("aria-hidden", "true");
-        mobileBackdrop.style.cssText =
-            "display:none; position:fixed; inset:0; z-index:9998; background:rgba(0,0,0,.8);";
+    document.addEventListener("DOMContentLoaded", function() {
+
+        /*
+        ==========================================
+        MOBILE + TABLET ONLY
+        0 - 991px
+        ==========================================
+        */
+
+        const mobileTablet = window.matchMedia("(max-width: 991px)");
+
+        if (!mobileTablet.matches) {
+            return;
+        }
+
+
+        const mobileMenuButton =
+            document.querySelector("#mobile-menu-toggle");
+
+        if (!mobileMenuButton) {
+            return;
+        }
+
+
+        /*
+        ==========================================
+        BACKDROP
+        ==========================================
+        */
+
+        const mobileBackdrop =
+            document.createElement("div");
+
+        mobileBackdrop.id =
+            "mobile-menu-backdrop";
+
+        mobileBackdrop.style.cssText = `
+        display:none;
+        position:fixed;
+        inset:0;
+        z-index:9998;
+        background:rgba(0,0,0,.65);
+        backdrop-filter:blur(2px);
+    `;
+
         document.body.appendChild(mobileBackdrop);
-        const mobileMenu = document.createElement("nav");
-        mobileMenu.id = "mobile-menu";
-        mobileMenu.className = "mobile-menu-panel";
-        mobileMenu.style.cssText =
-            "display:none; position:fixed; inset:0 0 0 auto; width:min(88vw,360px); z-index:9999; background:#fff; color:#172033; box-shadow:-18px 0 42px rgba(0,0,0,.22); font-family:ui-sans-serif,system-ui,sans-serif;";
-        mobileMenu.setAttribute("aria-label", "Mobile navigation");
+
+
+        /*
+        ==========================================
+        MOBILE / TABLET SIDE MENU
+        ==========================================
+        */
+
+        const mobileMenu =
+            document.createElement("nav");
+
+        mobileMenu.id =
+            "mobile-menu";
+
+        mobileMenu.style.cssText = `
+        display:none;
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        width:min(88vw,400px);
+        z-index:9999;
+        background:#ffffff;
+        color:#172033;
+        box-shadow:-18px 0 42px rgba(0,0,0,.22);
+        font-family:ui-sans-serif,system-ui,sans-serif;
+        overflow-y:auto;
+        -webkit-overflow-scrolling:touch;
+    `;
+
+        mobileMenu.setAttribute(
+            "aria-label",
+            "Mobile navigation"
+        );
+
+
+        /*
+        ==========================================
+        MOBILE MENU HTML
+        ==========================================
+        */
+
         mobileMenu.innerHTML = `
 
+        <!-- CLOSE BUTTON -->
 
-
-
-        <button type="button" aria-label="Close navigation menu" id="mobile-menu-close" style="display:grid;place-items:center;width:25px;height:25px;border:1px solid #ffb341;border-radius:999px;background:#fff;color:#d98a00;font-size:18px;line-height:1;cursor:pointer"      class="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary"
+        <button
+            type="button"
+            id="mobile-menu-close"
+            aria-label="Close navigation menu"
+            style="
+                position:absolute;
+                right:18px;
+                top:18px;
+                display:grid;
+                place-items:center;
+                width:34px;
+                height:34px;
+                border:1px solid #ffb341;
+                border-radius:50%;
+                background:#fff;
+                color:#d98a00;
+                font-size:21px;
+                line-height:1;
+                cursor:pointer;
+                z-index:10;
+            "
         >×</button>
 
 
+        <div style="
+            min-height:100%;
+            display:flex;
+            flex-direction:column;
+        ">
 
 
+            <!-- LOGO -->
+
+            <div style="
+                padding:30px 24px 22px;
+                border-bottom:1px solid #edf0f3;
+            ">
+
+                <a
+                    href="main.php"
+                    style="
+                        display:inline-flex;
+                        align-items:center;
+                        text-decoration:none;
+                    "
+                >
+
+                    <img
+                        src="assets/images/logo-2.png"
+                        alt="ValleSoft"
+                        style="
+                        "
+                    >
+
+                </a>
+
+            </div>
 
 
+            <!-- NAVIGATION -->
+
+            <div style="
+                padding:16px;
+            ">
 
 
+                <!-- HOME -->
+
+                <a
+                    href="main.php"
+                    class="mobile-main-link"
+                >
+                    <span>Home</span>
+                    <span class="mobile-link-arrow">›</span>
+                </a>
 
 
-      <div style="height:100%;display:flex;flex-direction:column">
-        <div class="px-6 pt-8 pb-6 border-b border-border">
-          <div style="display:flex;align-items:center;gap:9px">
-            <span>
-           
-                                        <img class="w-75" src="assets/images/logo-2.png" alt="">
+                <!-- COMPANY -->
 
-                              
-                </span>
-           
-          </div>
-          
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-button"
+                    >
+                        <span>Company</span>
+                        <span class="mobile-dropdown-icon">+</span>
+                    </button>
+
+                    <div
+                        class="mobile-dropdown-content"
+                        style="display:none;"
+                    >
+
+                        <a href="about_us.php">
+                            About Us
+                        </a>
+
+                        <a href="strategy.php">
+                            Strategy
+                        </a>
+
+                        <a href="our-bank-detail.php">
+                            Our Bank Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SERVICES -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-button"
+                    >
+                        <span>Services</span>
+                        <span class="mobile-dropdown-icon">+</span>
+                    </button>
+
+                    <div
+                        class="mobile-dropdown-content"
+                        style="display:none;"
+                    >
+
+                        <a href="software-development-service.php">
+                            Software Development
+                        </a>
+
+                        <a href="mobile-app-development.php">
+                            Mobile App Development
+                        </a>
+
+                        <a href="custom-web-application.php">
+                            Custom Web Applications
+                        </a>
+
+                        <a href="eCommerce-solution.php">
+                            E-commerce Solution
+                        </a>
+
+                        <a href="web-design-development-services.php">
+                            Web Services & Development
+                        </a>
+
+                        <a href="business-intelligence.php">
+                            Business Intelligence
+                        </a>
+
+                        <a href="digital-marketing.php">
+                            Digital Marketing
+                        </a>
+
+                        <a href="maintenance-support.php">
+                            Maintenance & Support
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCTS -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-button"
+                    >
+                        <span>Products</span>
+                        <span class="mobile-dropdown-icon">+</span>
+                    </button>
+
+                    <div
+                        class="mobile-dropdown-content"
+                        style="display:none;"
+                    >
+
+                        <a href="erp-solution.php">
+                            ERP Solution
+                        </a>
+
+                        <a href="crm-software.php">
+                            VSCRM
+                        </a>
+
+                        <a href="inventory-system-pos.php">
+                            Inventory Management System
+                        </a>
+
+                        <a href="lead-management.php">
+                            Lead Management System
+                        </a>
+
+                        <a href="ehrms-solution.php">
+                            E-HRMS Solution
+                        </a>
+
+                        <a href="school-management-system.php">
+                            E-School Management System
+                        </a>
+
+                        <a href="donor-management-software.php">
+                            Donor Management Software
+                        </a>
+
+                        <a href="elearning-management.php">
+                            E-learning Management
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OUR CLIENTS -->
+
+                <a
+                    href="our-clients.php"
+                    class="mobile-main-link"
+                >
+                    <span>Our Clients</span>
+                    <span class="mobile-link-arrow">›</span>
+                </a>
+
+
+                <!-- CAREERS -->
+
+                <a
+                    href="career.php"
+                    class="mobile-main-link"
+                >
+                    <span>Careers</span>
+                    <span class="mobile-link-arrow">›</span>
+                </a>
+
+
+                <!-- CERTIFICATION -->
+
+                <a
+                    href="certification.php"
+                    class="mobile-main-link"
+                >
+                    <span>Certification</span>
+                    <span class="mobile-link-arrow">›</span>
+                </a>
+
+
+            </div>
+
+
+            <!-- BOTTOM -->
+
+            <div style="
+                margin-top:auto;
+                border-top:1px solid #edf0f3;
+                padding:18px 16px;
+            ">
+
+
+                <!-- PHONE -->
+
+                <a
+                    href="tel:01146073938"
+                    style="
+                        display:flex;
+                        align-items:center;
+                        gap:8px;
+                        margin-bottom:14px;
+                        color:#293447;
+                        font-size:13px;
+                        text-decoration:none;
+                    "
+                >
+
+                    <span style="
+                        color:#ffa200;
+                        font-size:17px;
+                    ">☎</span>
+
+                    <span>011-46073938</span>
+
+                </a>
+
+
+                <!-- CONTACT -->
+
+                <a
+                    href="contact-us.php"
+                    style="
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
+                        gap:9px;
+                        width:100%;
+                        box-sizing:border-box;
+                        border-radius:8px;
+                        background:#ffa200;
+                        padding:12px;
+                        color:#ffffff;
+                        font-size:14px;
+                        font-weight:700;
+                        text-decoration:none;
+                    "
+                >
+
+                    Contact
+
+                    <span style="
+                        font-size:18px;
+                    ">→</span>
+
+                </a>
+
+
+            </div>
+
+
         </div>
-        <div style="padding:14px 16px">
-          <a style="display:flex;align-items:center;justify-content:space-between;border-radius:10px;background:#fff4df;padding:12px 13px;color:#182234;font-size:12px;font-weight:650;text-decoration:none" href="#">Home <span style="font-size:18px;color:#939aa5">›</span></a>
-          <a style="display:flex;align-items:center;justify-content:space-between;border-radius:10px;padding:12px 13px;color:#596273;font-size:12px;text-decoration:none" href="#services">Services <span style="font-size:18px;color:#939aa5">›</span></a>
-          <a style="display:flex;align-items:center;justify-content:space-between;border-radius:10px;padding:12px 13px;color:#596273;font-size:12px;text-decoration:none" href="#about">About <span style="font-size:18px;color:#939aa5">›</span></a>
-          <a style="display:flex;align-items:center;justify-content:space-between;border-radius:10px;padding:12px 13px;color:#596273;font-size:12px;text-decoration:none" href="#portfolio">Portfolio <span style="font-size:18px;color:#939aa5">›</span></a>
-          <a style="display:flex;align-items:center;justify-content:space-between;border-radius:10px;padding:12px 13px;color:#596273;font-size:12px;text-decoration:none" href="#contact">Contact <span style="font-size:18px;color:#939aa5">›</span></a>
-        </div>
-        <div style="margin-top:auto;border-top:1px solid #edf0f3;padding:16px">
-          <a href="tel:+15551234567" style="display:block;margin:0 0 11px;color:#293447;font-size:11px;text-decoration:none">⌕ &nbsp; (555) 123-4567</a>
-          <a href="#contact" style="display:flex;align-items:center;justify-content:center;gap:9px;border-radius:8px;background:#ffa800;padding:11px;color:#0b1220;font-size:11px;font-weight:800;text-decoration:none">Request a quote <span style="font-size:16px">→</span></a>
-        </div>
-      </div>`;
+    `;
+
+
         document.body.appendChild(mobileMenu);
-        mobileMenuButton.setAttribute("aria-controls", "mobile-menu");
-        mobileMenuButton.addEventListener("click", () => {
-            const isOpen = mobileMenu.style.display !== "block";
-            mobileMenu.style.display = isOpen ? "block" : "none";
-            mobileBackdrop.style.display = isOpen ? "block" : "none";
-            mobileMenuButton.setAttribute("aria-expanded", String(isOpen));
+
+
+        /*
+        ==========================================
+        MOBILE MENU CSS
+        ==========================================
+        */
+
+        const mobileStyle =
+            document.createElement("style");
+
+        mobileStyle.innerHTML = `
+
+        .mobile-main-link {
+
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+
+            width:100%;
+            box-sizing:border-box;
+
+            margin-bottom:5px;
+
+            border-radius:10px;
+
+            padding:13px;
+
+            color:#596273;
+
+            font-size:14px;
+
+            font-weight:500;
+
+            text-decoration:none;
+
+            transition:all .2s ease;
+        }
+
+
+        .mobile-main-link:hover {
+
+            background:#fff4df;
+
+            color:#182234;
+        }
+
+
+        .mobile-main-link:first-child {
+
+            background:#fff4df;
+
+            color:#182234;
+        }
+
+
+        .mobile-link-arrow {
+
+            color:#939aa5;
+
+            font-size:20px;
+
+            line-height:1;
+        }
+
+
+        .mobile-dropdown {
+
+            margin-bottom:5px;
+        }
+
+
+        .mobile-dropdown-button {
+
+            display:flex;
+
+            align-items:center;
+
+            justify-content:space-between;
+
+            width:100%;
+
+            box-sizing:border-box;
+
+            border:0;
+
+            border-radius:10px;
+
+            background:transparent;
+
+            padding:13px;
+
+            color:#596273;
+
+            font-family:inherit;
+
+            font-size:14px;
+
+            font-weight:500;
+
+            text-align:left;
+
+            cursor:pointer;
+
+            transition:all .2s ease;
+        }
+
+
+        .mobile-dropdown-button:hover {
+
+            background:#fff4df;
+
+            color:#182234;
+        }
+
+
+        .mobile-dropdown-icon {
+
+            color:#939aa5;
+
+            font-size:20px;
+
+            line-height:1;
+
+            transition:transform .2s ease;
+        }
+
+
+        .mobile-dropdown-content {
+
+            padding:4px 0 7px 14px;
+        }
+
+
+        .mobile-dropdown-content a {
+
+            display:block;
+
+            padding:10px 12px;
+
+            border-left:2px solid #edf0f3;
+
+            color:#6b7280;
+
+            font-size:13px;
+
+            line-height:1.4;
+
+            text-decoration:none;
+
+            transition:all .2s ease;
+        }
+
+
+        .mobile-dropdown-content a:hover {
+
+            color:#ffa200;
+
+            border-left-color:#ffa200;
+
+            background:#fffaf2;
+        }
+
+
+        /*
+        TABLET
+        */
+
+        @media (min-width:768px) and (max-width:991px) {
+
+            #mobile-menu {
+
+                width:380px !important;
+
+            }
+
+        }
+
+
+        /*
+        MOBILE
+        */
+
+        @media (max-width:767px) {
+
+            #mobile-menu {
+
+                width:88vw !important;
+
+            }
+
+        }
+
+    `;
+
+        document.head.appendChild(mobileStyle);
+
+
+        /*
+        ==========================================
+        OPEN MENU
+        ==========================================
+        */
+
+        mobileMenuButton.setAttribute(
+            "aria-controls",
+            "mobile-menu"
+        );
+
+
+        mobileMenuButton.addEventListener(
+            "click",
+            function() {
+
+                mobileMenu.style.display = "block";
+
+                mobileBackdrop.style.display = "block";
+
+                mobileMenuButton.setAttribute(
+                    "aria-expanded",
+                    "true"
+                );
+
+                mobileMenuButton.setAttribute(
+                    "aria-label",
+                    "Close navigation menu"
+                );
+
+                document.body.style.overflow = "hidden";
+
+            }
+        );
+
+
+        /*
+        ==========================================
+        CLOSE MENU
+        ==========================================
+        */
+
+        function closeMobileMenu() {
+
+            mobileMenu.style.display = "none";
+
+            mobileBackdrop.style.display = "none";
+
+            mobileMenuButton.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
             mobileMenuButton.setAttribute(
                 "aria-label",
-                isOpen ? "Close navigation menu" : "Open navigation menu",
+                "Open navigation menu"
             );
-        });
-        const closeMobileMenu = () => {
-            mobileMenu.style.display = "none";
-            mobileBackdrop.style.display = "none";
-            mobileMenuButton.setAttribute("aria-expanded", "false");
-            mobileMenuButton.setAttribute("aria-label", "Open navigation menu");
-        };
+
+            document.body.style.overflow = "";
+
+        }
+
+
+        /*
+        CLOSE BUTTON
+        */
+
         mobileMenu
             .querySelector("#mobile-menu-close")
-            .addEventListener("click", closeMobileMenu);
-        mobileMenu.querySelectorAll("a").forEach((link) =>
-            link.addEventListener("click", () => {
-                closeMobileMenu();
-            }),
-        );
-        mobileBackdrop.addEventListener("click", () => {
-            closeMobileMenu();
-        });
-        document.addEventListener("click", (event) => {
-            if (
-                !mobileMenu.contains(event.target) &&
-                !mobileMenuButton.contains(event.target)
-            ) {
-                closeMobileMenu();
-            }
-        });
-    }
-    document.querySelectorAll('a[href^="#"]').forEach((link) =>
-        link.addEventListener("click", (event) => {
-            const href = link.getAttribute("href");
-            const target = href === "#" ? null : document.querySelector(href);
-            if (target) {
-                event.preventDefault();
-                target.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
-            }
-        }),
-    );
-</script>
+            .addEventListener(
+                "click",
+                closeMobileMenu
+            );
 
+
+        /*
+        BACKDROP CLICK
+        */
+
+        mobileBackdrop.addEventListener(
+            "click",
+            closeMobileMenu
+        );
+
+
+        /*
+        ==========================================
+        DROPDOWN
+        ==========================================
+        */
+
+        mobileMenu
+            .querySelectorAll(
+                ".mobile-dropdown-button"
+            )
+            .forEach(function(button) {
+
+                button.addEventListener(
+                    "click",
+                    function() {
+
+                        const content =
+                            this.nextElementSibling;
+
+                        const icon =
+                            this.querySelector(
+                                ".mobile-dropdown-icon"
+                            );
+
+
+                        const isOpen =
+                            content.style.display ===
+                            "block";
+
+
+                        /*
+                        Close other dropdowns
+                        */
+
+                        mobileMenu
+                            .querySelectorAll(
+                                ".mobile-dropdown-content"
+                            )
+                            .forEach(function(item) {
+
+                                if (item !== content) {
+
+                                    item.style.display =
+                                        "none";
+
+                                }
+
+                            });
+
+
+                        /*
+                        Reset other icons
+                        */
+
+                        mobileMenu
+                            .querySelectorAll(
+                                ".mobile-dropdown-icon"
+                            )
+                            .forEach(function(item) {
+
+                                if (item !== icon) {
+
+                                    item.textContent =
+                                        "+";
+
+                                    item.style.transform =
+                                        "rotate(0deg)";
+
+                                }
+
+                            });
+
+
+                        /*
+                        Toggle current
+                        */
+
+                        if (isOpen) {
+
+                            content.style.display =
+                                "none";
+
+                            icon.textContent = "+";
+
+                            icon.style.transform =
+                                "rotate(0deg)";
+
+                        } else {
+
+                            content.style.display =
+                                "block";
+
+                            icon.textContent = "−";
+
+                            icon.style.transform =
+                                "rotate(180deg)";
+
+                        }
+
+                    }
+                );
+
+            });
+
+
+        /*
+        ==========================================
+        CLOSE AFTER LINK CLICK
+        ==========================================
+        */
+
+        mobileMenu
+            .querySelectorAll("a")
+            .forEach(function(link) {
+
+                link.addEventListener(
+                    "click",
+                    closeMobileMenu
+                );
+
+            });
+
+
+        /*
+        ==========================================
+        ESC KEY
+        ==========================================
+        */
+
+        document.addEventListener(
+            "keydown",
+            function(event) {
+
+                if (
+                    event.key === "Escape" &&
+                    mobileMenu.style.display === "block"
+                ) {
+
+                    closeMobileMenu();
+
+                }
+
+            }
+        );
+
+
+    });
+</script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -701,9 +1442,7 @@
             );
 
             makeActive(careers);
-        }
-
-        else if (pageGroups.certificate.includes(currentPage)) {
+        } else if (pageGroups.certificate.includes(currentPage)) {
 
             const certificate = nav.querySelector(
                 '.nav-link[href="certification.php"]'
