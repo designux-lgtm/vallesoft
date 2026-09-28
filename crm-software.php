@@ -141,7 +141,6 @@
                         <div class="relative flex items-start gap-5 mb-3">
                             <div>
                                 <h4 class="font-display font-semibold">Sales</h4>
-
                             </div>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 gap-y-3 pt-4 border-t border-dashed border-border">
@@ -189,7 +188,6 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
@@ -197,7 +195,6 @@
                         <div class="relative flex items-start gap-5 mb-3">
                             <div>
                                 <h4 class="font-display font-semibold">Marketing</h4>
-
                             </div>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 gap-y-3 pt-4 border-t border-dashed border-border">
@@ -251,7 +248,6 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="group relative h-full" style="opacity: 1; transform: none;">
@@ -303,14 +299,11 @@
                                         </svg>
                                         <span>Knowledge Base</span>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -319,7 +312,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-[1fr,1.1fr] gap-12 lg:gap-16">
                 <div class="relative" style="opacity: 1; transform: none;">
                     <div class="scroll-animation scroll-left">
-                        <img src="assets/images/1_SBH_Y5t32ixv8C_F1MVYzA.png" alt="Volt &amp; Spark electrician on site" class="">
+                        <img src="assets/images/1_SBH_Y5t32ixv8C_F1MVYzA.png" alt="" class="">
                     </div>
                 </div>
                 <div>
@@ -334,7 +327,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -368,7 +360,7 @@
                 </div>
                 <div class="relative" style="opacity: 1; transform: none;">
                     <div class="scroll-animation scroll-right">
-                        <img src="assets/images/images.png" alt="Volt &amp; Spark electrician on site" class="">
+                        <img src="assets/images/images.png" alt="" class="">
                     </div>
                 </div>
             </div>

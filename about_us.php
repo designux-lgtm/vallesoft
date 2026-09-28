@@ -52,7 +52,7 @@
                 <div class=" relative" style="opacity: 1; transform: none;">
                     <div class="scroll-animation scroll-right relative aspect-[4/5] rounded-3xl overflow-hidden border border-border shadow-[0_30px_80px_-30px_hsl(222_47%_11%/0.3)]">
                         <img src="assets/images/conference-room-interior-modern-office-with-white-walls-monitor.jpg"
-                            alt="Volt &amp; Spark electrician on site"
+                            alt=""
                             class="absolute inset-0 w-full h-full object-cover">
                     </div>
 
