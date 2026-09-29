@@ -27,7 +27,7 @@
 
 
         <div class="relative z-10">
-            <img class="w-100" src="assets/images/ChatGPT Image Aug 14, 2026, 12_56_04 PM (1).png" alt="">
+            <img class="w-100" src="assets/images/billing_software.jpg" alt="">
             <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
                     style="position: absolute; z-index: 99999; bottom: 0px;">
                     <div style="opacity: 1; transform: none;">
@@ -42,44 +42,44 @@
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
                     <div class="space-y-3">
-                        <h4 class="font-display font-semibold">Billing System / POS(Point Of Sale)</h4>
-                        <p>This Software is designed to handle time and billing tracking as well as invoicing customers for services and products. Billing software can track the hours worked by employees as well as expenses associated with projects or clients.
+                        <h4 class="font-display font-semibold scroll-animation">Billing System / POS(Point Of Sale)</h4>
+                        <p class="scroll-animation">This Software is designed to handle time and billing tracking as well as invoicing customers for services and products. Billing software can track the hours worked by employees as well as expenses associated with projects or clients.
                         </p>
                         <ul class="list-disc list-outside ml-4">
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>Through our Customer Relationship Management Solution we strive to deliver significant advantages and value to our client and partners through innovative service and flexible solution.</p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>We provide the complete suite of solution to design/develop company policies and improve effectiveness by organizational restructuring</p>
                             </li>
                         </ul>
-                        <p>
+                        <p class="scroll-animation">
                             The whole eHRMS and Payroll Management software will be designed in HTML 5 and developed in core PHP using AJAX, java-query. The database will be managed through MySQL/Oracle. Some of the web characteristics shall cover the following criteria’s:
                         </p>
                         <ul class="list-disc list-outside ml-4">
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>Responsive </p>
                             </li>
-                            <li class=" ">
+                            <li class=" scroll-animation">
 
                                 <p>HTML 5.0 </p>
                             </li>
-                            <li class=" ">
+                            <li class=" scroll-animation">
 
                                 <p>Adaptability to run on all major browsers & platform independent. </p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>Compatible with latest gadgets like iPads, tablets, smart phones etc. </p>
                             </li>
-                            <li class=" ">
+                            <li class=" scroll-animation">
 
                                 <p>Look & Feel with Structured navigational interface.</p>
                             </li>
-                            <li class=" ">
+                            <li class="scroll-animation ">
 
                                 <p>Easy to manage and handling at any user level.</p>
                             </li>
