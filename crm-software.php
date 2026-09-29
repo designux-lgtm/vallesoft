@@ -314,13 +314,14 @@
                     <div class="scroll-animation scroll-left">
                         <img src="assets/images/1_SBH_Y5t32ixv8C_F1MVYzA.png" alt="" class="">
                     </div>
+                    
                 </div>
                 <div>
                     <div class="scroll-animation scroll-right flex flex-col items-start text-left max-w-3xl  space-y-4" >
-                        <h4 class="font-display font-semibold scroll-animation">Client Care Functionality</h4>
+                        <h4 class="font-display font-semibold">Client Care Functionality</h4>
                         <ul class="list-disc list-outside ml-4">
-                            <li class="scroll-animation">Case Recording: Recording Complaints, problems, questions or other queries (case records)</li>
-                            <li class="scroll-animation">Contract Management :Recording entitlement to service (Contracts)</li>
+                            <li class="">Case Recording: Recording Complaints, problems, questions or other queries (case records)</li>
+                            <li class="">Contract Management :Recording entitlement to service (Contracts)</li>
                             <li class="scroll-animation">Services &amp; Resources Management :Defining services provided and resources needed for the services.</li>
                             <li class="scroll-animation">Appointment Scheduling :Scheduling appointments</li>
                             <li class="scroll-animation">Knowledge Base :Building a store of intelligence using the Knowledge Base</li>
@@ -361,6 +362,9 @@
                 <div class="relative" style="opacity: 1; transform: none;">
                     <div class="scroll-animation scroll-right">
                         <img src="assets/images/images.png" alt="" class="">
+                    </div>
+                    <div class="scroll-animation">
+                        <img src="assets/images/sales-management-process-aft.png" alt="" class="">
                     </div>
                 </div>
             </div>
