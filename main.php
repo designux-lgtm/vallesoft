@@ -17,6 +17,48 @@
     pointer-events: none;
     display: block;
   }
+
+
+
+
+
+
+
+
+
+
+  .slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  .slider-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f5f5f5;
+    border-radius: 12px;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+
+    .owl-demo-6 {
+      gap: 12px;
+    }
+
+    .slider-card {
+      width: 200px;
+      height: 130px;
+    }
+  }
 </style>
 <div class="min-h-screen flex flex-col bg-background">
 
@@ -78,7 +120,7 @@
           </div>
           <div class="relative" style="opacity: 1; transform: none">
             <div
-              class="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_80px_-40px_hsl(38_100%_55%/0.5)]">
+              class="relative aspect-[5/4] rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_80px_-40px_hsl(38_100%_55%/0.5)]">
               <img src="assets/images/abb3815218d7e2729c4a8f0b3d70dfb4.jpg" alt=""
                 class="absolute inset-0 w-full h-full object-cover" />
               <div class="absolute inset-0 bg-gradient-to-t from-secondary/95 via-secondary/30 to-transparent"></div>
@@ -948,137 +990,195 @@
       </div>
     </div>
   </section>
-
   <section class="scroll-animation  border-y border-border bg-background py-3 px-4 mb-5">
-    <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
+    <div class="slider-wrapper max-w-7xl mx-auto overflow-hidden scrollbar-none">
       <div class="owl-demo-6">
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px" src="assets/images/clogo-4.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/brookfield.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-9.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo7i.png" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/plan-internatinal.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px" src="assets/images/action-aid-lg.jpg" alt="" />
-        </div>
-        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/dazen.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px" src="assets/images/lephone.jpg" alt="" />
         </div>
-
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-4.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/colorbar.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/brookfield.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/b&wssc.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo-9.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/sos_children.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/clogo7i.png" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/plan_international.png" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/plan-internatinal.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/hans_cultural_centre.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/action-aid-lg.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/navjyoti.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width:150px" src="assets/images/dazen.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/khushii.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px" src="assets/images/lephone.jpg" alt="" />
+          <img style="width: 150px; height:86px;" src="assets/images/dccw.jpg" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/end-aids-ind.jpg" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/c-logo-2.png" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/head_masters.jpg" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/alive_wellness_clinics.jpg" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/orane_international.jpg" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/literacy_india.jpg" alt="" />
+        </div>
+        <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
+          <img style="width: 150px; height:86px;" src="assets/images/india_vision_foundation.jpg" alt="" />
         </div>
       </div>
     </div>
   </section>
-
-
-
 </div>
-
 <script>
   const slider = document.querySelector('.owl-demo-6');
 
-  let pos = 0,
-    dragging = false,
-    startX = 0,
-    startPos = 0;
-  const speed = 1;
+  let position = 0;
+  let speed = 2;
+  let isDragging = false;
 
-  function move() {
-    if (!dragging) {
-      pos -= speed;
+  let startX = 0;
+  let startPosition = 0;
+  let loopWidth = 0;
 
-      if (Math.abs(pos) >= slider.scrollWidth / 2)
-        pos = 0;
 
-      slider.style.transform = `translateX(${pos}px)`;
+  // Duplicate the original slides so the slider can loop continuously
+  const slides = Array.from(slider.children);
+
+  slides.forEach(slide => {
+    slider.appendChild(slide.cloneNode(true));
+  });
+
+
+  // Get the width of one complete set of slides
+  function updateLoopWidth() {
+    const gap = parseFloat(getComputedStyle(slider).gap) || 0;
+
+    loopWidth = slides.reduce((total, slide) => {
+      return total + slide.getBoundingClientRect().width;
+    }, 0);
+
+    loopWidth += gap * (slides.length - 1);
+  }
+
+
+  // Move the slider automatically
+  function moveSlider() {
+    if (!isDragging) {
+      position -= speed;
+
+      if (Math.abs(position) >= loopWidth) {
+        position += loopWidth;
+      }
+
+      slider.style.transform = `translate3d(${position}px, 0, 0)`;
     }
 
-    requestAnimationFrame(move);
-  }
-
-  function limitPosition() {
-    const max = -(slider.scrollWidth / 2);
-
-    if (pos > 0) pos = 0;
-    if (pos < max) pos = max;
+    requestAnimationFrame(moveSlider);
   }
 
 
-  // Mouse
-  slider.onmousedown = e => {
-    dragging = true;
+  // Start dragging with mouse
+  slider.addEventListener('mousedown', e => {
+    isDragging = true;
     startX = e.pageX;
-    startPos = pos;
-  };
+    startPosition = position;
 
-  document.onmousemove = e => {
-    if (dragging) {
-      pos = startPos + e.pageX - startX;
+    slider.style.cursor = 'grabbing';
+  });
 
-      limitPosition();
 
-      slider.style.transform = `translateX(${pos}px)`;
+  // Move slider while dragging
+  document.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+
+    position = startPosition + (e.pageX - startX);
+
+    if (position > 0) {
+      position = 0;
     }
-  };
 
-  document.onmouseup = () => dragging = false;
+    if (position < -loopWidth) {
+      position = -loopWidth;
+    }
+
+    slider.style.transform = `translate3d(${position}px, 0, 0)`;
+  });
 
 
-  // Mobile
-  slider.ontouchstart = e => {
-    dragging = true;
+  // Stop mouse dragging
+  document.addEventListener('mouseup', () => {
+    if (!isDragging) return;
+
+    isDragging = false;
+    slider.style.cursor = 'grab';
+  });
+
+
+  // Start dragging on touch devices
+  slider.addEventListener('touchstart', e => {
+    isDragging = true;
     startX = e.touches[0].pageX;
-    startPos = pos;
-  };
+    startPosition = position;
+  }, {
+    passive: true
+  });
 
-  slider.ontouchmove = e => {
-    if (dragging) {
-      pos = startPos + e.touches[0].pageX - startX;
 
-      limitPosition();
+  // Move slider on touch
+  slider.addEventListener('touchmove', e => {
+    if (!isDragging) return;
 
-      slider.style.transform = `translateX(${pos}px)`;
+    position = startPosition + (e.touches[0].pageX - startX);
+
+    if (position > 0) {
+      position = 0;
     }
-  };
 
-  slider.ontouchend = () => dragging = false;
+    if (position < -loopWidth) {
+      position = -loopWidth;
+    }
 
-  move();
+    slider.style.transform = `translate3d(${position}px, 0, 0)`;
+  }, {
+    passive: true
+  });
+
+
+  // Stop touch dragging
+  slider.addEventListener('touchend', () => {
+    isDragging = false;
+  });
+
+
+  // Recalculate the slider when the window size changes
+  window.addEventListener('resize', updateLoopWidth);
+
+
+  // Initialize slider
+  updateLoopWidth();
+  moveSlider();
 </script>
 <?php include 'includes/contact_us.php'; ?>
 <?php include 'includes/footer.php'; ?>

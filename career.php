@@ -61,7 +61,7 @@
                             <a class="nav-link active show" data-toggle="tab" href="#and_dvp">Android Developers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#ios_dev">ios Developer</a>
+                            <a class="nav-link" data-toggle="tab" href="#ios_dev">iOS Developer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#bde">BDE</a>
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                         <div id="ios_dev" class="container tab-pane fade">
-                            <h3>ios Developers</h3>
+                            <h3>iOS Developers</h3>
                             <div class="and-dvp">
                                 <div class="col-md-12 space-y-4">
                                     <h5>Job Description</h5>

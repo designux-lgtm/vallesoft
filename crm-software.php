@@ -317,9 +317,9 @@
                     
                 </div>
                 <div>
-                    <div class="scroll-animation scroll-right flex flex-col items-start text-left max-w-3xl  space-y-4" >
+                    <div class="scroll-animation scroll-right flex flex-col items-start text-left max-w-3xl  space-y-5" >
                         <h4 class="font-display font-semibold">Client Care Functionality</h4>
-                        <ul class="list-disc list-outside ml-4">
+                        <ul class="list-disc list-outside ml-4 space-y-3">
                             <li class="">Case Recording: Recording Complaints, problems, questions or other queries (case records)</li>
                             <li class="">Contract Management :Recording entitlement to service (Contracts)</li>
                             <li class="scroll-animation">Services &amp; Resources Management :Defining services provided and resources needed for the services.</li>
@@ -333,11 +333,11 @@
     </section>
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-[1fr,1.1fr] gap-12 lg:gap-16">
-                <div class="scroll-animation scroll-left">
-                    <div class="flex flex-col items-start text-left max-w-3xl  space-y-4" style="opacity: 1; transform: none;">
+            <div class="row gap-12 lg:gap-16">
+                <div class="scroll-animation scroll-left col-md-7">
+                    <div class="flex flex-col items-start text-left max-w-3xl  space-y-4 w-75" style="opacity: 1; transform: none;">
                         <h4 class="font-display font-semibold scroll-animation">Benefits of CRM Software</h4>
-                        <ul class="list-disc list-outside ml-4">
+                        <ul class="list-disc list-outside ml-4 space-y-2">
                             <li class="scroll-animation">Organize Marketing efforts </li>
                             <li class="scroll-animation">Manage the sales pipeline</li>
                             <li class="scroll-animation">Calculate time spend on converting leads to closing deal.</li>
@@ -359,12 +359,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="relative" style="opacity: 1; transform: none;">
-                    <div class="scroll-animation scroll-right">
+                <div class="relative col-md-4" style="opacity: 1; transform: none;">
+                    <!-- <div class="scroll-animation scroll-right">
                         <img src="assets/images/images.png" alt="" class="">
-                    </div>
+                    </div> -->
                     <div class="scroll-animation">
-                        <img src="assets/images/sales-management-process-aft.png" alt="" class="">
+                        <img src="assets/images/image_thumb (1).png" alt="" class="">
                     </div>
                 </div>
             </div>

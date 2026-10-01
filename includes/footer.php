@@ -1132,7 +1132,17 @@
                     if (!entry.isIntersecting) return;
 
                     const counter = entry.target;
-                    const target = parseInt(counter.dataset.target.replace(/,/g, ""));
+                    const targetValue = counter.dataset.target;
+
+                    if (!targetValue) {
+                        console.warn("data-target missing:", counter);
+                        return;
+                    }
+
+                    const target = parseInt(
+                        targetValue.replace(/,/g, ""),
+                        10
+                    );
                     const duration = 2000;
                     const increment = target / (duration / 16);
 
