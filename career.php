@@ -186,7 +186,6 @@
                                         Skills: Basic IT Literacy <br>
                                         Qualification: Any Graduate ,BBA, MBA.
                                     </p>
-
                                     <h5>Responsibilities</h5>
                                     <ul class="space-y-4">
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">

@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <section class="mb-5">
+    <!-- <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-5">
             <h4 class="font-display font-semibold scroll-animation scroll-left ">Our Bank Details</h4>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
@@ -31,7 +31,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="relative">
-                                        <!-- <h3 class="mt-4 font-display font-semibold text-xl text-foreground">Licensed &amp; insured professionals</h3> -->
+                                        <h3 class="mt-4 font-display font-semibold text-xl text-foreground">Licensed &amp; insured professionals</h3>
                                         <div class="row">
                                             <div class="col-md-5">
                                                 <p><strong>Account Name:</strong></p>
@@ -85,7 +85,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="relative">
-                                        <!-- <h3 class="mt-4 font-display font-semibold text-xl text-foreground">Licensed &amp; insured professionals</h3> -->
+                                        <h3 class="mt-4 font-display font-semibold text-xl text-foreground">Licensed &amp; insured professionals</h3>
                                         <div class="row">
                                             <div class="col-md-5">
                                                 <p><strong>Account Name:</strong></p>
@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-[1.4fr,1fr] gap-8 lg:gap-10">

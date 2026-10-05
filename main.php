@@ -1006,7 +1006,7 @@
           <img style="width: 150px; height:86px;" src="assets/images/colorbar.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/b&wssc.jpg" alt="" />
+          <img class="p-1" style="width: 150px; height:86px;" src="assets/images/b&wssc.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px; height:86px;" src="assets/images/sos_children.jpg" alt="" />
@@ -1021,10 +1021,10 @@
           <img style="width: 150px; height:86px;" src="assets/images/navjyoti.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/khushii.jpg" alt="" />
+          <img class="p-1" style="width: 150px; height:86px;" src="assets/images/khushii.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/dccw.jpg" alt="" />
+          <img class="p-1" style="width: 150px; height:86px;" src="assets/images/dccw.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
           <img style="width: 150px; height:86px;" src="assets/images/end-aids-ind.jpg" alt="" />
@@ -1033,152 +1033,316 @@
           <img style="width: 150px; height:86px;" src="assets/images/c-logo-2.png" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/head_masters.jpg" alt="" />
+          <img style="width: 150px; height:86px; object-fit:contain;" src="assets/images/head_masters.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/alive_wellness_clinics.jpg" alt="" />
+          <img style="width: 150px; height:86px; object-fit:contain;" src="assets/images/alive_wellness_clinics.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/orane_international.jpg" alt="" />
+          <img class="p-1" style="width: 150px; height:86px; object-fit:contain;" src="assets/images/orane_international.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/literacy_india.jpg" alt="" />
+          <img class="p-1" style="width: 150px; height:86px;" src="assets/images/literacy_india.jpg" alt="" />
         </div>
         <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-          <img style="width: 150px; height:86px;" src="assets/images/india_vision_foundation.jpg" alt="" />
+          <img class="p-1" style="width: 150px; height:86px;" src="assets/images/india_vision_foundation.jpg" alt="" />
         </div>
       </div>
     </div>
   </section>
 </div>
 <script>
-  const slider = document.querySelector('.owl-demo-6');
+  document.addEventListener("DOMContentLoaded", function() {
 
-  let position = 0;
-  let speed = 2;
-  let isDragging = false;
+    const slider = document.querySelector(".owl-demo-6");
 
-  let startX = 0;
-  let startPosition = 0;
-  let loopWidth = 0;
+    if (!slider) return;
 
+    /* ========================================
+       SLIDER SETTINGS
+    ======================================== */
 
-  // Duplicate the original slides so the slider can loop continuously
-  const slides = Array.from(slider.children);
+    let position = 0;
 
-  slides.forEach(slide => {
-    slider.appendChild(slide.cloneNode(true));
-  });
+    // Lower value = slower & smoother
+    // 0.8 - 1.2 = slow
+    // 1.5 - 2.0 = medium
+    let speed = 1.2;
 
+    let isDragging = false;
 
-  // Get the width of one complete set of slides
-  function updateLoopWidth() {
-    const gap = parseFloat(getComputedStyle(slider).gap) || 0;
+    let startX = 0;
+    let startPosition = 0;
 
-    loopWidth = slides.reduce((total, slide) => {
-      return total + slide.getBoundingClientRect().width;
-    }, 0);
+    let loopWidth = 0;
 
-    loopWidth += gap * (slides.length - 1);
-  }
+    let lastTime = 0;
 
 
-  // Move the slider automatically
-  function moveSlider() {
-    if (!isDragging) {
-      position -= speed;
+    /* ========================================
+       ORIGINAL SLIDES
+    ======================================== */
 
-      if (Math.abs(position) >= loopWidth) {
+    const originalSlides = Array.from(slider.children);
+
+    if (!originalSlides.length) return;
+
+
+    /* ========================================
+       DUPLICATE SLIDES
+    ======================================== */
+
+    originalSlides.forEach(slide => {
+
+      const clone = slide.cloneNode(true);
+
+      clone.setAttribute("aria-hidden", "true");
+
+      slider.appendChild(clone);
+
+    });
+
+
+    /* ========================================
+       CALCULATE LOOP WIDTH
+    ======================================== */
+
+    function updateLoopWidth() {
+
+      const styles = window.getComputedStyle(slider);
+
+      const gap = parseFloat(styles.gap) || 0;
+
+      loopWidth = originalSlides.reduce(
+        (total, slide) => {
+          return total + slide.getBoundingClientRect().width;
+        },
+        0
+      );
+
+      if (originalSlides.length > 1) {
+        loopWidth += gap * (originalSlides.length - 1);
+      }
+
+      normalizePosition();
+
+      updatePosition();
+    }
+
+
+    /* ========================================
+       KEEP POSITION INSIDE LOOP
+    ======================================== */
+
+    function normalizePosition() {
+
+      if (!loopWidth) return;
+
+      if (position <= -loopWidth) {
         position += loopWidth;
       }
 
-      slider.style.transform = `translate3d(${position}px, 0, 0)`;
+      if (position > 0) {
+        position -= loopWidth;
+      }
     }
 
-    requestAnimationFrame(moveSlider);
-  }
 
+    /* ========================================
+       UPDATE TRANSFORM
+    ======================================== */
 
-  // Start dragging with mouse
-  slider.addEventListener('mousedown', e => {
-    isDragging = true;
-    startX = e.pageX;
-    startPosition = position;
+    function updatePosition() {
 
-    slider.style.cursor = 'grabbing';
-  });
-
-
-  // Move slider while dragging
-  document.addEventListener('mousemove', e => {
-    if (!isDragging) return;
-
-    position = startPosition + (e.pageX - startX);
-
-    if (position > 0) {
-      position = 0;
+      slider.style.transform =
+        `translate3d(${position}px, 0, 0)`;
     }
 
-    if (position < -loopWidth) {
-      position = -loopWidth;
+
+    /* ========================================
+       SMOOTH AUTO SCROLL
+    ======================================== */
+
+    function animate(currentTime) {
+
+      if (!lastTime) {
+        lastTime = currentTime;
+      }
+
+      const deltaTime = currentTime - lastTime;
+
+      lastTime = currentTime;
+
+
+      if (!isDragging && loopWidth > 0) {
+
+        /*
+         * Delta time makes the movement
+         * smooth and consistent.
+         */
+
+        position -= speed * (deltaTime / 16.67);
+
+        normalizePosition();
+
+        updatePosition();
+      }
+
+
+      requestAnimationFrame(animate);
     }
 
-    slider.style.transform = `translate3d(${position}px, 0, 0)`;
+
+    /* ========================================
+       MOUSE DRAG START
+    ======================================== */
+
+    slider.addEventListener("mousedown", function(event) {
+
+      isDragging = true;
+
+      startX = event.pageX;
+
+      startPosition = position;
+
+      slider.style.cursor = "grabbing";
+
+      event.preventDefault();
+
+    });
+
+
+    /* ========================================
+       MOUSE DRAG MOVE
+    ======================================== */
+
+    document.addEventListener("mousemove", function(event) {
+
+      if (!isDragging) return;
+
+      const movement = event.pageX - startX;
+
+      position = startPosition + movement;
+
+      normalizePosition();
+
+      updatePosition();
+
+    });
+
+
+    /* ========================================
+       MOUSE DRAG END
+    ======================================== */
+
+    document.addEventListener("mouseup", function() {
+
+      if (!isDragging) return;
+
+      isDragging = false;
+
+      slider.style.cursor = "grab";
+
+    });
+
+
+    /* ========================================
+       TOUCH START
+    ======================================== */
+
+    slider.addEventListener(
+      "touchstart",
+      function(event) {
+
+        isDragging = true;
+
+        startX = event.touches[0].pageX;
+
+        startPosition = position;
+
+      }, {
+        passive: true
+      }
+    );
+
+
+    /* ========================================
+       TOUCH MOVE
+    ======================================== */
+
+    slider.addEventListener(
+      "touchmove",
+      function(event) {
+
+        if (!isDragging) return;
+
+        const movement =
+          event.touches[0].pageX - startX;
+
+        position = startPosition + movement;
+
+        normalizePosition();
+
+        updatePosition();
+
+      }, {
+        passive: true
+      }
+    );
+
+
+    /* ========================================
+       TOUCH END
+    ======================================== */
+
+    slider.addEventListener("touchend", function() {
+
+      isDragging = false;
+
+    });
+
+
+    /* ========================================
+       TOUCH CANCEL
+    ======================================== */
+
+    slider.addEventListener("touchcancel", function() {
+
+      isDragging = false;
+
+    });
+
+
+    /* ========================================
+       RESIZE
+    ======================================== */
+
+    let resizeTimer;
+
+    window.addEventListener("resize", function() {
+
+      clearTimeout(resizeTimer);
+
+      resizeTimer = setTimeout(function() {
+
+        updateLoopWidth();
+
+      }, 150);
+
+    });
+
+
+    /* ========================================
+       INITIALIZE
+    ======================================== */
+
+    slider.style.cursor = "grab";
+
+    updateLoopWidth();
+
+    requestAnimationFrame(animate);
+
   });
-
-
-  // Stop mouse dragging
-  document.addEventListener('mouseup', () => {
-    if (!isDragging) return;
-
-    isDragging = false;
-    slider.style.cursor = 'grab';
-  });
-
-
-  // Start dragging on touch devices
-  slider.addEventListener('touchstart', e => {
-    isDragging = true;
-    startX = e.touches[0].pageX;
-    startPosition = position;
-  }, {
-    passive: true
-  });
-
-
-  // Move slider on touch
-  slider.addEventListener('touchmove', e => {
-    if (!isDragging) return;
-
-    position = startPosition + (e.touches[0].pageX - startX);
-
-    if (position > 0) {
-      position = 0;
-    }
-
-    if (position < -loopWidth) {
-      position = -loopWidth;
-    }
-
-    slider.style.transform = `translate3d(${position}px, 0, 0)`;
-  }, {
-    passive: true
-  });
-
-
-  // Stop touch dragging
-  slider.addEventListener('touchend', () => {
-    isDragging = false;
-  });
-
-
-  // Recalculate the slider when the window size changes
-  window.addEventListener('resize', updateLoopWidth);
-
-
-  // Initialize slider
-  updateLoopWidth();
-  moveSlider();
 </script>
 <?php include 'includes/contact_us.php'; ?>
 <?php include 'includes/footer.php'; ?>
