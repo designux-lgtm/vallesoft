@@ -124,7 +124,7 @@
                         </span>
                         <span class="group-hover:ml-1 transition-all">Career</span></a>
                     <a class="group inline-flex items-center text-sm text-secondary-foreground/70 hover:text-primary transition-colors"
-                        href="#portfolio">
+                        href="contact-us.php">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -224,14 +224,13 @@
                         <span>C-47, 3rd Floor, DDA Sheds, Okhla Industrial Area, Phase-1, New Delhi-110020, India.</span>
                     </div>
                     <div class="flex items-start gap-3 text-secondary-foreground/80">
-                        <span
-                            class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-clock w-3.5 h-3.5 text-primary">
+                        <span class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-3.5 h-3.5 text-primary">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg></span><span>Mon – Fri 10:00 – 7:00 24/7 Support</span>
+                            </svg>
+                        </span>
+                        <span>Mon – Fri 10:00 – 7:00 24/7 Support</span>
                     </div>
                 </div>
             </div>
