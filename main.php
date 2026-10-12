@@ -61,8 +61,21 @@
   }
 </style>
 <div class="min-h-screen flex flex-col bg-background">
+  <style>
+    .background {
+      width: 100%;
+      /* min-height: 600px; */
 
-  <div class="relative overflow-hidden isolate bg-secondary text-secondary-foreground pt-12 pb-12 ">
+      background-image: url("assets/images/background_image_main.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: scroll;
+      background-color: #f5f8ff;
+      align-items: center;
+    }
+  </style>
+  <div class=" relative  background pt-12 pb-12">
     <div aria-hidden="true" class="pointer-events-none absolute inset-0 grid-pattern-dark radial-fade-top opacity-80">
     </div>
     <div aria-hidden="true" class="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[1100px] h-[700px] rounded-full blur-[120px] opacity-60" style=" background: radial-gradient( closest-side, rgba(255, 171, 26, 0.55), rgba(230, 107, 0, 0.18) 60%, transparent 80%);">
@@ -116,47 +129,12 @@
                 </button>
               </a>
             </div>
-
           </div>
           <div class="relative" style="opacity: 1; transform: none">
-            <div
-              class="relative aspect-[5/4] rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_80px_-40px_hsl(38_100%_55%/0.5)]">
-              <img src="assets/images/abb3815218d7e2729c4a8f0b3d70dfb4.jpg" alt=""
-                class="absolute inset-0 w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-gradient-to-t from-secondary/95 via-secondary/30 to-transparent"></div>
-              <div class="absolute top-4 left-4 right-4 flex justify-between">
-                <span
-                  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">
-                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse">
-                  </span>
-                  24/7 SUPPORT
-                </span>
-                <span
-                  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-primary text-primary-foreground">ISO
-                  CERTIFIED</span>
-              </div>
-              <div
-                class="absolute left-4 right-4 bottom-4 p-4 rounded-2xl bg-secondary/80 border border-white/10 backdrop-blur-xl">
-                <div class="flex items-center gap-3">
-                  <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="lucide lucide-zap w-5 h-5 text-primary-foreground">
-                      <path
-                        d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
-                      </path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-white font-semibold text-sm leading-tight">
-                      100+ Projects Delivered
-                    </p>
-                    <p class="text-white/60 text-xs mt-0.5">
-                      Trusted by businesses across India & Worldwide
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="relative aspect-[5/4] rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_80px_-40px_hsl(38_100%_55%/0.5)]">
+              <img src="assets/images/ChatGPT-Image-Aug-9-2026-05_52_54-PM.png" alt=""
+                class="" />
+              <div class=""></div>
             </div>
           </div>
         </div>

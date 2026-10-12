@@ -15,24 +15,115 @@
                 </div> -->
         </div>
     </div>
+    <!-- <style>
+        .video-container {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+    </style> -->
+    <style>
+        .video-box {
+            width: 100%;
+            height: 383px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .video-box video {
+            width: 100%;
+            height: calc(100% + 150px);
+            /* object-fit: cover; */
+            object-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .video-effect {
+            position: relative;
+            width: 100%;
+            /* height: 400px; */
+            overflow: hidden;
+            border-radius: 12px;
+            background: #080b12;
+            box-shadow: 0 8px 35px rgba(0, 120, 255, 0.15);
+        }
+
+        .video-effect video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .shine {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -70%;
+            width: 45%;
+            pointer-events: none;
+            background: linear-gradient(100deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.20),
+                    rgba(190, 225, 255, 0.32),
+                    transparent);
+            transform: skewX(-18deg);
+            animation: glassShine 5s ease-in-out infinite;
+        }
+
+        @keyframes glassShine {
+
+            0%,
+            20% {
+                left: -70%;
+            }
+
+            80%,
+            100% {
+                left: 130%;
+            }
+        }
+    </style>
     <section class="mb-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
-                    <div class="space-y-3">
-                        <h4 class="font-display font-semibold scroll-animation">CRM - Customer Relationship Management</h4>
-                        <p class="scroll-animation">CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
-                        </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="space-y-3">
+                                <h4 class="font-display font-semibold scroll-animation">CRM - Customer Relationship Management</h4>
+                                <p class="scroll-animation">CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
+                                </p>
 
 
-                        <ul class="list-disc list-outside ml-4">
-                            <li class="scroll-animation">
-                                <p>Through our CRM, Customer Relationship Management Solution (VSCRM) we strive to deliver significant advantages and value to our client and partners through innovative service and flexible solution.</p>
-                            </li>
-                            <li class="scroll-animation">
-                                <p>We provide the complete suite of solution to design/develop company policies and improve effectiveness by organizational restructuring</p>
-                            </li>
-                        </ul>
+                                <ul class="list-disc list-outside ml-4">
+                                    <li class="scroll-animation">
+                                        <p>Through our CRM, Customer Relationship Management Solution (VSCRM) we strive to deliver significant advantages and value to our client and partners through innovative service and flexible solution.</p>
+                                    </li>
+                                    <li class="scroll-animation">
+                                        <p>We provide the complete suite of solution to design/develop company policies and improve effectiveness by organizational restructuring</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="video-box video-effect">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/images/aa.mp4" type="video/mp4">
+                                </video>
+                                <div class="shine"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="space-y-3">
                         <h4 class="font-display font-semibold scroll-animation">We help our client to: </h4>
@@ -314,10 +405,10 @@
                     <div class="scroll-animation scroll-left">
                         <img src="assets/images/1_SBH_Y5t32ixv8C_F1MVYzA.png" alt="" class="">
                     </div>
-                    
+
                 </div>
                 <div>
-                    <div class="scroll-animation scroll-right flex flex-col items-start text-left max-w-3xl  space-y-5" >
+                    <div class="scroll-animation scroll-right flex flex-col items-start text-left max-w-3xl  space-y-5">
                         <h4 class="font-display font-semibold">Client Care Functionality</h4>
                         <ul class="list-disc list-outside ml-4 space-y-3">
                             <li class="">Case Recording: Recording Complaints, problems, questions or other queries (case records)</li>
