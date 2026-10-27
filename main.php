@@ -89,7 +89,7 @@
     width: 100%;
     min-height: 650px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     overflow: hidden;
     isolation: isolate;
     background: #070b18;

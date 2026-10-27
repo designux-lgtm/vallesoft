@@ -1104,23 +1104,30 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous">
 </script>
+
 <script>
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
+                    // Element screen par aane par animation
                     entry.target.classList.add("show");
+                } else {
+                    // Screen se bahar jane par reset
+                    entry.target.classList.remove("show");
                 }
             });
-        }, {
-            threshold: 0.2,
         },
+        {
+            threshold: 0.2,
+        }
     );
 
     document.querySelectorAll(".scroll-animation").forEach((el) => {
         observer.observe(el);
     });
 </script>
+
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const counters = document.querySelectorAll(".gradient-text");
