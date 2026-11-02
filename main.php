@@ -3,10 +3,11 @@
   .owl-demo-6 {
     display: flex;
     width: max-content;
-    gap: 48px;
+    gap: 75px;
     cursor: grab;
     user-select: none;
     will-change: transform;
+    align-items: center;
   }
 
   .owl-demo-6:active {
@@ -255,7 +256,7 @@
 
   <div class="hero ">
     <div class="">
-      <video class="hero-video" autoplay muted  playsinline poster="video-poster.jpg">
+      <video class="hero-video" autoplay muted playsinline poster="video-poster.jpg">
         <source src="assets/images/home1 - Trim.mp4" type="video/mp4">
       </video>
 
@@ -1172,7 +1173,7 @@
     </div>
   </div>
 </section>
-<section class="scroll-animation  border-y border-border bg-background py-3 px-4 mb-5">
+<!-- <section class="scroll-animation  border-y border-border bg-background py-3 px-4 mb-5">
   <div class="slider-wrapper max-w-7xl mx-auto overflow-hidden scrollbar-none">
     <div class="owl-demo-6">
       <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
@@ -1228,6 +1229,118 @@
       </div>
       <div class="item flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
         <img class="p-1" style="width: 150px; height:86px;" src="assets/images/india_vision_foundation.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<style>
+  .logo-box {
+    width: 125px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .logo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    filter: brightness(0) invert(1);
+  }
+
+  .homeslider::after {
+    right: 0;
+    background: linear-gradient(to left, #f8f7f5 0, rgba(248, 247, 245, 0) 100%);
+  }
+
+
+  .logo-slider {
+    width: 100%;
+    overflow: hidden;
+
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 15%,
+        black 85%,
+        transparent 100%
+    );
+
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 15%,
+        black 85%,
+        transparent 100%
+    );
+}
+</style>
+
+<section class="scroll-animation  bg-background py-5 px-4 mb-5" style="background: #204855;">
+  <div class="scroll-animation flex flex-col items-center text-center max-w-3xl mx-auto show">
+    <h2 class="font-display font-bold leading-[1.05] mb-4 text-3xl md:text-4xl lg:text-[2.75rem] text-foreground text-white ">
+      Our Partners
+    </h2>
+  </div>
+  <div class="mt-14 logo-slider homeslider slider-wrapper max-w-7xl mx-auto overflow-hidden scrollbar-none">
+    <div class="owl-demo-6">
+      <div class="logo-box ">
+        <img src="assets/images/logo/png-clipart-sos-children-s-villages-charitable-organization-job-non-profit-organisation-sos-children-s-villages.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/DCCW Children’s Sunrise Logo.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/black-LOGO-1.png" alt="" />
+      </div>
+      <div class=" logo-box">
+        <img src="assets/images/logo/Multilingual Literacy Emblem Since 1996.png" alt="" />
+      </div>
+      <div class=" logo-box">
+        <img src="assets/images/logo/Cropped - LOGO.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/png-clipart-logo-navjyoti-india-foundation-non-governmental-organisations-in-india-organization-others-text-logo.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/logo-new-green.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/Plan_International_Logo.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/ivf_logo_new-1536x774.png" alt="" />
+      </div>
+      <div class=" logo-box">
+        <img src="assets/images/logo/Bright Yellow Rounded “lephone” Wordmark.png" alt="" />
+      </div>
+      <div class=" logo-box">
+        <img style="height: 58px; " src="assets/images/logo/cropped-logo-2.png" alt="" />
+      </div>
+      <div class="logo-box">
+        <img src="assets/images/logo/main-logo.png" alt="" />
+      </div>
+      <div class=" logo-box">
+        <img src="assets/images/logo/c-logo-2.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/8fca910d-9967-4f8b-84d9-6b974d630a20.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/AliveLogo.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/t163a044f055524.png" alt="" />
+      </div>
+      <div class=" logo-box">
+        <img src="assets/images/logo/logo-black.png" alt="" />
+      </div>
+      <div class="logo-box ">
+        <img src="assets/images/logo/action_aid.png" alt="" />
       </div>
     </div>
   </div>
