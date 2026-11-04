@@ -1258,26 +1258,18 @@
   }
 
 
+
+
+
   .logo-slider {
-    width: 100%;
-    overflow: hidden;
-
-    -webkit-mask-image: linear-gradient(
-        to right,
+    -webkit-mask-image: linear-gradient(to right,
         transparent 0%,
-        black 15%,
-        black 85%,
-        transparent 100%
-    );
-
-    mask-image: linear-gradient(
-        to right,
-        transparent 0%,
-        black 15%,
-        black 85%,
-        transparent 100%
-    );
-}
+        rgba(0, 0, 0, 0.9) 5%,
+        #000 90%,
+        #000 95%,
+        rgba(0, 0, 0, 0.9) 90%,
+        transparent 100%);
+  }
 </style>
 
 <section class="scroll-animation  bg-background py-5 px-4 mb-5" style="background: #204855;">
