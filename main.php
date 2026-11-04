@@ -1261,7 +1261,7 @@
 
 
 
-  .logo-slider {
+  /* .logo-slider {
     -webkit-mask-image: linear-gradient(to right,
         transparent 0%,
         rgba(0, 0, 0, 0.9) 5%,
@@ -1269,7 +1269,7 @@
         #000 95%,
         rgba(0, 0, 0, 0.9) 90%,
         transparent 100%);
-  }
+  } */
 </style>
 
 <section class="scroll-animation  bg-background py-5 px-4 mb-5" style="background: #204855;">
