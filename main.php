@@ -497,6 +497,242 @@
     </div>
   </div>
 </section>
+
+
+
+
+  <style>
+    /* MAIN SECTION */
+    .video-section {
+      width: 100%;
+      padding: 40px 15px;
+      background: #ffffff;
+    }
+
+    /* VIDEO OUTER CONTAINER */
+    .video-box {
+      width: 100%;
+      /* max-width: 1100px; */
+      height: 600px;
+      margin: auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 18px;
+      background: #050b18;
+      isolation: isolate;
+      box-shadow: 0 15px 50px rgba(0, 30, 80, 0.20);
+    }
+
+    /* BACKGROUND VIDEO */
+    .background-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: 0;
+    }
+
+    /* DARK GRADIENT OVERLAY */
+    .video-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(135deg,
+          rgba(2, 10, 30, 0.45),
+          rgba(0, 70, 150, 0.15),
+          rgba(2, 10, 30, 0.55));
+    }
+
+    /* FOREGROUND VIDEO FRAME */
+    .main-video-frame {
+      position: absolute;
+      width: 76%;
+      /* height: 82%; */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+
+      overflow: hidden;
+      border-radius: 14px;
+
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.45);
+
+      box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.45),
+        0 0 35px rgba(0, 130, 255, 0.25);
+
+      backdrop-filter: blur(8px);
+    }
+
+    /* MAIN VIDEO */
+    .main-video-frame video {
+      width: 100%;
+      /* height: 100%; */
+      display: block;
+      object-fit: contain;
+      object-position: center;
+      background: #050b18;
+    }
+
+    /* FRAME LIGHT EFFECT */
+    .main-video-frame::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: inherit;
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    /* ANIMATED SHINE */
+    .shine {
+      position: absolute;
+      top: -20%;
+      left: -70%;
+      width: 35%;
+      height: 140%;
+
+      z-index: 4;
+      pointer-events: none;
+
+      background: linear-gradient(100deg,
+          transparent,
+          rgba(255, 255, 255, 0.08),
+          rgba(255, 255, 255, 0.30),
+          rgba(190, 225, 255, 0.12),
+          transparent);
+
+      transform: skewX(-20deg);
+      animation: glassShine 6s ease-in-out infinite;
+    }
+
+    @keyframes glassShine {
+
+      0%,
+      15% {
+        left: -70%;
+      }
+
+      75%,
+      100% {
+        left: 140%;
+      }
+    }
+
+    /* RESPONSIVE TABLET */
+    @media (max-width: 768px) {
+
+      .video-box {
+        height: 360px;
+      }
+
+      .main-video-frame {
+        width: 88%;
+        height: 75%;
+      }
+    }
+
+    /* RESPONSIVE MOBILE */
+    @media (max-width: 480px) {
+
+      .video-section {
+        padding: 20px 10px;
+      }
+
+      .video-box {
+        height: 260px;
+        border-radius: 12px;
+      }
+
+      .main-video-frame {
+        width: 92%;
+        height: 72%;
+        border-radius: 9px;
+      }
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="video-section max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <div class="video-box ">
+
+      <!-- BACKGROUND VIDEO -->
+      <video
+        class="background-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata">
+
+        <source
+          src="assets/images/background.mp4"
+          type="video/mp4">
+
+      </video>
+
+      <!-- DARK OVERLAY -->
+      <div class="video-overlay"></div>
+
+      <!-- MAIN FOREGROUND VIDEO -->
+      <div class="main-video-frame">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata">
+
+          <source
+            src="assets/images/ValleSoft_video_1080p_optimized.mp4"
+            type="video/mp4">
+
+        </video>
+
+      </div>
+
+      <!-- SHINE ANIMATION -->
+      <div class="shine"></div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="mb-5 bg-background">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="scroll-animation flex flex-col items-center text-center max-w-3xl mx-auto">
@@ -1261,7 +1497,7 @@
 
 
 
-  /* .logo-slider {
+  .logo-slider {
     -webkit-mask-image: linear-gradient(to right,
         transparent 0%,
         rgba(0, 0, 0, 0.9) 5%,
@@ -1269,12 +1505,11 @@
         #000 95%,
         rgba(0, 0, 0, 0.9) 90%,
         transparent 100%);
-  } */
+  }
 </style>
-
 <section class="scroll-animation  bg-background py-5 px-4 mb-5" style="background: #204855;">
   <div class="scroll-animation flex flex-col items-center text-center max-w-3xl mx-auto show">
-    <h2 class="font-display font-bold leading-[1.05] mb-4 text-3xl md:text-4xl lg:text-[2.75rem] text-foreground text-white ">
+    <h2 class="font-display font-bold leading-[1.05] text-3xl md:text-4xl lg:text-[2.75rem] text-foreground text-white ">
       Our Partners
     </h2>
   </div>

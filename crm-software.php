@@ -15,21 +15,7 @@
                 </div> -->
         </div>
     </div>
-    <!-- <style>
-        .video-container {
-            width: 100%;
-            height: 400px;
-            overflow: hidden;
-        }
 
-        .video-container video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-            display: block;
-        }
-    </style> -->
     <style>
         .video-box {
             width: 100%;
@@ -464,5 +450,5 @@
 
 
 </div>
-<?php include 'includes/contact_us.php'; ?>
+ 
 <?php include 'includes/footer.php'; ?>

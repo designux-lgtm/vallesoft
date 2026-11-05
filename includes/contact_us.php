@@ -97,7 +97,6 @@
         </div>
     </div>
 </section>
-
 <section class="scroll-animation  px-4 sm:px-6 lg:px-8">
     <div class="mb-5" style="opacity: 1; transform: none">
         <div class="">

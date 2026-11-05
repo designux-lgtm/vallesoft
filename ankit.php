@@ -1,240 +1,505 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Background Hero</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+<title>ValleSoft Cinematic Video Experience</title>
+
+<style>
+
+/* ===============================
+   MAIN SECTION
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+.video-section {
+    width: 100%;
+    padding: 45px 15px;
+    background: #ffffff;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1150px;
+    height: 520px;
+    margin: auto;
+    overflow: hidden;
+    isolation: isolate;
+    border-radius: 22px;
+    background: #030817;
+    box-shadow:
+        0 25px 70px rgba(0, 20, 70, 0.22),
+        0 0 35px rgba(0, 140, 255, 0.12);
+}
+
+/* ===============================
+   ANIMATED BACKGROUND
+================================ */
+
+.animated-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse at 15% 20%,
+            rgba(0, 115, 255, .42), transparent 40%),
+        radial-gradient(ellipse at 85% 80%,
+            rgba(125, 40, 255, .35), transparent 42%),
+        radial-gradient(ellipse at 50% 50%,
+            rgba(0, 70, 160, .22), transparent 60%),
+        #030817;
+}
+
+/* MOVING LIGHT BLOBS */
+
+.animated-bg::before {
+    content: "";
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    top: -40%;
+    left: -20%;
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle,
+        rgba(0, 145, 255, .34),
+        rgba(0, 80, 255, .10) 40%,
+        transparent 70%
+    );
+
+    filter: blur(45px);
+    animation: blueOrb 12s ease-in-out infinite alternate;
+}
+
+.animated-bg::after {
+    content: "";
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    right: -20%;
+    bottom: -55%;
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle,
+        rgba(140, 50, 255, .32),
+        rgba(40, 80, 255, .10) 45%,
+        transparent 70%
+    );
+
+    filter: blur(50px);
+    animation: purpleOrb 14s ease-in-out infinite alternate;
+}
+
+@keyframes blueOrb {
+    0% {
+        transform: translate(0, 0) scale(.85);
     }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: #070b18;
-      color: #fff;
+    100% {
+        transform: translate(240px, 180px) scale(1.25);
     }
+}
 
-    /* Main section */
-    .hero {
-      position: relative;
-      width: 100%;
-      min-height: 650px;
-      display: flex;
-      align-items: center;
-      overflow: hidden;
-      isolation: isolate;
-      background: #070b18;
+@keyframes purpleOrb {
+    0% {
+        transform: translate(0, 0) scale(1);
     }
-
-    /* Video background */
-    .hero-video {
-      position: absolute;
-      inset: 0;
-      /* width: 100%; */
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      z-index: -2;
-      left: 312px;
+    100% {
+        transform: translate(-220px, -150px) scale(1.3);
     }
+}
 
-    /* Dark overlay */
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      z-index: -1;
-      background:
-        linear-gradient(90deg,
-          rgba(5, 8, 22, 0.98) 0%,
-          rgba(5, 8, 22, 0.85) 35%,
-          rgba(5, 8, 22, 0.30) 75%,
-          rgba(5, 8, 22, 0.15) 100%);
+/* ===============================
+   DIGITAL GRID
+================================ */
+
+.digital-grid {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    background-image:
+        linear-gradient(rgba(70, 150, 255, .09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(70, 150, 255, .09) 1px, transparent 1px);
+
+    background-size: 48px 48px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    animation: gridMove 18s linear infinite;
+}
+
+@keyframes gridMove {
+    from {
+        background-position: 0 0;
     }
-
-    /* Left-side text */
-    .hero-content {
-      width: 100%;
-      max-width: 720px;
-      padding: 90px 0 90px 8%;
-      position: relative;
-      z-index: 1;
-      animation: fadeUp 1s ease both;
+    to {
+        background-position: 48px 48px;
     }
+}
 
-    .badge {
-      display: inline-block;
-      padding: 10px 16px;
-      margin-bottom: 24px;
-      border: 1px solid rgba(122, 151, 255, 0.4);
-      border-radius: 50px;
-      background: rgba(69, 100, 255, 0.12);
-      color: #b9caff;
-      font-size: 12px;
-      letter-spacing: 2px;
+/* ===============================
+   FLOATING PARTICLES
+================================ */
+
+.particle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #65caff;
+
+    box-shadow:
+        0 0 8px #36aaff,
+        0 0 20px #008cff,
+        0 0 35px #008cff;
+
+    animation: particleFloat 7s ease-in-out infinite alternate;
+}
+
+.p1 { top: 15%; left: 12%; animation-delay: 0s; }
+.p2 { top: 70%; left: 20%; animation-delay: 2s; }
+.p3 { top: 25%; right: 15%; animation-delay: 1s; }
+.p4 { top: 80%; right: 20%; animation-delay: 3s; }
+.p5 { top: 45%; left: 8%; animation-delay: 4s; }
+.p6 { top: 18%; right: 35%; animation-delay: 2s; }
+.p7 { bottom: 12%; left: 45%; animation-delay: 1s; }
+.p8 { top: 55%; right: 9%; animation-delay: 3s; }
+
+@keyframes particleFloat {
+    0% {
+        transform: translate3d(0, 0, 0) scale(.7);
+        opacity: .3;
     }
-
-    .hero h1 {
-      font-size: clamp(40px, 5vw, 72px);
-      line-height: 1.08;
-      letter-spacing: -2px;
-      font-weight: 750;
-      margin-bottom: 25px;
-    }
-
-    .hero h1 span {
-      background: linear-gradient(90deg, #65b4ff, #a78bfa);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-
-    .hero p {
-      max-width: 530px;
-      color: #c0c7d8;
-      font-size: 17px;
-      line-height: 1.8;
-      margin-bottom: 32px;
-    }
-
-    .buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 15px 24px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      transition: 0.3s ease;
-    }
-
-    .btn-primary {
-      color: #fff;
-      background: linear-gradient(110deg, #367cff, #8057f5);
-      box-shadow: 0 8px 28px rgba(74, 93, 255, 0.28);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 35px rgba(74, 93, 255, 0.45);
-    }
-
-    .btn-secondary {
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      background: rgba(255, 255, 255, 0.06);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255, 255, 255, 0.13);
-    }
-
-    @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(25px);
-      }
-
-      to {
+    50% {
         opacity: 1;
-        transform: translateY(0);
-      }
+    }
+    100% {
+        transform: translate3d(25px, -45px, 0) scale(1.5);
+        opacity: .7;
+    }
+}
+
+/* ===============================
+   BACKGROUND VIDEO (OPTIONAL)
+================================ */
+
+.background-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .16;
+    z-index: 2;
+    mix-blend-mode: screen;
+}
+
+/* ===============================
+   CINEMATIC LIGHT BEAMS
+================================ */
+
+.light-beam {
+    position: absolute;
+    width: 120%;
+    height: 2px;
+    left: -10%;
+    top: 50%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(0, 170, 255, .7),
+        rgba(180, 100, 255, .7),
+        transparent
+    );
+
+    filter: blur(2px);
+    opacity: .65;
+    z-index: 2;
+
+    transform: rotate(-15deg);
+    animation: beamMove 7s ease-in-out infinite alternate;
+}
+
+@keyframes beamMove {
+    0% {
+        transform: translateY(-100px) rotate(-15deg);
+        opacity: .2;
+    }
+    100% {
+        transform: translateY(130px) rotate(-15deg);
+        opacity: .8;
+    }
+}
+
+/* ===============================
+   MAIN VIDEO FRAME
+================================ */
+
+.main-video-frame {
+    position: absolute;
+    width: 76%;
+    height: 78%;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 16px;
+    padding: 3px;
+
+    background: linear-gradient(
+        135deg,
+        #65d7ff,
+        rgba(0, 100, 255, .35),
+        #a46aff,
+        #38cfff
+    );
+
+    background-size: 300% 300%;
+    animation:
+        borderGlow 7s ease infinite,
+        floatingFrame 6s ease-in-out infinite;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, .55),
+        0 0 25px rgba(0, 145, 255, .40),
+        0 0 65px rgba(90, 60, 255, .20);
+}
+
+@keyframes borderGlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes floatingFrame {
+    0%, 100% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: -7px;
+    }
+}
+
+/* ===============================
+   MAIN VIDEO
+================================ */
+
+.main-video-inner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 13px;
+    background: #020817;
+}
+
+.main-video-inner video {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    object-fit: contain;
+    object-position: center;
+
+    background: #020817;
+}
+
+/* ===============================
+   VIDEO REFLECTION
+================================ */
+
+.video-reflection {
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    pointer-events: none;
+
+    background: linear-gradient(
+        125deg,
+        rgba(255,255,255,.10),
+        transparent 22%,
+        transparent 75%,
+        rgba(80,160,255,.10)
+    );
+}
+
+/* ===============================
+   ANIMATED SHINE
+================================ */
+
+.shine {
+    position: absolute;
+    width: 35%;
+    height: 150%;
+    top: -25%;
+    left: -60%;
+    z-index: 7;
+
+    pointer-events: none;
+
+    background: linear-gradient(
+        100deg,
+        transparent,
+        rgba(255,255,255,.05),
+        rgba(255,255,255,.30),
+        rgba(120,200,255,.12),
+        transparent
+    );
+
+    transform: skewX(-20deg);
+    animation: premiumShine 6s ease-in-out infinite;
+}
+
+@keyframes premiumShine {
+    0%, 15% {
+        left: -60%;
+    }
+    75%, 100% {
+        left: 140%;
+    }
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media(max-width: 768px) {
+
+    .video-container {
+        height: 380px;
+        border-radius: 15px;
     }
 
-    /* Mobile responsive */
-    @media (max-width: 768px) {
-      .hero {
-        min-height: 650px;
-      }
-
-      .hero-content {
-        padding: 80px 7%;
-      }
-
-      .hero h1 {
-        font-size: clamp(36px, 9vw, 52px);
-        letter-spacing: -1px;
-      }
-
-      .hero p {
-        font-size: 15px;
-      }
-
-      .hero::before {
-        background: linear-gradient(90deg,
-            rgba(5, 8, 22, 0.9),
-            rgba(5, 8, 22, 0.65));
-      }
+    .main-video-frame {
+        width: 90%;
+        height: 72%;
     }
 
-    @media (prefers-reduced-motion: reduce) {
-      .hero-content {
-        animation: none;
-      }
-
-      .btn {
-        transition: none;
-      }
+    .digital-grid {
+        background-size: 35px 35px;
     }
-  </style>
+}
+
+@media(max-width: 480px) {
+
+    .video-section {
+        padding: 20px 10px;
+    }
+
+    .video-container {
+        height: 270px;
+        border-radius: 12px;
+    }
+
+    .main-video-frame {
+        width: 94%;
+        height: 68%;
+        border-radius: 10px;
+    }
+
+    .main-video-inner {
+        border-radius: 8px;
+    }
+
+    .particle {
+        width: 3px;
+        height: 3px;
+    }
+
+}
+
+/* REDUCE MOTION FOR ACCESSIBILITY */
+
+@media (prefers-reduced-motion: reduce) {
+    .video-container *,
+    .video-container *::before,
+    .video-container *::after {
+        animation: none !important;
+    }
+}
+
+</style>
 </head>
 
 <body>
 
-  <section class="hero">
+<section class="video-section">
 
-    <!-- Background video -->
-    <video class="hero-video"
-      autoplay
-      muted
-      loop
-      playsinline
-      poster="video-poster.jpg">
-      <source src="assets/images/home1.mp4" type="video/mp4">
-    </video>
+    <div class="video-container">
 
-    <!-- Left side text over video -->
-    <div class="hero-content">
+        <!-- ANIMATED BACKGROUND -->
+        <div class="animated-bg"></div>
 
-      <div class="badge">
-        INNOVATION • TECHNOLOGY • GROWTH
-      </div>
+        <!-- DIGITAL GRID -->
+        <div class="digital-grid"></div>
 
-      <h1 class="font-display font-bold text-white text-4xl sm:text-5xl lg:text-[3.75rem] leading-[1.05] mt-6">
-        All Your Customers
-        <span class="gradient-text">One Powerful CRM.</span>
-      </h1>
+        <!-- PARTICLES -->
+        <div class="particle p1"></div>
+        <div class="particle p2"></div>
+        <div class="particle p3"></div>
+        <div class="particle p4"></div>
+        <div class="particle p5"></div>
+        <div class="particle p6"></div>
+        <div class="particle p7"></div>
+        <div class="particle p8"></div>
 
-      <p>
-        We create innovative digital experiences and powerful
-        software solutions that help businesses grow, innovate,
-        and stand out in a rapidly changing world.
-      </p>
+        <!-- OPTIONAL BACKGROUND VIDEO -->
+        <video class="background-video"
+               autoplay muted loop playsinline
+               preload="metadata">
 
-      <div class="buttons">
-        <a href="#services" class="btn btn-primary">
-          Explore Our Services →
-        </a>
+            <source src="assets/images/background.mp4"
+                    type="video/mp4">
 
-        <a href="#contact" class="btn btn-secondary">
-          Let's Talk
-        </a>
-      </div>
+        </video>
+
+        <!-- LIGHT BEAM -->
+        <div class="light-beam"></div>
+
+        <!-- MAIN VALLESOFT VIDEO -->
+        <div class="main-video-frame">
+
+            <div class="main-video-inner">
+
+                <video autoplay muted loop playsinline
+                       preload="metadata">
+
+                    <source
+                        src="assets/images/ValleSoft_video_1080p_optimized.mp4"
+                        type="video/mp4">
+
+                </video>
+
+                <div class="video-reflection"></div>
+
+            </div>
+
+        </div>
+
+        <!-- GLASS SHINE -->
+        <div class="shine"></div>
 
     </div>
 
-  </section>
+</section>
 
 </body>
-
 </html>

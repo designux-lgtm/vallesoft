@@ -11,8 +11,8 @@
               transparent 70%
             );
           "></div>
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-10">
-        <div class="grid grid-cols-1 lg:grid-cols-[1.4fr,1fr,1fr,1fr] gap-10 lg:gap-12 mb-14">
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-4">
+        <div class="grid grid-cols-1 lg:grid-cols-[1.4fr,1fr,1fr,1fr] gap-10 lg:gap-12 mb-5">
             <div class="max-w-sm">
                 <a class="inline-flex" aria-label="Volt &amp; Spark Electric â€” home" href="#">
                     <div class="flex items-center gap-2.5 group">
@@ -195,7 +195,7 @@
                             </svg>
                         </span>011-35622522
                     </a>
-                    <a href="mailto:info@voltandspark.com"
+                    <a href="mailto:support@vallesoft.com"
                         class="flex items-start gap-3 text-secondary-foreground/80 hover:text-primary transition-colors">
                         <span
                             class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
@@ -206,7 +206,7 @@
                                 <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                             </svg>
-                        </span>info@voltandspark.com
+                        </span>support@vallesoft.com
                     </a>
                     <div class="flex items-start gap-3 text-secondary-foreground/80">
                         <span
@@ -235,15 +235,15 @@
                 </div>
             </div>
         </div>
-        <div class="border-t border-white/10 pt-7 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div class="border-t border-white/10 pt-7 flex flex-col sm:flex-row justify-center items-center gap-4">
             <p class="text-secondary-foreground/55 text-xs">
-                © 2003 - 2026 ValleSoft.com All Rights Reserved
+                 © 2026 vallesoft.com All Rights Reserved
             </p>
-            <div class="flex gap-6 text-xs">
+            <!-- <div class="flex gap-6 text-xs">
                 <a class="text-secondary-foreground/55 hover:text-primary transition-colors" href="#">Privacy Policy</a>
                 <a class="text-secondary-foreground/55 hover:text-primary transition-colors" href="#">Terms of Service</a>
                 <a class="text-secondary-foreground/55 hover:text-primary transition-colors" href="#">Sitemap</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </footer>

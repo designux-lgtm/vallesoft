@@ -124,5 +124,5 @@
 
 
 </div>
-<?php include 'includes/contact_us.php'; ?>
+ 
 <?php include 'includes/footer.php'; ?>
