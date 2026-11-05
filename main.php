@@ -1519,7 +1519,7 @@
         <img src="assets/images/logo/png-clipart-sos-children-s-villages-charitable-organization-job-non-profit-organisation-sos-children-s-villages.png" alt="" />
       </div>
       <div class="logo-box ">
-        <img src="assets/images/logo/DCCW Children’s Sunrise Logo.png" alt="" />
+        <img src="assets/images/logo/DCCW.png" alt="" />
       </div>
       <div class="logo-box ">
         <img src="assets/images/logo/black-LOGO-1.png" alt="" />
@@ -1543,7 +1543,7 @@
         <img src="assets/images/logo/ivf_logo_new-1536x774.png" alt="" />
       </div>
       <div class=" logo-box">
-        <img src="assets/images/logo/Bright Yellow Rounded “lephone” Wordmark.png" alt="" />
+        <img src="assets/images/logo/lephone.png" alt="" />
       </div>
       <div class=" logo-box">
         <img style="height: 58px; " src="assets/images/logo/cropped-logo-2.png" alt="" />

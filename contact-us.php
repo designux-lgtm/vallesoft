@@ -181,7 +181,7 @@
                             </div>
                             <div class="relative flex items-start " style=" text-align: center; align-items: center;">
 
-                                <img class="w-50 " src="assets/images/—Pngtree—customer contact praise support illustration_6476582.png" alt="">
+                                <img class="w-50 " src="assets/images/Pngtree-customer.png" alt="">
 
                                 <div>
 
