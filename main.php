@@ -20,14 +20,6 @@
   }
 
 
-
-
-
-
-
-
-
-
   .slider-wrapper {
     width: 100%;
     overflow: hidden;
@@ -144,28 +136,7 @@
     letter-spacing: 2px;
   }
 
-  /* .hero h1 {
-    font-size: clamp(40px, 5vw, 72px);
-    line-height: 1.08;
-    letter-spacing: -2px;
-    font-weight: 750;
-    margin-bottom: 25px;
-  } */
 
-  /* .hero h1 span {
-    background: linear-gradient(90deg, #65b4ff, #a78bfa);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  } */
-
-  /* .hero p {
-    max-width: 530px;
-    color: #c0c7d8;
-    font-size: 17px;
-    line-height: 1.8;
-    margin-bottom: 32px;
-  } */
 
   .buttons {
     display: flex;
@@ -249,6 +220,38 @@
 
     .btn {
       transition: none;
+    }
+  }
+
+
+
+
+
+  /* 90% zoom - wider viewport */
+  @media (min-width: 1450px) {
+    .hero-video {
+      position: absolute;
+      inset: 0;
+      /* width: 100%; */
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: -2;
+      left: 430px;
+    }
+  }
+
+  /* 110% zoom - smaller viewport */
+  @media (max-width: 1300px) {
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: 580px;
+      display: flex;
+      /* align-items: center; */
+      overflow: hidden;
+      isolation: isolate;
+      background: #070b18;
     }
   }
 </style>
@@ -346,7 +349,7 @@
   </div>
 
 </div>
-<section class="border-y border-border bg-background py-5 mb-5">
+<section class="border-y border-border bg-background py-5">
   <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
     <div class="flex w-max gap-12 animate-marquee">
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
@@ -501,161 +504,161 @@
 
 
 
-  <style>
-    /* MAIN SECTION */
-    .video-section {
-      width: 100%;
-      padding: 40px 15px;
-      background: #ffffff;
-    }
+<style>
+  /* MAIN SECTION */
+  .video-section {
+    width: 100%;
+    padding: 40px 15px;
+    background: #ffffff;
+  }
 
-    /* VIDEO OUTER CONTAINER */
-    .video-box {
-      width: 100%;
-      /* max-width: 1100px; */
-      height: 600px;
-      margin: auto;
-      position: relative;
-      overflow: hidden;
-      border-radius: 18px;
-      background: #050b18;
-      isolation: isolate;
-      box-shadow: 0 15px 50px rgba(0, 30, 80, 0.20);
-    }
+  /* VIDEO OUTER CONTAINER */
+  .video-box {
+    width: 100%;
+    /* max-width: 1100px; */
+    height: 600px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #050b18;
+    isolation: isolate;
+    box-shadow: 0 15px 50px rgba(0, 30, 80, 0.20);
+  }
 
-    /* BACKGROUND VIDEO */
-    .background-video {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      z-index: 0;
-    }
+  /* BACKGROUND VIDEO */
+  .background-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+  }
 
-    /* DARK GRADIENT OVERLAY */
-    .video-overlay {
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      background: linear-gradient(135deg,
-          rgba(2, 10, 30, 0.45),
-          rgba(0, 70, 150, 0.15),
-          rgba(2, 10, 30, 0.55));
-    }
+  /* DARK GRADIENT OVERLAY */
+  .video-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(135deg,
+        rgba(2, 10, 30, 0.45),
+        rgba(0, 70, 150, 0.15),
+        rgba(2, 10, 30, 0.55));
+  }
 
-    /* FOREGROUND VIDEO FRAME */
-    .main-video-frame {
-      position: absolute;
-      width: 76%;
-      /* height: 82%; */
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 2;
+  /* FOREGROUND VIDEO FRAME */
+  .main-video-frame {
+    position: absolute;
+    width: 76%;
+    /* height: 82%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 
-      overflow: hidden;
-      border-radius: 14px;
+    overflow: hidden;
+    border-radius: 14px;
 
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.45);
 
-      box-shadow:
-        0 20px 60px rgba(0, 0, 0, 0.45),
-        0 0 35px rgba(0, 130, 255, 0.25);
+    box-shadow:
+      0 20px 60px rgba(0, 0, 0, 0.45),
+      0 0 35px rgba(0, 130, 255, 0.25);
 
-      backdrop-filter: blur(8px);
-    }
+    backdrop-filter: blur(8px);
+  }
 
-    /* MAIN VIDEO */
-    .main-video-frame video {
-      width: 100%;
-      /* height: 100%; */
-      display: block;
-      object-fit: contain;
-      object-position: center;
-      background: #050b18;
-    }
+  /* MAIN VIDEO */
+  .main-video-frame video {
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    background: #050b18;
+  }
 
-    /* FRAME LIGHT EFFECT */
-    .main-video-frame::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: inherit;
-      z-index: 3;
-      pointer-events: none;
-    }
+  /* FRAME LIGHT EFFECT */
+  .main-video-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: inherit;
+    z-index: 3;
+    pointer-events: none;
+  }
 
-    /* ANIMATED SHINE */
-    .shine {
-      position: absolute;
-      top: -20%;
+  /* ANIMATED SHINE */
+  .shine {
+    position: absolute;
+    top: -20%;
+    left: -70%;
+    width: 35%;
+    height: 140%;
+
+    z-index: 4;
+    pointer-events: none;
+
+    background: linear-gradient(100deg,
+        transparent,
+        rgba(255, 255, 255, 0.08),
+        rgba(255, 255, 255, 0.30),
+        rgba(190, 225, 255, 0.12),
+        transparent);
+
+    transform: skewX(-20deg);
+    animation: glassShine 6s ease-in-out infinite;
+  }
+
+  @keyframes glassShine {
+
+    0%,
+    15% {
       left: -70%;
-      width: 35%;
-      height: 140%;
-
-      z-index: 4;
-      pointer-events: none;
-
-      background: linear-gradient(100deg,
-          transparent,
-          rgba(255, 255, 255, 0.08),
-          rgba(255, 255, 255, 0.30),
-          rgba(190, 225, 255, 0.12),
-          transparent);
-
-      transform: skewX(-20deg);
-      animation: glassShine 6s ease-in-out infinite;
     }
 
-    @keyframes glassShine {
+    75%,
+    100% {
+      left: 140%;
+    }
+  }
 
-      0%,
-      15% {
-        left: -70%;
-      }
+  /* RESPONSIVE TABLET */
+  @media (max-width: 768px) {
 
-      75%,
-      100% {
-        left: 140%;
-      }
+    .video-box {
+      height: 360px;
     }
 
-    /* RESPONSIVE TABLET */
-    @media (max-width: 768px) {
+    .main-video-frame {
+      width: 88%;
+      height: 75%;
+    }
+  }
 
-      .video-box {
-        height: 360px;
-      }
+  /* RESPONSIVE MOBILE */
+  @media (max-width: 480px) {
 
-      .main-video-frame {
-        width: 88%;
-        height: 75%;
-      }
+    .video-section {
+      padding: 20px 10px;
     }
 
-    /* RESPONSIVE MOBILE */
-    @media (max-width: 480px) {
-
-      .video-section {
-        padding: 20px 10px;
-      }
-
-      .video-box {
-        height: 260px;
-        border-radius: 12px;
-      }
-
-      .main-video-frame {
-        width: 92%;
-        height: 72%;
-        border-radius: 9px;
-      }
+    .video-box {
+      height: 260px;
+      border-radius: 12px;
     }
-  </style>
+
+    .main-video-frame {
+      width: 92%;
+      height: 72%;
+      border-radius: 9px;
+    }
+  }
+</style>
 
 
 
@@ -670,13 +673,32 @@
 
 
 
-  <section class="video-section max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="video-section max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-    <div class="video-box ">
+  <div class="video-box ">
 
-      <!-- BACKGROUND VIDEO -->
+    <!-- BACKGROUND VIDEO -->
+    <video
+      class="background-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata">
+
+      <source
+        src="assets/images/background.mp4"
+        type="video/mp4">
+
+    </video>
+
+    <!-- DARK OVERLAY -->
+    <div class="video-overlay"></div>
+
+    <!-- MAIN FOREGROUND VIDEO -->
+    <div class="main-video-frame">
+
       <video
-        class="background-video"
         autoplay
         muted
         loop
@@ -684,38 +706,19 @@
         preload="metadata">
 
         <source
-          src="assets/images/background.mp4"
+          src="assets/images/ValleSoft_video_1080p_optimized.mp4"
           type="video/mp4">
 
       </video>
 
-      <!-- DARK OVERLAY -->
-      <div class="video-overlay"></div>
-
-      <!-- MAIN FOREGROUND VIDEO -->
-      <div class="main-video-frame">
-
-        <video
-          autoplay
-          muted
-          loop
-          playsinline
-          preload="metadata">
-
-          <source
-            src="assets/images/ValleSoft_video_1080p_optimized.mp4"
-            type="video/mp4">
-
-        </video>
-
-      </div>
-
-      <!-- SHINE ANIMATION -->
-      <div class="shine"></div>
-
     </div>
 
-  </section>
+    <!-- SHINE ANIMATION -->
+    <div class="shine"></div>
+
+  </div>
+
+</section>
 
 
 
@@ -998,13 +1001,13 @@
 <section class="mb-5 bg-background">
   <div class="scroll-animation max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div
-      class="grid grid-cols-2 md:grid-cols-4 gap-y-8 py-5 px-3 rounded-2xl border border-border bg-card/80 backdrop-blur-sm shadow-[0_24px_60px_-30px_hsl(222_47%_11%/0.18)]"
+      class="grid grid-cols-2 md:grid-cols-3 gap-y-8 py-5 px-3 rounded-2xl border border-border bg-card/80 backdrop-blur-sm shadow-[0_24px_60px_-30px_hsl(222_47%_11%/0.18)]"
       style="opacity: 1; transform: none">
       <div class=" ">
         <div class="flex flex-col items-center text-center px-4">
           <div
             class="font-display font-bold text-4xl md:text-5xl tracking-tight text-foreground font-variant-numeric-tabular">
-            <span class="gradient-text" data-target="15">0</span>+
+            <span class="gradient-text" data-target="25">0</span>+
           </div>
           <div class="mt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground">
             Years experience
@@ -1015,7 +1018,7 @@
         <div class="flex flex-col items-center text-center px-4">
           <div
             class="font-display font-bold text-4xl md:text-5xl tracking-tight text-foreground font-variant-numeric-tabular">
-            <span class="gradient-text" data-target="1,200">0</span>+
+            <span class="gradient-text" data-target="2000">0</span>+
           </div>
           <div class="mt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground">
             Projects delivered
@@ -1033,7 +1036,7 @@
           </div>
         </div>
       </div>
-      <div class="md:border-l md:border-border/70 border-l border-border/70 md:border-l">
+      <!-- <div class="md:border-l md:border-border/70 border-l border-border/70 md:border-l">
         <div class="flex flex-col items-center text-center px-4">
           <div
             class="font-display font-bold text-4xl md:text-5xl tracking-tight text-foreground font-variant-numeric-tabular">
@@ -1043,7 +1046,7 @@
             Customer rating
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

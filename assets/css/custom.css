@@ -1277,9 +1277,9 @@ p {
   min-height: 60px;
 }
 
-.min-h-screen {
+/* .min-h-screen {
   min-height: 100vh;
-}
+} */
 
 .min-h-svh {
   min-height: 100svh;
@@ -1488,7 +1488,7 @@ p {
 }
 
 .max-w-7xl {
-  max-width: 80rem;
+  max-width: 90rem;
 }
 
 .max-w-\[--skeleton-width\] {
