@@ -37,7 +37,7 @@
             Mon – Fri 10:00 – 7:00 24/7 Support
           </span>
         </div>
-        <a href="tel:+15551234567"
+        <a href="tel:011-46073938"
           class="flex items-center gap-1.5 hover:text-primary transition-colors font-medium"><svg
             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"

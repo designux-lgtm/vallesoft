@@ -34,18 +34,8 @@
                         <h5 class="scroll-animation font-display font-semibold">
                             We provide IT consulting to emerging businesses across the globe .
                         </h5>
-                        <p class="scroll-animation">Founded in 2011, Volt &amp; Spark Electric has been serving the Springfield community
-                            with reliable, professional electrical services for over 15 years. What started as a
-                            small team of dedicated electricians has grown into one of the most trusted electrical
-                            contractors in the region.
-                        </p>
-                        <p class="scroll-animation">Our mission is simple: provide safe, efficient and high-quality electrical solutions
-                            while building lasting relationships with our clients. Every project — from a single
-                            outlet to a full commercial rewire — gets the same level of attention and expertise.
-                        </p>
-                        <p class="scroll-animation">Today our team continues to uphold the values that built our reputation: integrity,
-                            craftsmanship and customer satisfaction. We stay current with the latest electrical
-                            codes and technologies so every job meets the highest safety standards.
+                        <p class="scroll-animation">
+                            Our clients rely on us to provide them with an objective view of their technology plans and needs. We can serve in conjunction with their in-house technical staff and you can rely on us to formulate technical analysis. We are pioneers in custom software development, Mobile & web-based application development with our rich experience across many sectors. We have achieved this triumph with a combination of sheer business and technical knowledge gained with the fair understanding as well as requirements of the clients.
                         </p>
                     </div>
                 </div>
@@ -165,5 +155,5 @@
     </section>
 
 </div>
- 
+
 <?php include 'includes/footer.php'; ?>

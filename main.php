@@ -290,7 +290,7 @@
               </svg>
             </button>
           </a>
-          <a href="tel:+15551234567">
+          <a href="tel:011-46073938">
             <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border shadow-sm rounded-md h-12 px-6 text-base font-semibold bg-white/5 text-white border-white/15 hover:bg-white/10 hover:text-white">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone mr-2 w-4 h-4">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
@@ -1352,7 +1352,7 @@
         </a>
       </div>
       <div class="group relative h-full" style="opacity: 1; transform: none">
-        <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="school-management-system.php">
+        <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="ehrms-solution.php">
           <img src="https://www.mewurk.com/static/media/blog99-inner1.2504a1574e70664844f1.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
           <div class="absolute inset-0 z-[1]" style=" background: linear-gradient( to top,  rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100% );">
           </div>

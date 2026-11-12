@@ -223,7 +223,7 @@
                                     </span>
                                     <div>
                                         <p class="font-medium text-foreground">Email</p>
-                                        <a href="mailto:info@voltandspark.com" class="text-muted-foreground hover:text-primary transition-colors">support@vallesoft.com</a>
+                                        <a href="mailto:support@vallesoft.com" class="text-muted-foreground hover:text-primary transition-colors">support@vallesoft.com</a>
                                     </div>
                                 </div>
                                 <div class="flex items-start gap-3">

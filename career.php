@@ -342,14 +342,14 @@
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Must have good knowledge in web development using PHP/MySQL Excellent in any CMS (Wordpress, Magento, Drupal, etc.)</li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                                  <path d="m9 12 2 2 4-4"></path>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Experience with PHP frameworks, JavaScript libraries like Jquery Experience with MySQL database.</li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
-                                                <path d="m9 12 2 2 4-4"></path>
                                             </svg> Apply at : <span><a href="mailto:hr@vallesoft.com">hr@vallesoft.com </a></span> or alternatively call @ 9811206589</li>
                                     </ul>
                                 </div>

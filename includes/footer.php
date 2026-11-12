@@ -14,7 +14,7 @@
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-4">
         <div class="grid grid-cols-1 lg:grid-cols-[1.4fr,1fr,1fr,1fr] gap-10 lg:gap-12 mb-5">
             <div class="max-w-sm">
-                <a class="inline-flex" aria-label="Volt &amp; Spark Electric â€” home" href="#">
+                <a class="inline-flex" aria-label="" href="#">
                     <div class="flex items-center gap-2.5 group">
                         <div
                             class="">

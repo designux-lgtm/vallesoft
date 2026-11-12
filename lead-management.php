@@ -42,7 +42,7 @@
                 </div>
                 <div class=" relative col-md-4" style="opacity: 1; transform: none;">
                     <div class="scroll-animation scroll-right">
-                        <img src="assets/images/lms-diagram002.png" alt="Volt &amp; Spark electrician on site" class="">
+                        <img src="assets/images/lms-diagram002.png" alt="" class="">
                     </div>
 
                 </div>
