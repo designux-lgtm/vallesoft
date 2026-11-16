@@ -87,31 +87,31 @@
                                     <ul class="space-y-4">
 
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>One Plus Year:1 year
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Job Type: Full-time
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Required education: Bachelor's
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Required experience: Developing the Android App: 1 year
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>
@@ -134,40 +134,40 @@
                                     <h5>General Skill</h5>
                                     <ul class="space-y-4">
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Experience with configuration management system (SVN) and good understanding of source code control practices.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Gather requirements around functionality and translate those requirements into functional solutions.
                                         </li>
-                                        <li class="flex items-start gap-2.5 text-sm text-foreground/85"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <li class="flex items-start gap-2.5 text-sm text-foreground/85"><svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Must know how to work on push notifications and integrate social networking</li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>API's
                                         </li>
-                                        <li class="flex items-start gap-2.5 text-sm text-foreground/85"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <li class="flex items-start gap-2.5 text-sm text-foreground/85"><svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Ability to work individually or as a part of a team</li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>
                                             <p><strong>Required experience:</strong> Mobile Application development in iOS with minimum of <strong>1+ Plus years</strong> of proven experience. <strong>Good salary:</strong> for deserving candidates.</p>
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>
@@ -189,67 +189,67 @@
                                     <h5>Responsibilities</h5>
                                     <ul class="space-y-4">
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Understanding of the IT industry &amp; software services/Mobile App.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Lead generation, Cold Calling, Meeting with Client, Giving Demo, Negotiation, Closure.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Able to handle End to End Sales.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Convincing to clients and generating sales lead. Reporting to Business Development Manager.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Must have Good Personality and Excellent Communication Skills.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Developing new clients for business generation, preparation and execution of business plan.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Achieving the Gross Margin target, responsible for overall business development.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Ready to travel across India.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Experience in IT Sector Preferred.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Own Conveyance to travel locally will also Preferred.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>
@@ -268,37 +268,37 @@
                                     <h5>Key Responsibilities</h5>
                                     <ul class="space-y-4">
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Must have 1 year plus experience in Core PHP development
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Mandatory knowledge of Ajax, J Query, Mysql, Javascript, JSON, XML, Web Services with mobile App.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg> Good knowledge of coding &amp; MVC framework .
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Person must be capable of handling the Project independently from analysis of project to Final Project Implementation and ability to lead the Team.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>CMS exposure: Drupal, Joomla, Wordpress will be preferred, Working on different Open source E Commerce Platform
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg> API's - Facebook, twitter API, Payment Gateway API - Prior experience in developing an API's will be counted as a plus point.
@@ -308,13 +308,13 @@
                                     <h5>Skills</h5>
                                     <ul class="space-y-4">
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Excellent application development skills based on good problem solving and database design skills.
                                         </li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg> Apply at : <span>hr@vallesoft.com</span> or alternatively call @ 9811206589
@@ -337,18 +337,18 @@
                                     <h5>Key Responsibilities</h5>
                                     <ul class="space-y-4">
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Must have good knowledge in web development using PHP/MySQL Excellent in any CMS (Wordpress, Magento, Drupal, etc.)</li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
                                                   <path d="m9 12 2 2 4-4"></path>
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                          <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <path d="m9 12 2 2 4-4"></path>
                                             </svg>Experience with PHP frameworks, JavaScript libraries like Jquery Experience with MySQL database.</li>
                                         <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                             </svg> Apply at : <span><a href="mailto:hr@vallesoft.com">hr@vallesoft.com </a></span> or alternatively call @ 9811206589</li>
                                     </ul>
@@ -371,12 +371,5 @@
 
 
 
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
  
 <?php include 'includes/footer.php'; ?>

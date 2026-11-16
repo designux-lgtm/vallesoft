@@ -16,7 +16,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-9">
         <div class="flex items-center gap-5">
           <span class="flex items-center gap-1.5">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <svg   width="24" height="24" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
               class="lucide lucide-map-pin w-3.5 h-3.5 text-primary">
               <path
@@ -28,7 +28,7 @@
             Delhi-110020, India.
           </span>
           <span class="flex items-center gap-1.5">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <svg   width="24" height="24" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
               class="lucide lucide-clock w-3.5 h-3.5 text-primary">
               <circle cx="12" cy="12" r="10"></circle>
@@ -39,7 +39,7 @@
         </div>
         <a href="tel:011-46073938"
           class="flex items-center gap-1.5 hover:text-primary transition-colors font-medium"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="lucide lucide-phone w-3.5 h-3.5 text-primary">
             <path
@@ -230,7 +230,7 @@
           <div class="hidden md:flex items-center gap-2">
             <!-- <a href="tel:+15551234567"
                 class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-foreground hover:bg-muted transition-colors"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-phone w-4 h-4 text-primary">
                   <path
@@ -243,7 +243,7 @@
               <button
                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow py-2 h-10 px-4 font-semibold bg-primary text-primary-foreground hover:bg-primary/90 ring-glow active:scale-[0.98]">
                 Contact
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <svg   width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-arrow-right ml-1.5 w-4 h-4">
                   <path d="M5 12h14"></path>
@@ -255,7 +255,7 @@
           <button
             class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 w-9 md:hidden border-border"
             id="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <svg   width="24" height="24" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
               class="lucide lucide-menu h-5 w-5">
               <line x1="4" x2="20" y1="12" y2="12"></line>

@@ -68,7 +68,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -91,7 +91,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -114,7 +114,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -141,7 +141,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -164,7 +164,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -187,7 +187,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -214,7 +214,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -237,7 +237,7 @@
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-white/10 text-white border border-white/15 backdrop-blur-md">Certificate</span>
                         </div>
                         <span class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 group-hover:bg-primary group-hover:border-primary group-hover:text-primary-foreground translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>
                             </svg>
@@ -373,8 +373,6 @@
         </div>
     </section>
 </div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
  
 <?php include 'includes/footer.php'; ?>

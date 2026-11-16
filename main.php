@@ -284,7 +284,7 @@
         <div class="mt-9 flex flex-col sm:flex-row gap-3">
           <a href="#contact">
             <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow rounded-md h-12 px-6 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 ring-glow active:scale-[0.98]"> Get Started
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4">
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-4 h-4">
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
               </svg>
@@ -292,7 +292,7 @@
           </a>
           <a href="tel:011-46073938">
             <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border shadow-sm rounded-md h-12 px-6 text-base font-semibold bg-white/5 text-white border-white/15 hover:bg-white/10 hover:text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone mr-2 w-4 h-4">
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone mr-2 w-4 h-4">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
                 </path>
               </svg>
@@ -323,7 +323,7 @@
         <div class="mt-9 flex flex-col sm:flex-row gap-3">
           <a href="#contact">
             <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow rounded-md h-12 px-6 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 ring-glow active:scale-[0.98]"> Get Started
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-right ml-2 w-4 h-4">
                 <path d="M5 12h14"></path>
@@ -333,7 +333,7 @@
           </a>
           <a href="tel:+15551234567">
             <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border shadow-sm rounded-md h-12 px-6 text-base font-semibold bg-white/5 text-white border-white/15 hover:bg-white/10 hover:text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-phone mr-2 w-4 h-4">
                 <path
@@ -353,7 +353,7 @@
   <div class="max-w-7xl mx-auto overflow-hidden scrollbar-none">
     <div class="flex w-max gap-12 animate-marquee">
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-shield-check w-4 h-4 text-primary">
           <path
@@ -365,7 +365,7 @@
         </span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-clock w-4 h-4 text-primary">
           <circle cx="12" cy="12" r="10"></circle>
@@ -373,7 +373,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">24/7 Technical Support</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-award w-4 h-4 text-primary">
           <path
@@ -383,7 +383,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">23+ years in business</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-badge-check w-4 h-4 text-primary">
           <path
@@ -393,7 +393,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">Client Satisfaction</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-star w-4 h-4 text-primary">
           <path
@@ -402,7 +402,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">4.9 Google rating</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-shield-check w-4 h-4 text-primary">
           <path
@@ -413,7 +413,7 @@
         <span class="text-sm font-medium uppercase tracking-[0.16em]">Certified & Trusted</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-clock w-4 h-4 text-primary">
           <circle cx="12" cy="12" r="10"></circle>
@@ -421,7 +421,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">Instant Support</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-award w-4 h-4 text-primary">
           <path
@@ -432,7 +432,7 @@
         <span class="text-sm font-medium uppercase tracking-[0.16em]">23+ years in business</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-badge-check w-4 h-4 text-primary">
           <path
@@ -443,7 +443,7 @@
         <span class="text-sm font-medium uppercase tracking-[0.16em]">Client Satisfaction</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-star w-4 h-4 text-primary">
           <path
@@ -453,7 +453,7 @@
         <span class="text-sm font-medium uppercase tracking-[0.16em]">4.9 Google rating</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-primary">
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-primary">
           <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
           </path>
           <path d="m9 12 2 2 4-4"></path>
@@ -461,14 +461,14 @@
         <span class="text-sm font-medium uppercase tracking-[0.16em]">Certified & Trusted</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4 text-primary">
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4 text-primary">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
         <span class="text-sm font-medium uppercase tracking-[0.16em]">24/7 Technical Support</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-award w-4 h-4 text-primary">
           <path
@@ -478,7 +478,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">23+ years in business</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-badge-check w-4 h-4 text-primary">
           <path
@@ -488,7 +488,7 @@
         </svg><span class="text-sm font-medium uppercase tracking-[0.16em]">Client Satisfaction</span>
       </div>
       <div class="flex items-center gap-2.5 text-muted-foreground whitespace-nowrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
           class="lucide lucide-star w-4 h-4 text-primary">
           <path
@@ -762,7 +762,7 @@
           <div class="relative flex items-start justify-between mb-6">
             <div class="relative">
               <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                <!-- <svg     width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
                                                 class="lucide lucide-house w-6 h-6 text-primary">
@@ -785,7 +785,7 @@
               </span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                 <path d="M7 7h10v10"></path>
                 <path d="M7 17 17 7"></path>
               </svg>
@@ -807,7 +807,7 @@
           <div class="relative flex items-start justify-between mb-6">
             <div class="relative">
               <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <svg fill="#ffa200" width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 490" stroke="currentColor" xml:space="preserve" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-6 h-6 text-primary">
+                <svg fill="#ffa200" width="24" height="24"     xmlns:xlink="    " viewBox="0 0 490 490" stroke="currentColor" xml:space="preserve" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-6 h-6 text-primary">
                   <g>
                     <g>
                       <path d="M245.221,348.125c-56.477,0-102.424-46.162-102.424-102.903s45.947-102.904,102.424-102.904c56.476,0,102.424,46.163,102.424,102.904S301.698,348.125,245.221,348.125z M245.221,162.318c-45.449,0-82.424,37.19-82.424,82.904c0,45.713,36.975,82.903,82.424,82.903c45.449,0,82.424-37.19,82.424-82.903C327.645,199.508,290.67,162.318,245.221,162.318z" />
@@ -821,7 +821,7 @@
               <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4">
                 <path d="M7 7h10v10"></path>
@@ -845,8 +845,8 @@
           <div class="relative flex items-start justify-between mb-6">
             <div class="relative">
               <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <svg fill="#ffa200" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 490" xml:space="preserve"
+                <svg fill="#ffa200" version="1.1" id="Capa_1"    
+                  xmlns:xlink="    " viewBox="0 0 490 490" xml:space="preserve"
                   stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-zap w-6 h-6 text-primary">
                   <g>
@@ -866,7 +866,7 @@
               <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                 <path d="M7 7h10v10"></path>
                 <path d="M7 17 17 7"></path>
               </svg>
@@ -888,8 +888,8 @@
           <div class="relative flex items-start justify-between mb-6">
             <div class="relative">
               <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <svg fill="#ffa200" width="25" height="25" viewBox="0 0 30 30" style=" fill-rule: evenodd; clip-rule: evenodd;stroke-linejoin: round; stroke-miterlimit: 2;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg fill="#ffa200" width="25" height="25" viewBox="0 0 30 30" style=" fill-rule: evenodd; clip-rule: evenodd;stroke-linejoin: round; stroke-miterlimit: 2;" version="1.1" xml:space="preserve"    
+                  xmlns:serif="     " xmlns:xlink="    ">
                   <g transform="matrix(1,0,0,1,-192,-48)">
                     <g transform="matrix(0.882353,0,0,1,25.2941,0)">
                       <path
@@ -911,7 +911,7 @@
               <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4">
                 <path d="M7 7h10v10"></path>
                 <path d="M7 17 17 7"></path>
               </svg>
@@ -933,7 +933,7 @@
           <div class="relative flex items-start justify-between mb-6">
             <div class="relative">
               <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <svg fill="#ffa200" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                <svg fill="#ffa200"     shape-rendering="geometricPrecision"
                   text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
                   clip-rule="evenodd" viewBox="0 0 450 450" width="50" height="50" fill="none" stroke="currentColor"
                   stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
@@ -945,7 +945,7 @@
               <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4">
                 <path d="M7 7h10v10"></path>
@@ -977,7 +977,7 @@
               <span class="absolute -inset-1 rounded-xl bg-primary/30 blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-500 -z-10"></span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4">
                 <path d="M7 7h10v10"></path>
@@ -1066,11 +1066,7 @@
       <div class="group relative h-full" style="opacity: 1; transform: none">
         <a class="scroll-animation scroll-left relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
           href="erp-solution.php">
-          <img
-            src="https://img.magnific.com/free-photo/multi-ethnic-business-team-sitting-table-office-center-speaking-about-project-meeting-broadroom_482257-5077.jpg?t=st=1785149074~exp=1785152674~hmac=bb50beb155f8ffd6a1884a2cd5df0d72d05a87446b7edaa2d820d77a907e34d6&w=1060"
-            alt=""
-            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-            style="filter: brightness(50%)" />
+          <img src="assets/images/ERP_solution.webp" alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
           <div class="absolute inset-0 z-[1]" style="
                     background: linear-gradient(
                       to top,
@@ -1094,7 +1090,7 @@
             <div class="relative">
               <div
                 class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                <!-- <svg     width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
                                                 class="lucide lucide-house w-6 h-6 text-primary">
@@ -1106,7 +1102,7 @@
 
                 <svg width="24" height="24" class="lucide lucide-house w-6 h-6 text-primary" stroke="currentColor"
                   fill="#ffa200" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
-                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns:xlink="    "
                   viewBox="0 0 122.88 111.81" xml:space="preserve">
                   <g>
                     <path class="st0"
@@ -1131,7 +1127,7 @@
             </div>
             <span
               class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                 <path d="M7 7h10v10"></path>
@@ -1152,7 +1148,7 @@
         <a class="scroll-animation relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
           href="crm-software.php">
           <img
-            src="https://res.cloudinary.com/realcube/image/upload/v1671613827/assets/img/Blogs/crm-benefits-for-property-management-solutions.jpg"
+            src="assets/images/VSCRM_solution.webp"
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             style="filter: brightness(50%)" />
           <div class="absolute inset-0 z-[1]" style="
@@ -1193,7 +1189,7 @@
             </div>
             <span
               class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                 <path d="M7 7h10v10"></path>
@@ -1213,9 +1209,7 @@
       <div class="group relative h-full" style="opacity: 1; transform: none">
         <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
           href="lead-management.php">
-          <img src="https://t3.ftcdn.net/jpg/20/21/76/58/360_F_2021765861_C0wl0hoPOzqCSlZbHbaPfi1tKhRPjeZ4.jpg"
-            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-            style="filter: brightness(50%)" />
+          <img src="assets/images/Lead_management_system.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
           <div class="absolute inset-0 z-[1]" style="
                     background: linear-gradient(
                       to top,
@@ -1253,7 +1247,7 @@
             </div>
             <span
               class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                 <path d="M7 7h10v10"></path>
@@ -1273,9 +1267,7 @@
       <div class="group relative h-full" style="opacity: 1; transform: none">
         <a class="scroll-animation scroll-left relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
           href="billing-software.php">
-          <img src="https://www.logicerp.com/blog/wp-content/uploads/2026/02/Blog-Banner-2026-02-20T123717.463.jpg"
-            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-            style="filter: brightness(50%)" />
+          <img src="assets/images/Billing_software.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
           <div class="absolute inset-0 z-[1]" style=" background: linear-gradient( to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);">
           </div>
           <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient( closest-side,  rgba(255, 171, 26, 0.35),  transparent 70%  );">
@@ -1294,7 +1286,7 @@
               </span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                 <path d="M7 7h10v10"></path>
@@ -1314,7 +1306,7 @@
       <div class="group relative h-full" style="opacity: 1; transform: none">
         <a class="scroll-animation  relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40"
           href="inventory-system-pos.php">
-          <img src="https://www.versaclouderp.com/blog/wp-content/uploads/2025/02/Essentials-of-Inventory-Understanding-Inventory-Types-and-Best-Practices.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)">
+          <img src="assets/images/Inventory_system.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)">
           <div class="absolute inset-0 z-[1]" style="background: linear-gradient( to top, rgba(0, 0, 0, 0.95) 0%,  rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);">
           </div>
           <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient(closest-side, rgba(255, 171, 26, 0.35), transparent 70% );">
@@ -1322,7 +1314,7 @@
           <div class="relative flex items-start justify-between mb-6 z-10">
             <div class="relative">
               <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 flex items-center justify-center group-hover:from-primary/25 group-hover:to-primary/10 transition-all duration-300">
-                <svg width="30" height="30" fill="#ffa200" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg">
+                <svg width="30" height="30" fill="#ffa200" viewBox="0 0 32 32" id="icon"    >
                   <title>inventory-management</title>
                   <rect x="19" y="24" width="4" height="4" />
                   <rect x="26" y="24" width="4" height="4" />
@@ -1335,7 +1327,7 @@
               </span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4 text-light">
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                 <path d="M7 7h10v10"></path>
                 <path d="M7 17 17 7"></path>
               </svg>
@@ -1353,7 +1345,7 @@
       </div>
       <div class="group relative h-full" style="opacity: 1; transform: none">
         <a class="scroll-animation scroll-right relative block h-full p-7 rounded-2xl bg-card border border-border overflow-hidden card-hover hover:border-primary/40" href="ehrms-solution.php">
-          <img src="https://www.mewurk.com/static/media/blog99-inner1.2504a1574e70664844f1.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
+          <img src="assets/images/EHRMS_solution.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" style="filter: brightness(50%)" />
           <div class="absolute inset-0 z-[1]" style=" background: linear-gradient( to top,  rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100% );">
           </div>
           <span aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-60 h-60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-3xl" style="background: radial-gradient( closest-side, rgba(255, 171, 26, 0.35), transparent 70% );">
@@ -1391,7 +1383,7 @@
               </span>
             </div>
             <span class="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:rotate-45 transition-all duration-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg     width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-up-right w-4 h-4 text-light">
                 <path d="M7 7h10v10"></path>

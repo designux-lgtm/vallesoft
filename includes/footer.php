@@ -28,7 +28,7 @@
                     drive growth and lasting success.
                 </p>
                 <div class="mt-6 inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-white/[0.04] text-xs text-white/80">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <svg    width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-shield-check w-3.5 h-3.5 text-primary">
                         <path
@@ -38,7 +38,7 @@
                     </svg>CIN : U72900DL2003PTC122622
                 </div>
                 <div class="mt-6 inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-white/[0.04] text-xs text-white/80">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <svg    width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-shield-check w-3.5 h-3.5 text-primary">
                         <path
@@ -48,7 +48,7 @@
                     </svg>An ISO 9001:2015
                 </div>
                 <div class="mt-6 inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-white/[0.04] text-xs text-white/80">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <svg    width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-shield-check w-3.5 h-3.5 text-primary">
                         <path
@@ -60,13 +60,13 @@
                 <div class="mt-6 flex items-center gap-2">
                     <a href="#" aria-label="Facebook"
                         class="w-9 h-9 inline-flex items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        <svg    width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-facebook w-4 h-4">
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg></a><a href="#" aria-label="Instagram"
                         class="w-9 h-9 inline-flex items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                               width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-instagram w-4 h-4">
                             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -74,7 +74,7 @@
                             <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
                         </svg></a><a href="#" aria-label="LinkedIn"
                         class="w-9 h-9 inline-flex items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                               width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-linkedin w-4 h-4">
                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -90,7 +90,7 @@
                         href="main.php">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right w-3 h-3">
                                 <path d="M5 12h14"></path>
@@ -103,7 +103,7 @@
                         href="about_us.php">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right w-3 h-3">
                                 <path d="M5 12h14"></path>
@@ -115,7 +115,7 @@
                     <a class="group inline-flex items-center text-sm text-secondary-foreground/70 hover:text-primary transition-colors"
                         href="career.php">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right w-3 h-3">
                                 <path d="M5 12h14"></path>
@@ -127,7 +127,7 @@
                         href="contact-us.php">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right w-3 h-3">
                                 <path d="M5 12h14"></path>
@@ -140,7 +140,7 @@
                         href="privacy-policy.php">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right w-3 h-3">
                                 <path d="M5 12h14"></path>
@@ -154,7 +154,7 @@
                         href="#contact">
                         <span class="w-0 group-hover:w-3 transition-all duration-300 overflow-hidden">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right w-3 h-3">
                                 <path d="M5 12h14"></path>
@@ -189,7 +189,7 @@
                     <a href="tel:+011-35622522"
                         class="flex items-start gap-3 text-secondary-foreground/80 hover:text-primary transition-colors">
                         <span class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-3.5 h-3.5 text-primary">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-3.5 h-3.5 text-primary">
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
                                 </path>
                             </svg>
@@ -200,7 +200,7 @@
                         <span
                             class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-mail w-3.5 h-3.5 text-primary">
                                 <rect width="20" height="16" x="2" y="4" rx="2"></rect>
@@ -212,7 +212,7 @@
                         <span
                             class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-map-pin w-3.5 h-3.5 text-primary">
                                 <path
@@ -225,7 +225,7 @@
                     </div>
                     <div class="flex items-start gap-3 text-secondary-foreground/80">
                         <span class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-3.5 h-3.5 text-primary">
+                            <svg    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-3.5 h-3.5 text-primary">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <polyline points="12 6 12 12 16 14"></polyline>
                             </svg>
@@ -1100,9 +1100,13 @@
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous">
+</script> -->
+
+<script src="assets/js/bootstrap.bundle.min.js">
+
 </script>
 
 <script>
