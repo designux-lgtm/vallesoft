@@ -59,140 +59,140 @@
                             <div class="scroll-animation relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                                 <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Scalable and robust enough to hold large volumes of data. High interoperability.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Robust enough to deal with many multiple sessions </span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Manageable upgrade path i.e. future integration / upgrade issues with functionality or data.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Secure dynamic linkage to any existing ERP/app/any other IT application running to manage system student-teacher-courses of the end customer.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Secure dynamic linkage to Learning Content and other external links.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Secured remote access to system i.e. user can access system in other locations </span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Data hosted on secure server </span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Automated backup facility</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Manual backup facility (system admins)</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>System notifications for users e.g. system down for maintenance</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>There should be a consistent approach to authentication. System should have a flexible database management system</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Make and restore back up of the content.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>It should be possible to load, store and make sharable content objects available to users.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>It should be possible to load digital content into a storage area that can be presented to learners and accessed via the platform interface.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Extensive reporting and analytics about all the features within e-learning environment</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Designed to be responsive and accessible. Interface is easy to navigate on both desktop and mobile devices. Customizable site design and layout.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Content storage management of all types of content; documents, text graphic, audio and video. The user shall be able to view, create and edit digital content via an application.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Detailed reporting, analytics and logs. View and generate reports on activity and participation at course and site level. Learning Progress Updates.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Address security concerns by defining roles to specify and manage user access.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>

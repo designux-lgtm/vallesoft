@@ -117,84 +117,84 @@
                             <div class=" scroll-animation relative h-full p-3 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                                 <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3  border-dashed border-border">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span> Built around thousands of predefined business processes that reflect best practices.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span> Map business processes to software processes.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span> Knowledge is what help us bring technology innovation closer to our clients needs.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span> Competency Requirement. </span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Suite of integrated software modules and a common central database.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Sales/marketing: order processing, billing, sales planning, and so on.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Knowing the customer.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>In large businesses, too many customers and too many ways customers interact with firm CRM, Customer relationship management (VSCRM) systems.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Capture and integrate customer data from all over the organization.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Consolidate and analyze customer data.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Distribute customer information to various systems and customer touch points across enterprise.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
@@ -227,35 +227,35 @@
                             <div>
                                 <ul class="">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Leads</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Opportunities</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Communication</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Database</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
@@ -281,42 +281,42 @@
                             <div>
                                 <ul class="">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Planning</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Budgeting</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Marketing Lists</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Campaigns</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Tracking</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
@@ -342,35 +342,35 @@
                             <div>
                                 <ul class="">
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Cases</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Contracts</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Resource Mgmt.</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
                                         <span>Scheduling</span>
                                     </li>
                                     <li class="flex items-start gap-2.5 text-sm text-foreground/85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
+                                        <svg     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-4 h-4 text-primary mt-0.5 shrink-0">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="m9 12 2 2 4-4"></path>
                                         </svg>
