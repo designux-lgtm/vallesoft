@@ -84,8 +84,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div>
                 <div class="space-y-5" style="opacity: 1; transform: none;">
-                    <div class="row">
-                        <div class="col-md-4">
+                    <div class="row gap-12">
+                        <div class="col-md-3">
                             <div class="space-y-3">
                                 <h4 class="font-display font-semibold scroll-animation">CRM - Customer Relationship Management</h4>
                                 <p class="scroll-animation">CRM, Customer Relationship Management Solution (VSCRM), a simple and effective solution with highly evolved methodology with addresses an organization's needs more relevant.
@@ -331,7 +331,7 @@
                     <div class=" scroll-animation scroll-right relative h-full p-4 rounded-2xl bg-card border border-border card-hover hover:border-primary/40 overflow-hidden">
                         <div class="relative flex items-start gap-5 mb-3">
                             <div>
-                                <h4 class="font-display font-semibold">Sales</h4>
+                                <h4 class="font-display font-semibold">Customer Care (Services)</h4>
 
                             </div>
                         </div>

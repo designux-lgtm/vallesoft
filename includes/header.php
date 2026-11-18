@@ -67,7 +67,7 @@
 
 
             <div class="dropdown">
-              <a class="nav-link btn btn-default dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground" type="button">
+              <a class="nav-link   dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground" type="button">
                 Company
                 <span class="caret"></span>
                 <span class="active-line hidden absolute left-3.5 right-3.5 -bottom-0.5 h-[2px] rounded-full bg-primary"></span>
@@ -95,7 +95,7 @@
             </div>
             <div class="dropdown">
               <a
-                class="nav-link  btn btn-default dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
+                class="nav-link    dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
                 type="button">
                 Services
                 <span class="caret">
@@ -152,7 +152,7 @@
               </ul>
             </div>
             <div class="dropdown">
-              <a class="nav-link btn btn-default dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
+              <a class="nav-link   dropdown-toggle relative px-3.5 py-2 rounded-lg text-sm font-medium transition-colors duration-200 text-muted-foreground hover:text-foreground"
                 type="button">
                 Products
                 <span class="caret"></span>

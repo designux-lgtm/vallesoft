@@ -266,7 +266,7 @@
         playsinline
         preload="auto"
         poster="video-poster.jpg">
-        <source src="assets/images/home1 - Trim.mp4" type="video/mp4">
+        <source src="assets/images/CRM-Dashboard.mp4" type="video/mp4">
       </video>
 
       <div class="hero-content">
@@ -1013,7 +1013,7 @@
         <div class="flex flex-col items-center text-center px-4">
           <div
             class="font-display font-bold text-4xl md:text-5xl tracking-tight text-foreground font-variant-numeric-tabular">
-            <span class="gradient-text" data-target="25">0</span>+
+            <span class="gradient-text" data-target="23">0</span>+
           </div>
           <div class="mt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground">
             Years experience
